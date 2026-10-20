@@ -1,0 +1,45 @@
+{
+  "schema": 5,
+  "revision": "5-fixed",
+  "rust_resnet_variant": "tile16_b2p4",
+  "staging_candidates_included": false,
+  "autotuning_included": false,
+  "chip": "ESP32-C3",
+  "minimum_flash_bytes": 4194304,
+  "flash_offset": "0x0",
+  "image": "esp32c3-final-benchmark-v5.bin",
+  "image_bytes": 4194304,
+  "image_sha256": "2473cdccadc3adee4528ccdc5a7fbbae66746b52bfaed8f2a0af5e000c26a760",
+  "build_id": "cdd27710ec8a49a9",
+  "cpu_hz": 160000000,
+  "flash_mode": "DIO",
+  "flash_frequency_hz": 40000000,
+  "baudrate": 115200,
+  "expected_checks": 752,
+  "expected_calibrations": 3,
+  "expected_runs": 160,
+  "models": [
+    "person",
+    "cifar10_resnet"
+  ],
+  "backends": [
+    "esp_nn",
+    "mu_scalar",
+    "mu_fixed",
+    "rust"
+  ],
+  "physical_v5_tested": false,
+  "target_test": {
+    "emulation_only": true,
+    "physical_board_tested": false,
+    "build_id": "cdd27710ec8a49a9",
+    "image_sha256": "2473cdccadc3adee4528ccdc5a7fbbae66746b52bfaed8f2a0af5e000c26a760",
+    "functional_pass": true,
+    "full_tensor_checks": 752,
+    "host_triggered_runs": 160,
+    "requested_delay_calibrations": 3,
+    "host_challenge_and_timestamps_validated": true,
+    "capture_prefix": "results/hardware-v5/emulator-1792432475223403978",
+    "no_hardware_performance_claim": true
+  }
+}

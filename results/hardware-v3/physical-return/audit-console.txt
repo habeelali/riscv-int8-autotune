@@ -1,0 +1,6 @@
+{
+  "valid": 3,
+  "failed": 0,
+  "independent_repeatability_evidence": true,
+  "output": "diagnostic_bundle_v3\\results\\audit-results"
+}

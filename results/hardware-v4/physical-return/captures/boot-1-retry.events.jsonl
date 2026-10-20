@@ -1,0 +1,34 @@
+{"type":"send","utc":"2026-10-19T11:04:51.447260+00:00","monotonic_ns":78816678132000,"command":"HELLO dbed319f11647d6542a529f72832796f"}
+{"type":"line","utc":"2026-10-19T11:04:51.752570+00:00","monotonic_ns":78816983447300,"text":"I (549) esp_image: segment 1: paddr=002186c4 vaddr=3fc8c800 size=0140ch (  5132) load"}
+{"type":"line","utc":"2026-10-19T11:04:51.815469+00:00","monotonic_ns":78817046371400,"text":"I (551) esp_image: segment 2: paddr=00219ad8 vaddr=40380000 size=06540h ( 25920) load"}
+{"type":"line","utc":"2026-10-19T11:04:51.815772+00:00","monotonic_ns":78817046655300,"text":"I (559) esp_image: segment 3: paddr=00220020 vaddr=42000020 size=41b5ch (269148) map"}
+{"type":"line","utc":"2026-10-19T11:04:51.877777+00:00","monotonic_ns":78817108659000,"text":"I (619) esp_image: segment 4: paddr=00261b84 vaddr=40386540 size=06228h ( 25128) load"}
+{"type":"line","utc":"2026-10-19T11:04:51.877904+00:00","monotonic_ns":78817108774900,"text":"I (626) esp_image: segment 5: paddr=00267db4 vaddr=50000000 size=0001ch (    28) load"}
+{"type":"line","utc":"2026-10-19T11:04:51.877970+00:00","monotonic_ns":78817108839000,"text":"I (630) boot: Loaded app from partition at offset 0x10000"}
+{"type":"line","utc":"2026-10-19T11:04:51.878024+00:00","monotonic_ns":78817108892500,"text":"I (630) boot: Disabling RNG early entropy source..."}
+{"type":"line","utc":"2026-10-19T11:04:51.878074+00:00","monotonic_ns":78817108942800,"text":"I (645) cpu_start: Unicore app"}
+{"type":"line","utc":"2026-10-19T11:04:51.878127+00:00","monotonic_ns":78817108994600,"text":"I (654) cpu_start: Pro cpu start user code"}
+{"type":"line","utc":"2026-10-19T11:04:51.878173+00:00","monotonic_ns":78817109040500,"text":"I (654) cpu_start: cpu freq: 160000000 Hz"}
+{"type":"line","utc":"2026-10-19T11:04:51.878216+00:00","monotonic_ns":78817109082900,"text":"I (654) app_init: Application information:"}
+{"type":"line","utc":"2026-10-19T11:04:51.878258+00:00","monotonic_ns":78817109124900,"text":"I (654) app_init: Project name:     riscv_int8_repeatability"}
+{"type":"line","utc":"2026-10-19T11:04:51.878299+00:00","monotonic_ns":78817109166400,"text":"I (659) app_init: App version:      0.3.0"}
+{"type":"line","utc":"2026-10-19T11:04:51.878339+00:00","monotonic_ns":78817109205900,"text":"I (663) app_init: Compile time:     Oct 19 2026 09:59:05"}
+{"type":"line","utc":"2026-10-19T11:04:51.878378+00:00","monotonic_ns":78817109245500,"text":"I (668) app_init: ELF file SHA256:  5e19f02c6..."}
+{"type":"line","utc":"2026-10-19T11:04:51.878418+00:00","monotonic_ns":78817109284700,"text":"I (672) app_init: ESP-IDF:          v5.4.2"}
+{"type":"line","utc":"2026-10-19T11:04:51.934481+00:00","monotonic_ns":78817165399400,"text":"I (676) efuse_init: Min chip rev:     v0.0"}
+{"type":"line","utc":"2026-10-19T11:04:51.934804+00:00","monotonic_ns":78817165695000,"text":"I (680) efuse_init: Max chip rev:     v1.99"}
+{"type":"line","utc":"2026-10-19T11:04:51.935012+00:00","monotonic_ns":78817165899300,"text":"I (684) efuse_init: Chip rev:         v0.4"}
+{"type":"line","utc":"2026-10-19T11:04:51.935193+00:00","monotonic_ns":78817166078600,"text":"I (688) heap_init: Initializing. RAM available for dynamic allocation:"}
+{"type":"line","utc":"2026-10-19T11:04:51.935368+00:00","monotonic_ns":78817166253000,"text":"I (694) heap_init: At 3FCAA190 len 00015E70 (87 KiB): RAM"}
+{"type":"line","utc":"2026-10-19T11:04:51.935537+00:00","monotonic_ns":78817166424000,"text":"I (699) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM"}
+{"type":"line","utc":"2026-10-19T11:04:51.935997+00:00","monotonic_ns":78817166896400,"text":"I (705) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM"}
+{"type":"line","utc":"2026-10-19T11:04:51.936235+00:00","monotonic_ns":78817167119800,"text":"I (711) heap_init: At 50000020 len 00001FC8 (7 KiB): RTCRAM"}
+{"type":"line","utc":"2026-10-19T11:04:51.936404+00:00","monotonic_ns":78817167287300,"text":"I (718) spi_flash: detected chip: generic"}
+{"type":"line","utc":"2026-10-19T11:04:51.936596+00:00","monotonic_ns":78817167482400,"text":"I (720) spi_flash: flash io: dio"}
+{"type":"line","utc":"2026-10-19T11:04:51.936982+00:00","monotonic_ns":78817167871100,"text":"I (723) sleep_gpio: Configure to isolate all GPIO pins in sleep state"}
+{"type":"line","utc":"2026-10-19T11:04:51.995952+00:00","monotonic_ns":78817226844200,"text":"I (729) sleep_gpio: Enable automatic switching of GPIO sleep configuration"}
+{"type":"line","utc":"2026-10-19T11:04:51.996147+00:00","monotonic_ns":78817227023200,"text":"I (736) main_task: Started on CPU0"}
+{"type":"line","utc":"2026-10-19T11:04:51.996251+00:00","monotonic_ns":78817227124300,"text":"I (736) main_task: Calling app_main()"}
+{"type":"line","utc":"2026-10-19T11:04:51.996331+00:00","monotonic_ns":78817227201100,"text":"V3_READY {\"schema\":3,\"build_id\":\"1833fe83590e5171\",\"boot_counter\":1070239411,\"nonce_hi\":2452073179,\"nonce_lo\":3289156289,\"cpu_hz\":160000000,\"tick_hz\":100,\"reset_reason\":11}"}
+{"type":"line","utc":"2026-10-19T11:04:51.996411+00:00","monotonic_ns":78817227282900,"text":"V3_READY {\"schema\":3,\"build_id\":\"1833fe83590e5171\",\"boot_counter\":1070239411,\"nonce_hi\":2452073179,\"nonce_lo\":3289156289,\"cpu_hz\":160000000,\"tick_hz\":100,\"reset_reason\":11}"}
+{"type":"line","utc":"2026-10-19T11:04:51.996493+00:00","monotonic_ns":78817227363200,"text":"I (766) main_task: Returned from app_main()"}

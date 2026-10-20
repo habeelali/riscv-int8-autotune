@@ -1,0 +1,44 @@
+{
+  "status": "Single completed physical session; reset repeatability failed",
+  "models": [
+    {
+      "model": "Person detector",
+      "fastest_tested_c_mean_input_median_ms": 376.02385,
+      "selected_rust_mean_input_median_ms": 258.80991875,
+      "held_out_geomean_c_over_rust": 1.4528958238147047,
+      "time_reduction_percent": 31.17194064372676
+    },
+    {
+      "model": "CIFAR-10 ResNet",
+      "fastest_tested_c_mean_input_median_ms": 621.288875,
+      "selected_rust_mean_input_median_ms": 343.764725,
+      "held_out_geomean_c_over_rust": 1.8073083983149516,
+      "time_reduction_percent": 44.66910014182679
+    }
+  ],
+  "single_session_two_model_geomean": 1.6204415522495823,
+  "completed_sessions": 1,
+  "failed_sessions": 1,
+  "independent_repeatability_evidence": false,
+  "complete_session_tensor_checks": 1880,
+  "complete_session_timed_runs": 400,
+  "training_inputs": [
+    0,
+    1
+  ],
+  "held_out_inputs": [
+    2,
+    3
+  ],
+  "aggregation": "Per-input median of 5 timed RUNs; mean over 2 held-out inputs. Ratios are geometric means over those 2 input ratios, equal weight per model.",
+  "failed_capture_last_progress": {
+    "challenge": "aa77d9ba8ae601921814b35866225203",
+    "seq": 12,
+    "model": 1,
+    "backend": 6,
+    "sample": 1,
+    "stage": "warmed",
+    "stack_min_free_bytes": 4652
+  },
+  "scope": "One ESP32-C3, one completed reset session; no power-cycle or cross-board claim. No promotion of selected export."
+}

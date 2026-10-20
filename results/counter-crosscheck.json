@@ -1,0 +1,158 @@
+[
+  {
+    "workload": "conv_small",
+    "kind": "c",
+    "plugin_counts": [
+      15,
+      41906
+    ],
+    "csr_counts": [
+      15,
+      41906
+    ],
+    "match": true
+  },
+  {
+    "workload": "depthwise_small",
+    "kind": "c",
+    "plugin_counts": [
+      15,
+      13495
+    ],
+    "csr_counts": [
+      15,
+      13495
+    ],
+    "match": true
+  },
+  {
+    "workload": "fc_small",
+    "kind": "c",
+    "plugin_counts": [
+      15,
+      4441
+    ],
+    "csr_counts": [
+      15,
+      4441
+    ],
+    "match": true
+  },
+  {
+    "workload": "pointwise_small",
+    "kind": "c",
+    "plugin_counts": [
+      15,
+      36539
+    ],
+    "csr_counts": [
+      15,
+      36539
+    ],
+    "match": true
+  },
+  {
+    "workload": "conv_small",
+    "kind": "generated",
+    "plugin_counts": [
+      15,
+      16690
+    ],
+    "csr_counts": [
+      15,
+      16690
+    ],
+    "match": true
+  },
+  {
+    "workload": "depthwise_small",
+    "kind": "generated",
+    "plugin_counts": [
+      15,
+      6898
+    ],
+    "csr_counts": [
+      15,
+      6898
+    ],
+    "match": true
+  },
+  {
+    "workload": "fc_small",
+    "kind": "generated",
+    "plugin_counts": [
+      15,
+      2196
+    ],
+    "csr_counts": [
+      15,
+      2196
+    ],
+    "match": true
+  },
+  {
+    "workload": "pointwise_small",
+    "kind": "generated",
+    "plugin_counts": [
+      15,
+      14900
+    ],
+    "csr_counts": [
+      15,
+      14900
+    ],
+    "match": true
+  },
+  {
+    "workload": "conv_small",
+    "kind": "muriscv-fixed-asm",
+    "plugin_counts": [
+      15,
+      31599
+    ],
+    "csr_counts": [
+      15,
+      31599
+    ],
+    "match": true
+  },
+  {
+    "workload": "depthwise_small",
+    "kind": "muriscv-fixed-asm",
+    "plugin_counts": [
+      15,
+      11200
+    ],
+    "csr_counts": [
+      15,
+      11200
+    ],
+    "match": true
+  },
+  {
+    "workload": "fc_small",
+    "kind": "muriscv-fixed-asm",
+    "plugin_counts": [
+      15,
+      2546
+    ],
+    "csr_counts": [
+      15,
+      2546
+    ],
+    "match": true
+  },
+  {
+    "workload": "pointwise_small",
+    "kind": "muriscv-fixed-asm",
+    "plugin_counts": [
+      15,
+      24404
+    ],
+    "csr_counts": [
+      15,
+      24404
+    ],
+    "match": true
+  }
+]

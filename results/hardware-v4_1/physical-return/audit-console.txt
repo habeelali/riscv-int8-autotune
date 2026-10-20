@@ -1,0 +1,7 @@
+{
+  "valid": 1,
+  "failed": 1,
+  "independent_repeatability_evidence": false,
+  "output": "audit-results"
+}
+captures\boot-2 Capture incomplete

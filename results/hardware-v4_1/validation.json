@@ -1,0 +1,14 @@
+{
+  "build_id": "03508540d7e1eee1",
+  "image_sha256": "186c34b70a00132624b923df7d5f475a402f49a6b3f573fb7498a88fe810ab51",
+  "physical_validation": false,
+  "complete_emulator_sessions": 2,
+  "total_tensor_comparisons": 3760,
+  "total_timed_inferences": 800,
+  "total_training_profiles": 192,
+  "frozen_selection_path_passed": true,
+  "minimum_observed_emulator_stack_free_bytes": 4652,
+  "task_stack_reserved_bytes": 16384,
+  "quarantined_whole_weight_staging": true,
+  "root_cause": "Undetermined; quarantine is a workaround pending physical validation"
+}

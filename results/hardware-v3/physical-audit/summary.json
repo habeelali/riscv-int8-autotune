@@ -1,0 +1,375 @@
+{
+  "schema": 3,
+  "emulation_only": false,
+  "build_id": "1833fe83590e5171",
+  "captures": [
+    {
+      "prefix": "results/hardware-v3/physical-return/captures/boot-1",
+      "valid": true,
+      "challenge": "afa6e43c9b6f8c29773bb3be83c70cdb",
+      "host_uuid": "896520517f8a49ddada2f78731ea2ebe",
+      "boot_counter": 1070239408,
+      "nonce_hi": 2132694662,
+      "nonce_lo": 1622538940,
+      "statistics": [
+        {
+          "model": 0,
+          "backend": 0,
+          "mean_input_median_cycles": 120789953.5,
+          "mean_input_median_ms": 754.937209375,
+          "input_median_cycles": [
+            120791207,
+            120784773,
+            120795817,
+            120788017
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 1,
+          "mean_input_median_cycles": 60337418,
+          "mean_input_median_ms": 377.1088625,
+          "input_median_cycles": [
+            60337673,
+            60335991,
+            60339659,
+            60336349
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 2,
+          "mean_input_median_cycles": 60181347,
+          "mean_input_median_ms": 376.13341875,
+          "input_median_cycles": [
+            60182503,
+            60180617,
+            60182747,
+            60179521
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 3,
+          "mean_input_median_cycles": 41476677.5,
+          "mean_input_median_ms": 259.229234375,
+          "input_median_cycles": [
+            41476865,
+            41476825,
+            41476477,
+            41476543
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 0,
+          "mean_input_median_cycles": 153147255,
+          "mean_input_median_ms": 957.17034375,
+          "input_median_cycles": [
+            153147747,
+            153148883,
+            153148999,
+            153143391
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 1,
+          "mean_input_median_cycles": 99323999.5,
+          "mean_input_median_ms": 620.774996875,
+          "input_median_cycles": [
+            99319729,
+            99324389,
+            99325549,
+            99326331
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 2,
+          "mean_input_median_cycles": 100145921.5,
+          "mean_input_median_ms": 625.912009375,
+          "input_median_cycles": [
+            100137533,
+            100148967,
+            100147779,
+            100149407
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 3,
+          "mean_input_median_cycles": 109164721.5,
+          "mean_input_median_ms": 682.279509375,
+          "input_median_cycles": [
+            109163631,
+            109164325,
+            109165333,
+            109165597
+          ]
+        }
+      ],
+      "phase_count": 159,
+      "timing_sequence_sha256": "90f138aa41b4b5fb82c44369e5224e94c54d67b537f8e827ff0f7529014820e0",
+      "device_host_clock_ratio": 1.0000362174106414
+    },
+    {
+      "prefix": "results/hardware-v3/physical-return/captures/boot-2",
+      "valid": true,
+      "challenge": "1e59526f209097139eea8e3ee82361e6",
+      "host_uuid": "9c862700768348459faa152c626a14f4",
+      "boot_counter": 1070239409,
+      "nonce_hi": 1047657432,
+      "nonce_lo": 1277393678,
+      "statistics": [
+        {
+          "model": 0,
+          "backend": 0,
+          "mean_input_median_cycles": 120790013,
+          "mean_input_median_ms": 754.93758125,
+          "input_median_cycles": [
+            120795721,
+            120783285,
+            120794899,
+            120786147
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 1,
+          "mean_input_median_cycles": 60337875.5,
+          "mean_input_median_ms": 377.111721875,
+          "input_median_cycles": [
+            60338121,
+            60336649,
+            60339947,
+            60336785
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 2,
+          "mean_input_median_cycles": 60181857,
+          "mean_input_median_ms": 376.13660625,
+          "input_median_cycles": [
+            60182397,
+            60181101,
+            60183835,
+            60180095
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 3,
+          "mean_input_median_cycles": 41476439.5,
+          "mean_input_median_ms": 259.227746875,
+          "input_median_cycles": [
+            41476937,
+            41476409,
+            41476495,
+            41475917
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 0,
+          "mean_input_median_cycles": 153146849,
+          "mean_input_median_ms": 957.16780625,
+          "input_median_cycles": [
+            153146943,
+            153148171,
+            153148831,
+            153143451
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 1,
+          "mean_input_median_cycles": 99324157,
+          "mean_input_median_ms": 620.77598125,
+          "input_median_cycles": [
+            99320169,
+            99324397,
+            99325695,
+            99326367
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 2,
+          "mean_input_median_cycles": 100145327,
+          "mean_input_median_ms": 625.90829375,
+          "input_median_cycles": [
+            100136737,
+            100147943,
+            100147963,
+            100148665
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 3,
+          "mean_input_median_cycles": 109164561,
+          "mean_input_median_ms": 682.27850625,
+          "input_median_cycles": [
+            109163739,
+            109164135,
+            109164873,
+            109165497
+          ]
+        }
+      ],
+      "phase_count": 158,
+      "timing_sequence_sha256": "c29520f95df550f7e24560d0c8f72916b41ebc50599daccb061595ae526d5e21",
+      "device_host_clock_ratio": 1.0001058806195835
+    },
+    {
+      "prefix": "results/hardware-v3/physical-return/captures/boot-3",
+      "valid": true,
+      "challenge": "6f6bcae4bab9fd35f1d98f49a2cbd0c8",
+      "host_uuid": "e1ad8e71d0e0413db2868aeca6065d6f",
+      "boot_counter": 1070239410,
+      "nonce_hi": 3038050387,
+      "nonce_lo": 4149903587,
+      "statistics": [
+        {
+          "model": 0,
+          "backend": 0,
+          "mean_input_median_cycles": 120790280,
+          "mean_input_median_ms": 754.93925,
+          "input_median_cycles": [
+            120790573,
+            120784507,
+            120794619,
+            120791421
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 1,
+          "mean_input_median_cycles": 60337840,
+          "mean_input_median_ms": 377.1115,
+          "input_median_cycles": [
+            60338045,
+            60336667,
+            60339797,
+            60336851
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 2,
+          "mean_input_median_cycles": 60181213,
+          "mean_input_median_ms": 376.13258125,
+          "input_median_cycles": [
+            60181943,
+            60180207,
+            60182833,
+            60179869
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 3,
+          "mean_input_median_cycles": 41476796,
+          "mean_input_median_ms": 259.229975,
+          "input_median_cycles": [
+            41477087,
+            41476791,
+            41476781,
+            41476525
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 0,
+          "mean_input_median_cycles": 153147291.5,
+          "mean_input_median_ms": 957.170571875,
+          "input_median_cycles": [
+            153147281,
+            153148297,
+            153149733,
+            153143855
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 1,
+          "mean_input_median_cycles": 99324189.5,
+          "mean_input_median_ms": 620.776184375,
+          "input_median_cycles": [
+            99319285,
+            99324767,
+            99325617,
+            99327089
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 2,
+          "mean_input_median_cycles": 100145480,
+          "mean_input_median_ms": 625.90925,
+          "input_median_cycles": [
+            100138539,
+            100147667,
+            100147461,
+            100148253
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 3,
+          "mean_input_median_cycles": 109165006,
+          "mean_input_median_ms": 682.2812875,
+          "input_median_cycles": [
+            109164745,
+            109163577,
+            109164551,
+            109167151
+          ]
+        }
+      ],
+      "phase_count": 158,
+      "timing_sequence_sha256": "60c2a35ff4fd9e67138b74d16ba4d8da8a0604ed6083fa89178781c8a0bf5249",
+      "device_host_clock_ratio": 0.9998491795801423
+    }
+  ],
+  "valid_captures": 3,
+  "failed_captures": 0,
+  "distinct_device_identities": 3,
+  "distinct_timing_sequences": 3,
+  "independent_repeatability_evidence": true,
+  "comparisons": [
+    {
+      "capture": "results/hardware-v3/physical-return/captures/boot-1",
+      "model": "person",
+      "geomean_best_c_over_rust": 1.4509683661528747
+    },
+    {
+      "capture": "results/hardware-v3/physical-return/captures/boot-2",
+      "model": "person",
+      "geomean_best_c_over_rust": 1.4509889882405682
+    },
+    {
+      "capture": "results/hardware-v3/physical-return/captures/boot-3",
+      "model": "person",
+      "geomean_best_c_over_rust": 1.4509609900504543
+    },
+    {
+      "capture": "results/hardware-v3/physical-return/captures/boot-1",
+      "model": "cifar10_resnet",
+      "geomean_best_c_over_rust": 0.9098543751571344
+    },
+    {
+      "capture": "results/hardware-v3/physical-return/captures/boot-2",
+      "model": "cifar10_resnet",
+      "geomean_best_c_over_rust": 0.9098571556816433
+    },
+    {
+      "capture": "results/hardware-v3/physical-return/captures/boot-3",
+      "model": "cifar10_resnet",
+      "geomean_best_c_over_rust": 0.9098537443708834
+    }
+  ],
+  "limitation": "Three direct challenge-bound captures with randomized phases support repeatability, not cryptographic device attestation or cross-board generalization. No fabricated variance or confidence intervals."
+}

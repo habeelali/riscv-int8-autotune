@@ -1,0 +1,8 @@
+workload,label,variant,instructions,text_bytes,stack_watermark_bytes,static_sp_loads_stores,static_multiply_ops,static_compressed_instructions,artifact
+conv3x3,selected,b2_u1_s0_im2col_p4_qpos,4032868,10756,1388,136,25,533,results/build/51f42ac05cb8682c1b827ee4e153b1e41188cdbb9bd16b6d65c5bcd8b1531376/assembly.txt
+conv3x3,b8/u16 regression,b8_u16_s0,8011134,12510,844,542,152,564,results/build/503a968bb777b004e0fb0e29bcfb0ea63c3b71ca32f7a52a2f3cf8263877bb37/assembly.txt
+pointwise,selected,b4_u1_s0_p2_qpos,1105945,6976,304,61,24,272,results/build/5657645513a7e6c2d114e52a0db1bbc5508c2d55aa54479944110d7ca12110d2/assembly.txt
+pointwise,b8/u16 regression,b8_u16_s0,2169273,10418,780,485,144,514,results/build/6fc174ec4622ff6fcbffbc9a708a34641d5d1ea4ee3853c059187a8ea7200fc7/assembly.txt
+depthwise,selected,b4_u1_s1_qpos,1372290,8680,304,48,44,278,results/build/0f7494c76ebe0b19ae57a7e8aaa60f5e7ed0cf1189c0a2942f0338c73fee0ad8/assembly.txt
+fully_connected,selected,b8_u1_s0_qpos,124485,6536,304,43,24,178,results/build/c2120d82cec2389e3a3a2c755ab41c490e8c791eb76f58263348e9e86c357bd6/assembly.txt
+fully_connected,b8/u16 regression,b8_u16_s0,203683,10084,728,422,144,489,results/build/59e248ef83b9292bc766ae00d16dfcb5b4cae08aa90bca789b2c580f5b0320f9/assembly.txt

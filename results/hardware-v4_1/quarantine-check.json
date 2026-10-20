@@ -1,0 +1,12 @@
+{
+  "whole_weight_staging_graph_removed": true,
+  "person_export_source_hashes_preserved": {
+    "kernels.rs": "24e2dce783f7aaa95def7498e4849957b3fe4ec4ecd62f5e85e4db5cde987b32",
+    "constants.h": "57553e39042a07232fc24b23725d78f7d17889512ac483fb2beab8b28bdf2ef9",
+    "manifest.json": "7ae7795ef94ecc2e93542f4c66b501dbe49d36555539e00e5b4b05aedba25996",
+    "graph-manifest.json": "f27588600558cf6957968e866de44cb1ebf742e306f6142ea29c5b992f5e518b",
+    "graph.c": "4d548a135883109080236fb37b2a3c9566273bc90f49292dfbb04d2ee96c37e0"
+  },
+  "cause_of_v4_physical_timeout": "undetermined",
+  "workaround_physical_validation": "pending"
+}

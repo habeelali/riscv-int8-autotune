@@ -1,0 +1,52 @@
+{
+  "project": "MLPerf Tiny pretrained ResNet (CIFAR-10)",
+  "commit": "4addd0fa08d216e20637637874e084895f289da4",
+  "files": [
+    {
+      "file": "model.tflite",
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/benchmark/training/image_classification/trained_models/pretrainedResnet_quant.tflite",
+      "sha256": "3c002613d1b2475eb51dd78dfb85a546c8ae658dee71cf6ade43b022fe205415"
+    },
+    {
+      "file": "LICENSE.mlcommons",
+      "url": "https://raw.githubusercontent.com/mlcommons/tiny/4addd0fa08d216e20637637874e084895f289da4/LICENSE.md",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "file": "cifar-test-0.jpg",
+      "dataset": "CIFAR-10",
+      "split": "test",
+      "row_index": 0,
+      "label": 3,
+      "api_url": "https://datasets-server.huggingface.co/rows?dataset=uoft-cs/cifar10&config=plain_text&split=test&offset=0&length=4",
+      "sha256": "f65f3c5a08208d134ec71b920355b5b1736177b23ba22dad28c288d17805d26d"
+    },
+    {
+      "file": "cifar-test-1.jpg",
+      "dataset": "CIFAR-10",
+      "split": "test",
+      "row_index": 1,
+      "label": 8,
+      "api_url": "https://datasets-server.huggingface.co/rows?dataset=uoft-cs/cifar10&config=plain_text&split=test&offset=0&length=4",
+      "sha256": "88a6f93eb584a412e9c127e38c389d9b6d8c854c10a83dbc3bd6f81a26b4a789"
+    },
+    {
+      "file": "cifar-test-2.jpg",
+      "dataset": "CIFAR-10",
+      "split": "test",
+      "row_index": 2,
+      "label": 8,
+      "api_url": "https://datasets-server.huggingface.co/rows?dataset=uoft-cs/cifar10&config=plain_text&split=test&offset=0&length=4",
+      "sha256": "b39181bcf3646d33871bbce4ba34ebdb2654bb7f6b32d504c20ecc708bd3c3bf"
+    },
+    {
+      "file": "cifar-test-3.jpg",
+      "dataset": "CIFAR-10",
+      "split": "test",
+      "row_index": 3,
+      "label": 0,
+      "api_url": "https://datasets-server.huggingface.co/rows?dataset=uoft-cs/cifar10&config=plain_text&split=test&offset=0&length=4",
+      "sha256": "1fa4894a3d2d46cf9def3a0d9cf54c034ced7f837f76b595ef59879cc2049a1c"
+    }
+  ]
+}

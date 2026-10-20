@@ -1,0 +1,50 @@
+{
+  "elf_sha256": "8cd686827ba593342c6a96f32fd590f17f1d21b5c40ccf83c9baed24263d8235",
+  "functions": [
+    {
+      "backend": "r_rust",
+      "symbol": "_ZN7kernels6r_rust7layer_93run17haa6283f55b0d0ceaE",
+      "assembly_file": "r_rust.asm",
+      "static_multiply_instructions": 16,
+      "static_signed_byte_loads": 22,
+      "static_halfword_loads": 2,
+      "note": "Static inventory, NOT dynamic counts; whole-weight staging copy is in resnet_execute"
+    },
+    {
+      "backend": "r_tile8_b2p4",
+      "symbol": "_ZN7kernels12r_tile8_b2p47layer_93run17hd4a8756f509e8c7bE",
+      "assembly_file": "r_tile8_b2p4.asm",
+      "static_multiply_instructions": 20,
+      "static_signed_byte_loads": 6,
+      "static_halfword_loads": 0,
+      "note": "Static inventory, NOT dynamic counts; whole-weight staging copy is in resnet_execute"
+    },
+    {
+      "backend": "r_tile16_b2p4",
+      "symbol": "_ZN7kernels13r_tile16_b2p47layer_93run17hc57b49ce7a02a0e1E",
+      "assembly_file": "r_tile16_b2p4.asm",
+      "static_multiply_instructions": 20,
+      "static_signed_byte_loads": 6,
+      "static_halfword_loads": 0,
+      "note": "Static inventory, NOT dynamic counts; whole-weight staging copy is in resnet_execute"
+    },
+    {
+      "backend": "r_tile16_b2p4_sram",
+      "symbol": "_ZN7kernels18r_tile16_b2p4_sram7layer_93run17h7f04b44a93510415E",
+      "assembly_file": "r_tile16_b2p4_sram.asm",
+      "static_multiply_instructions": 20,
+      "static_signed_byte_loads": 6,
+      "static_halfword_loads": 0,
+      "note": "Static inventory, NOT dynamic counts; whole-weight staging copy is in resnet_execute"
+    },
+    {
+      "backend": "r_tile16_b4p2",
+      "symbol": "_ZN7kernels13r_tile16_b4p27layer_93run17h9dee09d145e06bc1E",
+      "assembly_file": "r_tile16_b4p2.asm",
+      "static_multiply_instructions": 20,
+      "static_signed_byte_loads": 6,
+      "static_halfword_loads": 0,
+      "note": "Static inventory, NOT dynamic counts; whole-weight staging copy is in resnet_execute"
+    }
+  ]
+}

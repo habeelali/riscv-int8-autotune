@@ -1,0 +1,780 @@
+[
+  {
+    "kind": "muriscv",
+    "cases": 2240,
+    "mismatches": 0,
+    "qualified": true,
+    "examples": [],
+    "toolchains": {
+      "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+      "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+      "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+    },
+    "toolchain_hashes": {
+      "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+      "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+      "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+      "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+    },
+    "commands": [
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv/probe.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv/probe.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/start.S",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv/start.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-nostdlib",
+        "-Wl,--gc-sections",
+        "-T",
+        "/workspace/riscv-int8-autotune/qemu/link.ld",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv/start.o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv/probe.o",
+        "-lgcc",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv/probe.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv/probe.elf"
+      ]
+    ],
+    "artifact": "results/upstream-quant/muriscv"
+  },
+  {
+    "kind": "muriscv-portable",
+    "cases": 2240,
+    "mismatches": 0,
+    "qualified": true,
+    "examples": [],
+    "toolchains": {
+      "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+      "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+      "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+    },
+    "toolchain_hashes": {
+      "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+      "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+      "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+      "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+    },
+    "commands": [
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DUSE_PORTABLE_VEXT",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable/probe.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable/probe.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DUSE_PORTABLE_VEXT",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/start.S",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable/start.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-nostdlib",
+        "-Wl,--gc-sections",
+        "-T",
+        "/workspace/riscv-int8-autotune/qemu/link.ld",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable/start.o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable/probe.o",
+        "-lgcc",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable/probe.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable/probe.elf"
+      ]
+    ],
+    "artifact": "results/upstream-quant/muriscv-portable"
+  },
+  {
+    "kind": "muriscv-asm",
+    "cases": 2240,
+    "mismatches": 104,
+    "qualified": false,
+    "examples": [
+      {
+        "input": [
+          -2147483648,
+          1,
+          -1
+        ],
+        "actual": 0,
+        "expected": -1
+      },
+      {
+        "input": [
+          -2147483648,
+          1,
+          0
+        ],
+        "actual": 0,
+        "expected": -1
+      },
+      {
+        "input": [
+          -2147483648,
+          2147483647,
+          -1
+        ],
+        "actual": -1073741823,
+        "expected": -1073741824
+      },
+      {
+        "input": [
+          -2147483648,
+          2147483647,
+          0
+        ],
+        "actual": -2147483646,
+        "expected": -2147483647
+      },
+      {
+        "input": [
+          -1001,
+          1,
+          -1
+        ],
+        "actual": 1,
+        "expected": 0
+      },
+      {
+        "input": [
+          -1001,
+          1,
+          0
+        ],
+        "actual": 1,
+        "expected": 0
+      },
+      {
+        "input": [
+          -1001,
+          1073741824,
+          0
+        ],
+        "actual": -499,
+        "expected": -500
+      },
+      {
+        "input": [
+          -1001,
+          2147483647,
+          -1
+        ],
+        "actual": -500,
+        "expected": -501
+      },
+      {
+        "input": [
+          2,
+          1073741824,
+          0
+        ],
+        "actual": 2,
+        "expected": 1
+      }
+    ],
+    "toolchains": {
+      "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+      "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+      "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+    },
+    "toolchain_hashes": {
+      "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+      "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+      "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+      "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+    },
+    "commands": [
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DMURISCV_NN_USE_REQUANTIZE_INLINE_ASSEMBLY",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-asm/probe.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-asm/probe.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DMURISCV_NN_USE_REQUANTIZE_INLINE_ASSEMBLY",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/start.S",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-asm/start.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-nostdlib",
+        "-Wl,--gc-sections",
+        "-T",
+        "/workspace/riscv-int8-autotune/qemu/link.ld",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-asm/start.o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-asm/probe.o",
+        "-lgcc",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-asm/probe.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-asm/probe.elf"
+      ]
+    ],
+    "artifact": "results/upstream-quant/muriscv-asm"
+  },
+  {
+    "kind": "muriscv-portable-asm",
+    "cases": 2240,
+    "mismatches": 104,
+    "qualified": false,
+    "examples": [
+      {
+        "input": [
+          -2147483648,
+          1,
+          -1
+        ],
+        "actual": 0,
+        "expected": -1
+      },
+      {
+        "input": [
+          -2147483648,
+          1,
+          0
+        ],
+        "actual": 0,
+        "expected": -1
+      },
+      {
+        "input": [
+          -2147483648,
+          2147483647,
+          -1
+        ],
+        "actual": -1073741823,
+        "expected": -1073741824
+      },
+      {
+        "input": [
+          -2147483648,
+          2147483647,
+          0
+        ],
+        "actual": -2147483646,
+        "expected": -2147483647
+      },
+      {
+        "input": [
+          -1001,
+          1,
+          -1
+        ],
+        "actual": 1,
+        "expected": 0
+      },
+      {
+        "input": [
+          -1001,
+          1,
+          0
+        ],
+        "actual": 1,
+        "expected": 0
+      },
+      {
+        "input": [
+          -1001,
+          1073741824,
+          0
+        ],
+        "actual": -499,
+        "expected": -500
+      },
+      {
+        "input": [
+          -1001,
+          2147483647,
+          -1
+        ],
+        "actual": -500,
+        "expected": -501
+      },
+      {
+        "input": [
+          2,
+          1073741824,
+          0
+        ],
+        "actual": 2,
+        "expected": 1
+      }
+    ],
+    "toolchains": {
+      "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+      "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+      "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+    },
+    "toolchain_hashes": {
+      "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+      "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+      "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+      "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+    },
+    "commands": [
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DUSE_PORTABLE_VEXT",
+        "-DMURISCV_NN_USE_REQUANTIZE_INLINE_ASSEMBLY",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-asm/probe.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-asm/probe.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DUSE_PORTABLE_VEXT",
+        "-DMURISCV_NN_USE_REQUANTIZE_INLINE_ASSEMBLY",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/start.S",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-asm/start.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-nostdlib",
+        "-Wl,--gc-sections",
+        "-T",
+        "/workspace/riscv-int8-autotune/qemu/link.ld",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-asm/start.o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-asm/probe.o",
+        "-lgcc",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-asm/probe.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-asm/probe.elf"
+      ]
+    ],
+    "artifact": "results/upstream-quant/muriscv-portable-asm"
+  },
+  {
+    "kind": "muriscv-fixed-asm",
+    "cases": 2240,
+    "mismatches": 0,
+    "qualified": true,
+    "examples": [],
+    "toolchains": {
+      "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+      "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+      "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+    },
+    "toolchain_hashes": {
+      "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+      "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+      "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+      "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+    },
+    "commands": [
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DMURISCV_NN_USE_REQUANTIZE_INLINE_ASSEMBLY",
+        "-I/workspace/riscv-int8-autotune/results/upstream-overlays/758b9f2a231e592678b80059041ec1c00c90d7105039e71d68a574692914af49",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-fixed-asm/probe.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-fixed-asm/probe.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DMURISCV_NN_USE_REQUANTIZE_INLINE_ASSEMBLY",
+        "-I/workspace/riscv-int8-autotune/results/upstream-overlays/758b9f2a231e592678b80059041ec1c00c90d7105039e71d68a574692914af49",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/start.S",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-fixed-asm/start.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-nostdlib",
+        "-Wl,--gc-sections",
+        "-T",
+        "/workspace/riscv-int8-autotune/qemu/link.ld",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-fixed-asm/start.o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-fixed-asm/probe.o",
+        "-lgcc",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-fixed-asm/probe.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-fixed-asm/probe.elf"
+      ]
+    ],
+    "artifact": "results/upstream-quant/muriscv-fixed-asm"
+  },
+  {
+    "kind": "muriscv-portable-fixed-asm",
+    "cases": 2240,
+    "mismatches": 0,
+    "qualified": true,
+    "examples": [],
+    "toolchains": {
+      "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+      "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+      "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+    },
+    "toolchain_hashes": {
+      "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+      "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+      "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+      "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+    },
+    "commands": [
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DUSE_PORTABLE_VEXT",
+        "-DMURISCV_NN_USE_REQUANTIZE_INLINE_ASSEMBLY",
+        "-I/workspace/riscv-int8-autotune/results/upstream-overlays/758b9f2a231e592678b80059041ec1c00c90d7105039e71d68a574692914af49",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-fixed-asm/probe.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-fixed-asm/probe.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-DUSE_PORTABLE_VEXT",
+        "-DMURISCV_NN_USE_REQUANTIZE_INLINE_ASSEMBLY",
+        "-I/workspace/riscv-int8-autotune/results/upstream-overlays/758b9f2a231e592678b80059041ec1c00c90d7105039e71d68a574692914af49",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/start.S",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-fixed-asm/start.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-nostdlib",
+        "-Wl,--gc-sections",
+        "-T",
+        "/workspace/riscv-int8-autotune/qemu/link.ld",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-fixed-asm/start.o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-fixed-asm/probe.o",
+        "-lgcc",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-fixed-asm/probe.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/upstream-quant/muriscv-portable-fixed-asm/probe.elf"
+      ]
+    ],
+    "artifact": "results/upstream-quant/muriscv-portable-fixed-asm"
+  }
+]

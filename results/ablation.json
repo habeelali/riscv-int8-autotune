@@ -1,0 +1,290 @@
+[
+  {
+    "workload": "conv3x3",
+    "transformation": "constant dimensions",
+    "instructions": 7608494,
+    "relative_to_c": 1.1232243857982933,
+    "text_bytes": 7840,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s0"
+  },
+  {
+    "workload": "conv3x3",
+    "transformation": "blocking only",
+    "instructions": 7272673,
+    "relative_to_c": 1.1750900941098272,
+    "text_bytes": 8470,
+    "scratch_bytes": 0,
+    "variant": "b4_u1_s0"
+  },
+  {
+    "workload": "conv3x3",
+    "transformation": "reduction unroll only",
+    "instructions": 7608494,
+    "relative_to_c": 1.1232243857982933,
+    "text_bytes": 7840,
+    "scratch_bytes": 0,
+    "variant": "b1_u4_s0"
+  },
+  {
+    "workload": "conv3x3",
+    "transformation": "spatial unroll only",
+    "instructions": 8062166,
+    "relative_to_c": 1.0600186103833635,
+    "text_bytes": 11596,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s1"
+  },
+  {
+    "workload": "conv3x3",
+    "transformation": "interior split only",
+    "instructions": 9388814,
+    "relative_to_c": 0.9102370118313133,
+    "text_bytes": 17952,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s1_interior"
+  },
+  {
+    "workload": "conv3x3",
+    "transformation": "partial im2col only",
+    "instructions": 8855545,
+    "relative_to_c": 0.9650502594701964,
+    "text_bytes": 7962,
+    "scratch_bytes": 288,
+    "variant": "b1_u1_s0_im2col"
+  },
+  {
+    "workload": "pointwise",
+    "transformation": "constant dimensions",
+    "instructions": 1489271,
+    "relative_to_c": 1.4297156125379464,
+    "text_bytes": 6412,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s0"
+  },
+  {
+    "workload": "pointwise",
+    "transformation": "blocking only",
+    "instructions": 1524735,
+    "relative_to_c": 1.3964616802264,
+    "text_bytes": 6570,
+    "scratch_bytes": 0,
+    "variant": "b4_u1_s0"
+  },
+  {
+    "workload": "pointwise",
+    "transformation": "reduction unroll only",
+    "instructions": 1489271,
+    "relative_to_c": 1.4297156125379464,
+    "text_bytes": 6412,
+    "scratch_bytes": 0,
+    "variant": "b1_u4_s0"
+  },
+  {
+    "workload": "depthwise",
+    "transformation": "constant dimensions",
+    "instructions": 3725740,
+    "relative_to_c": 0.5249944977373623,
+    "text_bytes": 7650,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s0"
+  },
+  {
+    "workload": "depthwise",
+    "transformation": "blocking only",
+    "instructions": 2147592,
+    "relative_to_c": 0.910784264422665,
+    "text_bytes": 8452,
+    "scratch_bytes": 0,
+    "variant": "b4_u1_s0"
+  },
+  {
+    "workload": "depthwise",
+    "transformation": "spatial unroll only",
+    "instructions": 1983970,
+    "relative_to_c": 0.9858984762874439,
+    "text_bytes": 7700,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s1"
+  },
+  {
+    "workload": "depthwise",
+    "transformation": "interior split only",
+    "instructions": 2211188,
+    "relative_to_c": 0.8845891891598543,
+    "text_bytes": 8282,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s1_interior"
+  },
+  {
+    "workload": "fully_connected",
+    "transformation": "constant dimensions",
+    "instructions": 269416,
+    "relative_to_c": 1.1215146836119607,
+    "text_bytes": 5694,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s0"
+  },
+  {
+    "workload": "fully_connected",
+    "transformation": "blocking only",
+    "instructions": 145682,
+    "relative_to_c": 2.0740654301835506,
+    "text_bytes": 6476,
+    "scratch_bytes": 0,
+    "variant": "b4_u1_s0"
+  },
+  {
+    "workload": "fully_connected",
+    "transformation": "reduction unroll only",
+    "instructions": 211569,
+    "relative_to_c": 1.428158189526821,
+    "text_bytes": 5762,
+    "scratch_bytes": 0,
+    "variant": "b1_u4_s0"
+  },
+  {
+    "workload": "conv_small",
+    "transformation": "constant dimensions",
+    "instructions": 48761,
+    "relative_to_c": 0.8591087139312156,
+    "text_bytes": 7626,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s0"
+  },
+  {
+    "workload": "conv_small",
+    "transformation": "blocking only",
+    "instructions": 36851,
+    "relative_to_c": 1.1367669805432687,
+    "text_bytes": 8976,
+    "scratch_bytes": 0,
+    "variant": "b4_u1_s0"
+  },
+  {
+    "workload": "conv_small",
+    "transformation": "reduction unroll only",
+    "instructions": 48481,
+    "relative_to_c": 0.8640704605928096,
+    "text_bytes": 7684,
+    "scratch_bytes": 0,
+    "variant": "b1_u4_s0"
+  },
+  {
+    "workload": "conv_small",
+    "transformation": "spatial unroll only",
+    "instructions": 25779,
+    "relative_to_c": 1.625004848908026,
+    "text_bytes": 8146,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s1"
+  },
+  {
+    "workload": "conv_small",
+    "transformation": "interior split only",
+    "instructions": 31089,
+    "relative_to_c": 1.3474540834378719,
+    "text_bytes": 9608,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s1_interior"
+  },
+  {
+    "workload": "conv_small",
+    "transformation": "partial im2col only",
+    "instructions": 24764,
+    "relative_to_c": 1.6916087869487966,
+    "text_bytes": 6546,
+    "scratch_bytes": 54,
+    "variant": "b1_u1_s0_im2col"
+  },
+  {
+    "workload": "depthwise_small",
+    "transformation": "constant dimensions",
+    "instructions": 23065,
+    "relative_to_c": 0.5844352915673098,
+    "text_bytes": 7518,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s0"
+  },
+  {
+    "workload": "depthwise_small",
+    "transformation": "blocking only",
+    "instructions": 16006,
+    "relative_to_c": 0.8421841809321504,
+    "text_bytes": 8846,
+    "scratch_bytes": 0,
+    "variant": "b4_u1_s0"
+  },
+  {
+    "workload": "depthwise_small",
+    "transformation": "spatial unroll only",
+    "instructions": 10318,
+    "relative_to_c": 1.30645473929056,
+    "text_bytes": 7646,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s1"
+  },
+  {
+    "workload": "depthwise_small",
+    "transformation": "interior split only",
+    "instructions": 12232,
+    "relative_to_c": 1.1020274689339438,
+    "text_bytes": 8266,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s1_interior"
+  },
+  {
+    "workload": "fc_small",
+    "transformation": "constant dimensions",
+    "instructions": 2382,
+    "relative_to_c": 1.8581024349286315,
+    "text_bytes": 5960,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s0"
+  },
+  {
+    "workload": "fc_small",
+    "transformation": "blocking only",
+    "instructions": 2476,
+    "relative_to_c": 1.7875605815831987,
+    "text_bytes": 6992,
+    "scratch_bytes": 0,
+    "variant": "b4_u1_s0"
+  },
+  {
+    "workload": "fc_small",
+    "transformation": "reduction unroll only",
+    "instructions": 2394,
+    "relative_to_c": 1.8487886382623224,
+    "text_bytes": 5958,
+    "scratch_bytes": 0,
+    "variant": "b1_u4_s0"
+  },
+  {
+    "workload": "pointwise_small",
+    "transformation": "constant dimensions",
+    "instructions": 24489,
+    "relative_to_c": 1.4914451386336722,
+    "text_bytes": 5934,
+    "scratch_bytes": 0,
+    "variant": "b1_u1_s0"
+  },
+  {
+    "workload": "pointwise_small",
+    "transformation": "blocking only",
+    "instructions": 30437,
+    "relative_to_c": 1.1999868581003383,
+    "text_bytes": 7534,
+    "scratch_bytes": 0,
+    "variant": "b4_u1_s0"
+  },
+  {
+    "workload": "pointwise_small",
+    "transformation": "reduction unroll only",
+    "instructions": 24057,
+    "relative_to_c": 1.518227542918901,
+    "text_bytes": 5884,
+    "scratch_bytes": 0,
+    "variant": "b1_u4_s0"
+  }
+]

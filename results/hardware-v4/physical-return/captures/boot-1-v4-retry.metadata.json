@@ -1,0 +1,62 @@
+{
+  "schema": 4,
+  "host_capture_uuid": "fd76a822047c43118cbf07f4c1c66836",
+  "challenge": "3dc73fb4252b1b862936c6278cf26667",
+  "port": "COM6",
+  "started": {
+    "utc": "2026-10-19T11:10:37.050828+00:00",
+    "monotonic_ns": 79162281702700
+  },
+  "completed": false,
+  "reset_requested": false,
+  "ready": {
+    "schema": 4,
+    "build_id": "7492ae5875a8e422",
+    "boot_counter": 1070239413,
+    "nonce_hi": 1900613341,
+    "nonce_lo": 2784042333,
+    "cpu_hz": 160000000,
+    "tick_hz": 100,
+    "reset_reason": 11
+  },
+  "session": {
+    "challenge": "3dc73fb4252b1b862936c6278cf26667",
+    "build_id": "7492ae5875a8e422",
+    "boot_counter": 1070239413,
+    "nonce_hi": 1900613341,
+    "nonce_lo": 2784042333,
+    "cpu_hz": 160000000,
+    "models": [
+      "person",
+      "cifar10_resnet"
+    ],
+    "backends": [
+      "esp_nn",
+      "mu_scalar",
+      "mu_fixed",
+      "rust",
+      "tile8_b2p4",
+      "tile16_b2p4",
+      "tile16_b2p4_sram",
+      "tile16_b4p2",
+      "selected_rust",
+      "selected_hybrid"
+    ],
+    "samples": 4,
+    "rounds": 5,
+    "expected_checks": 1880,
+    "expected_runs": 400,
+    "expected_profiles": 96,
+    "tensor_ram_bytes": 112144
+  },
+  "error": "Timed out waiting for V4_PROFILE",
+  "finished": {
+    "utc": "2026-10-19T11:14:03.350809+00:00",
+    "monotonic_ns": 79368581706200
+  },
+  "hashes": {
+    "raw": "20054a667a9956c0748b890c13e519ebce77b88d5fb2e2ca7695f1605d0f7258",
+    "events": "87ef9b34a9be9cc9c968fb98513609756c4471a7943acedbf1a708cdb8318049",
+    "plan": "c09e8dec93d24a8155db984724f9dba53d9cb91de832d48bb568bb9dd13ead3f"
+  }
+}

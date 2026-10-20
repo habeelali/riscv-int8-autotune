@@ -1,0 +1,165 @@
+{
+  "label": "cache-mixture-fast-validated",
+  "correct": true,
+  "output": [
+    72,
+    -72
+  ],
+  "instructions_raw": 29606575,
+  "text_bytes": 40114,
+  "rodata_bytes": 242336,
+  "data_bytes": 0,
+  "flash_bytes": 282450,
+  "binary_file_bytes": 282452,
+  "static_ram_bytes": 121360,
+  "reserved_stack_bytes": 65536,
+  "kernel_benchmark_key": "000d43d628100a14e61721036c4834bb3311f8ef2b9de507967b21ad0816ca00",
+  "elf_sha256": "926ea5b021f1068128d95ee698aad5040dc837a5f5f3eb271e3056798343bd9a",
+  "build_dir": "results/flash/deployment/cache-mixture-fast-validated",
+  "commands": [
+    [
+      "riscv64-unknown-elf-gcc",
+      "-O3",
+      "-march=rv32imc",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables",
+      "-march=rv32imc_zicsr",
+      "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+      "-c",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/graph.c",
+      "-o",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/graph.o"
+    ],
+    [
+      "riscv64-unknown-elf-gcc",
+      "-O3",
+      "-march=rv32imc",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables",
+      "-nostdlib",
+      "-Wl,--gc-sections",
+      "-Wl,--no-relax",
+      "-Wl,-Map=/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/link.map",
+      "-T",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/link.ld",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/graph.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/000d43d628100a14e61721036c4834bb3311f8ef2b9de507967b21ad0816ca00/1.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/000d43d628100a14e61721036c4834bb3311f8ef2b9de507967b21ad0816ca00/2.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/000d43d628100a14e61721036c4834bb3311f8ef2b9de507967b21ad0816ca00/3.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/000d43d628100a14e61721036c4834bb3311f8ef2b9de507967b21ad0816ca00/4.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/000d43d628100a14e61721036c4834bb3311f8ef2b9de507967b21ad0816ca00/kernels.a",
+      "-lgcc",
+      "-o",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-size",
+      "-A",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-objdump",
+      "-d",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-nm",
+      "-S",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.elf"
+    ],
+    [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.elf"
+    ],
+    [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.elf"
+    ],
+    [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-objcopy",
+      "-O",
+      "binary",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.elf",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.bin"
+    ]
+  ],
+  "samples": [
+    [
+      29606575,
+      72,
+      -72
+    ],
+    [
+      29606575,
+      72,
+      -72
+    ],
+    [
+      29606575,
+      72,
+      -72
+    ]
+  ]
+}

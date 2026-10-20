@@ -1,0 +1,9 @@
+{
+  "image": "esp32c3-final-benchmark-v5.bin",
+  "bytes": 4194304,
+  "calculated_sha256": "2473cdccadc3adee4528ccdc5a7fbbae66746b52bfaed8f2a0af5e000c26a760",
+  "manifest_sha256": "2473cdccadc3adee4528ccdc5a7fbbae66746b52bfaed8f2a0af5e000c26a760",
+  "firmware_sha256": "2473cdccadc3adee4528ccdc5a7fbbae66746b52bfaed8f2a0af5e000c26a760",
+  "bundle_zip_sha256": "20d18ce246063d1f551d445370a5f5b730933acfa19a819b8423bbe4df2dba9c",
+  "verified": true
+}

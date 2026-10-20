@@ -1,0 +1,281 @@
+{
+  "status": "Failed complete protocol; partial training evidence only",
+  "independent_repeatability_evidence": false,
+  "held_out_runs": 0,
+  "frozen_selections": 0,
+  "captures": [
+    {
+      "device_host_clock_ratio": 0.995395352189564,
+      "name": "boot-1-v4",
+      "build_id": "7492ae5875a8e422",
+      "checks": 1504,
+      "profiles": 16,
+      "last_command": "PROFILE 11a30f4750a277176f420bb165b41624 20 1 6 1 2721 3",
+      "status": "Incomplete; timeout on ResNet whole-weight staging; cause undetermined"
+    },
+    {
+      "device_host_clock_ratio": 0.9972187162916293,
+      "name": "boot-1-v4-retry",
+      "build_id": "7492ae5875a8e422",
+      "checks": 1504,
+      "profiles": 38,
+      "last_command": "PROFILE 3dc73fb4252b1b862936c6278cf26667 42 1 6 1 5573 2",
+      "status": "Incomplete; timeout on ResNet whole-weight staging; cause undetermined"
+    },
+    {
+      "device_host_clock_ratio": 0.9944728630850012,
+      "name": "boot-1-v4-retry2",
+      "build_id": "7492ae5875a8e422",
+      "checks": 1504,
+      "profiles": 8,
+      "last_command": "PROFILE 4a0d183207a04b64d36eea0941d4c349 12 1 6 0 1624 3",
+      "status": "Incomplete; timeout on ResNet whole-weight staging; cause undetermined"
+    }
+  ],
+  "training_profiles": [
+    {
+      "model": 0,
+      "backend": 0,
+      "sample": 0,
+      "count": 1,
+      "median_profile_ms": 786.78864375,
+      "minimum_profile_ms": 786.78864375,
+      "maximum_profile_ms": 786.78864375
+    },
+    {
+      "model": 0,
+      "backend": 0,
+      "sample": 1,
+      "count": 2,
+      "median_profile_ms": 786.7583999999999,
+      "minimum_profile_ms": 786.75340625,
+      "maximum_profile_ms": 786.76339375
+    },
+    {
+      "model": 0,
+      "backend": 1,
+      "sample": 0,
+      "count": 1,
+      "median_profile_ms": 367.74140625,
+      "minimum_profile_ms": 367.74140625,
+      "maximum_profile_ms": 367.74140625
+    },
+    {
+      "model": 0,
+      "backend": 2,
+      "sample": 0,
+      "count": 3,
+      "median_profile_ms": 367.88498125,
+      "minimum_profile_ms": 367.88046875,
+      "maximum_profile_ms": 367.88503125
+    },
+    {
+      "model": 0,
+      "backend": 2,
+      "sample": 1,
+      "count": 4,
+      "median_profile_ms": 367.8648875,
+      "minimum_profile_ms": 367.85821875,
+      "maximum_profile_ms": 367.86761875
+    },
+    {
+      "model": 0,
+      "backend": 3,
+      "sample": 0,
+      "count": 1,
+      "median_profile_ms": 258.79039375,
+      "minimum_profile_ms": 258.79039375,
+      "maximum_profile_ms": 258.79039375
+    },
+    {
+      "model": 0,
+      "backend": 3,
+      "sample": 1,
+      "count": 2,
+      "median_profile_ms": 258.77201875000003,
+      "minimum_profile_ms": 258.77075625,
+      "maximum_profile_ms": 258.77328125
+    },
+    {
+      "model": 0,
+      "backend": 4,
+      "sample": 0,
+      "count": 2,
+      "median_profile_ms": 258.7942625,
+      "minimum_profile_ms": 258.79331875,
+      "maximum_profile_ms": 258.79520625
+    },
+    {
+      "model": 0,
+      "backend": 4,
+      "sample": 1,
+      "count": 3,
+      "median_profile_ms": 258.77493125,
+      "minimum_profile_ms": 258.77271875,
+      "maximum_profile_ms": 258.77753125
+    },
+    {
+      "model": 0,
+      "backend": 5,
+      "sample": 0,
+      "count": 3,
+      "median_profile_ms": 258.79348125,
+      "minimum_profile_ms": 258.79308125,
+      "maximum_profile_ms": 258.79375625
+    },
+    {
+      "model": 0,
+      "backend": 5,
+      "sample": 1,
+      "count": 3,
+      "median_profile_ms": 258.77660625,
+      "minimum_profile_ms": 258.77374375,
+      "maximum_profile_ms": 258.77765625
+    },
+    {
+      "model": 0,
+      "backend": 6,
+      "sample": 0,
+      "count": 2,
+      "median_profile_ms": 258.7913625,
+      "minimum_profile_ms": 258.79061875,
+      "maximum_profile_ms": 258.79210625
+    },
+    {
+      "model": 0,
+      "backend": 6,
+      "sample": 1,
+      "count": 3,
+      "median_profile_ms": 258.77784375,
+      "minimum_profile_ms": 258.77749375,
+      "maximum_profile_ms": 258.77794375
+    },
+    {
+      "model": 0,
+      "backend": 7,
+      "sample": 0,
+      "count": 3,
+      "median_profile_ms": 258.79209375,
+      "minimum_profile_ms": 258.79094375,
+      "maximum_profile_ms": 258.79541875
+    },
+    {
+      "model": 0,
+      "backend": 7,
+      "sample": 1,
+      "count": 3,
+      "median_profile_ms": 258.77063125,
+      "minimum_profile_ms": 258.76880625,
+      "maximum_profile_ms": 258.77491875
+    },
+    {
+      "model": 1,
+      "backend": 0,
+      "sample": 0,
+      "count": 2,
+      "median_profile_ms": 950.2748375000001,
+      "minimum_profile_ms": 950.27259375,
+      "maximum_profile_ms": 950.27708125
+    },
+    {
+      "model": 1,
+      "backend": 0,
+      "sample": 1,
+      "count": 5,
+      "median_profile_ms": 950.24759375,
+      "minimum_profile_ms": 950.24353125,
+      "maximum_profile_ms": 950.25128125
+    },
+    {
+      "model": 1,
+      "backend": 1,
+      "sample": 0,
+      "count": 1,
+      "median_profile_ms": 628.06961875,
+      "minimum_profile_ms": 628.06961875,
+      "maximum_profile_ms": 628.06961875
+    },
+    {
+      "model": 1,
+      "backend": 1,
+      "sample": 1,
+      "count": 1,
+      "median_profile_ms": 627.93178125,
+      "minimum_profile_ms": 627.93178125,
+      "maximum_profile_ms": 627.93178125
+    },
+    {
+      "model": 1,
+      "backend": 2,
+      "sample": 0,
+      "count": 2,
+      "median_profile_ms": 619.45908125,
+      "minimum_profile_ms": 619.45079375,
+      "maximum_profile_ms": 619.46736875
+    },
+    {
+      "model": 1,
+      "backend": 3,
+      "sample": 1,
+      "count": 2,
+      "median_profile_ms": 673.67885,
+      "minimum_profile_ms": 673.67573125,
+      "maximum_profile_ms": 673.68196875
+    },
+    {
+      "model": 1,
+      "backend": 4,
+      "sample": 0,
+      "count": 1,
+      "median_profile_ms": 371.17531875,
+      "minimum_profile_ms": 371.17531875,
+      "maximum_profile_ms": 371.17531875
+    },
+    {
+      "model": 1,
+      "backend": 4,
+      "sample": 1,
+      "count": 2,
+      "median_profile_ms": 371.166425,
+      "minimum_profile_ms": 371.16603125,
+      "maximum_profile_ms": 371.16681875
+    },
+    {
+      "model": 1,
+      "backend": 5,
+      "sample": 0,
+      "count": 2,
+      "median_profile_ms": 352.69057499999997,
+      "minimum_profile_ms": 352.68780625,
+      "maximum_profile_ms": 352.69334375
+    },
+    {
+      "model": 1,
+      "backend": 5,
+      "sample": 1,
+      "count": 1,
+      "median_profile_ms": 352.68726875,
+      "minimum_profile_ms": 352.68726875,
+      "maximum_profile_ms": 352.68726875
+    },
+    {
+      "model": 1,
+      "backend": 7,
+      "sample": 0,
+      "count": 2,
+      "median_profile_ms": 382.28643750000003,
+      "minimum_profile_ms": 382.28538125,
+      "maximum_profile_ms": 382.28749375
+    },
+    {
+      "model": 1,
+      "backend": 7,
+      "sample": 1,
+      "count": 5,
+      "median_profile_ms": 382.28094375,
+      "minimum_profile_ms": 382.27974375,
+      "maximum_profile_ms": 382.28256875
+    }
+  ],
+  "limitation": "Uneven training-only samples/repeats. No held-out speedup, complete-inference comparison, confidence interval, or promotion."
+}

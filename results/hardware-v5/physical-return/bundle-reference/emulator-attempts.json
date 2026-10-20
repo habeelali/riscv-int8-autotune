@@ -1,0 +1,60 @@
+{
+  "scope": "Emulator functional evidence; no physical V5 validation",
+  "attempts": [
+    {
+      "prefix": "results/hardware-v5/emulator-1792432121589263300",
+      "completed": false,
+      "error": "read failed: socket disconnected",
+      "tensor_records": 1,
+      "run_records": 0
+    },
+    {
+      "prefix": "results/hardware-v5/emulator-1792432233855486074",
+      "completed": true,
+      "error": null,
+      "tensor_records": 752,
+      "run_records": 160
+    },
+    {
+      "prefix": "results/hardware-v5/emulator-1792432295820874232",
+      "completed": false,
+      "error": "Timed out waiting for V5_RUN",
+      "tensor_records": 752,
+      "run_records": 154
+    },
+    {
+      "prefix": "results/hardware-v5/emulator-1792432475223403978",
+      "completed": true,
+      "error": null,
+      "tensor_records": 752,
+      "run_records": 160
+    },
+    {
+      "prefix": "results/hardware-v5/emulator-1792432558812805742",
+      "completed": false,
+      "error": "read failed: socket disconnected",
+      "tensor_records": 0,
+      "run_records": 0
+    }
+  ],
+  "accepted_source": {
+    "emulation_only": true,
+    "physical_board_tested": false,
+    "build_id": "cdd27710ec8a49a9",
+    "image_sha256": "2473cdccadc3adee4528ccdc5a7fbbae66746b52bfaed8f2a0af5e000c26a760",
+    "functional_pass": true,
+    "full_tensor_checks": 752,
+    "host_triggered_runs": 160,
+    "requested_delay_calibrations": 3,
+    "host_challenge_and_timestamps_validated": true,
+    "capture_prefix": "results/hardware-v5/emulator-1792432475223403978",
+    "no_hardware_performance_claim": true
+  },
+  "limitations": [
+    "Two completed emulator captures passed 752 tensor checks and 160 complete RUNs each.",
+    "Default-clock runs also stalled: one launch interrupted after first CHECK; another timed out during RUN 158. These are retained, not counted as passes.",
+    "A replay of the timed-out command schedule completed with a monitor socket enabled; this does not diagnose the cause.",
+    "An additional icount-mode experiment produced no UART boot output and was terminated; that mode is not used for acceptance.",
+    "Removing staging/profile paths is a workaround; the earlier physical root cause and V5 physical repeatability remain unresolved."
+  ]
+}

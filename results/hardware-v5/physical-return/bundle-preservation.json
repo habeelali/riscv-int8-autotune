@@ -1,0 +1,33 @@
+{
+  "all_original_files_unchanged": true,
+  "files": {
+    "AGENT_PROMPT.md": true,
+    "LICENSES/ESP-IDF.txt": true,
+    "LICENSES/ESP-NN.txt": true,
+    "LICENSES/FreeRTOS.txt": true,
+    "LICENSES/MLCommons-Tiny.txt": true,
+    "LICENSES/PROJECT-MIT.txt": true,
+    "LICENSES/TFLM.txt": true,
+    "LICENSES/muRISCV-NN.txt": true,
+    "README.md": true,
+    "THIRD_PARTY.md": true,
+    "audit.py": true,
+    "bootloader.elf": true,
+    "collect.py": true,
+    "emulator-attempts.json": true,
+    "emulator-functional-check.json": true,
+    "esp32c3-final-benchmark-v5.bin": true,
+    "firmware.elf": true,
+    "firmware.sha256": true,
+    "fixed-kernel-check.json": true,
+    "manifest.json": true,
+    "negative-audit-tests.json": true,
+    "oracle.json": true,
+    "partitions.csv": true,
+    "person-source.json": true,
+    "provenance.json": true,
+    "requirements.txt": true,
+    "resnet-source.json": true,
+    "sdkconfig": true
+  }
+}

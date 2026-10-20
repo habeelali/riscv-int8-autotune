@@ -1,0 +1,5 @@
+{
+  "rejected": true,
+  "cached_rejected": true,
+  "reason": "Numerical mismatch: 13; evidence: /workspace/riscv-int8-autotune/results/build/9b33fe3003c4b1c5e52311a0307af18c2dd00ac0cc520d806c5ee65503dfb491/result.json"
+}

@@ -1,0 +1,12 @@
+{
+  "host_capture_uuid": "08e7434c-1035-490a-af4c-c51a3dfe567b",
+  "started_utc": "2026-10-19T09:02:00.856666+00:00",
+  "port": "COM6",
+  "no_reset": false,
+  "timeout_seconds": 1200,
+  "completed": false,
+  "failure_reason": "No serial bytes or HW_BEGIN arrived after automatic reset. Capture was interrupted to recover COM6; esptool hard reset was then used before the successful retry.",
+  "log_bytes": 0,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "finished_utc": "2026-10-19T09:11:32.133755+00:00"
+}

@@ -1,0 +1,6 @@
+fold 48674 text bytes; 31025595.75 instructions; REJECTED text_bytes, no read-only image reduction
+packed 47870 text bytes; 32617682.75 instructions; REJECTED whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+fold-packed 48566 text bytes; 31087131.75 instructions; REJECTED text_bytes, no read-only image reduction
+chunks 49456 text bytes; 31429535.5 instructions; REJECTED text_bytes, no read-only image reduction, layer instructions: 0/2
+explicit-fold 49934 text bytes; 31439327.0 instructions; REJECTED text_bytes, no read-only image reduction, stack: person
+explicit-chunks 50716 text bytes; 31843266.75 instructions; REJECTED text_bytes, no read-only image reduction, stack: person

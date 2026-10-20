@@ -1,0 +1,2 @@
+# Only report rendering needs third-party Python packages; benchmarking is stdlib-only.
+matplotlib==3.10.8

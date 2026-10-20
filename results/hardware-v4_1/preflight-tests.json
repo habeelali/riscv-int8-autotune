@@ -1,0 +1,21 @@
+{
+  "emulation_only": true,
+  "tests": [
+    {
+      "case": "old_protocol",
+      "passed": true,
+      "error": "Wrong firmware protocol: V3_READY",
+      "commands_sent": [
+        "HELLO"
+      ]
+    },
+    {
+      "case": "old_build",
+      "passed": true,
+      "error": "Device firmware build differs from this bundle; verify flash and reset",
+      "commands_sent": [
+        "HELLO"
+      ]
+    }
+  ]
+}

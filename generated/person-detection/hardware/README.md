@@ -1,0 +1,7 @@
+# Hardware timing selection
+
+These files export rust_cache2, the fastest implementation in the user-returned ESP32-C3 v2 logs. Use kernels.rs with the bundled constants and graph; weights are packed and biases folded according to manifest.json. The no_std FFI entry points require the exact shapes, buffer lengths, non-aliasing and validated parameter bounds described in the generated safety comments. Graph code uses the project freestanding harness; it is an integration example, not ESP-IDF startup firmware.
+
+See selection.json and results/hardware-cache/analysis/report.md for measured results and the repeated-timing provenance qualification. All whole-model cycle sequences were identical across captures despite distinct boot identifiers; do not interpret these as 21 independent observations. The existing QEMU-optimized and compact exports remain preserved. This directory contains library/model integration sources, not a directly flashable binary.
+
+V3 update: three locally audited, challenge-bound physical-board reset sessions now support timing repeatability (1.451× versus the fastest tested C on this model). See selection.json and results/hardware-v3/physical-audit/evaluation.md. The v2 qualification above describes historical evidence; original v2 data remains preserved. There was no physical power-cycle test. The other tested model, CIFAR-10 ResNet, loses to C; this export is model-specific.

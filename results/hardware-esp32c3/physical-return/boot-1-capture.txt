@@ -1,0 +1,13 @@
+Reset requested; listening on COM6
+Captured 100 diagnostic records
+Captured 200 diagnostic records
+Captured 300 diagnostic records
+Captured 400 diagnostic records
+Captured 500 diagnostic records
+Captured 600 diagnostic records
+Captured 700 diagnostic records
+Captured 800 diagnostic records
+Captured 900 diagnostic records
+Captured 1000 diagnostic records
+HW_DONE {"build_id":"4f8d4bb97f51a2c0","correct":true,"mismatches_total":0,"layer_records":868,"run_records":196,"free_heap":207416,"minimum_free_heap":198368,"worker_min_free_stack_bytes":11020}
+Complete serial log: C:\Users\habeel\Desktop\esp\diagnostic_bundle\results\boot-1.log

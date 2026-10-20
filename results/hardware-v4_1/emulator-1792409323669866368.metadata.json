@@ -1,0 +1,852 @@
+{
+  "schema": 4,
+  "host_capture_uuid": "717a96f6a93b4a44bb80b4eae3e0c777",
+  "challenge": "f82cc6302f9a4afb067ae1c60a4db0cc",
+  "port": "socket://127.0.0.1:57851",
+  "started": {
+    "utc": "2026-10-19T11:28:43.711151+00:00",
+    "monotonic_ns": 14562967307966
+  },
+  "completed": true,
+  "reset_requested": false,
+  "ready": {
+    "schema": 4,
+    "build_id": "03508540d7e1eee1",
+    "boot_counter": 1,
+    "nonce_hi": 611667687,
+    "nonce_lo": 1911921463,
+    "cpu_hz": 160000000,
+    "tick_hz": 100,
+    "reset_reason": 1
+  },
+  "session": {
+    "challenge": "f82cc6302f9a4afb067ae1c60a4db0cc",
+    "build_id": "03508540d7e1eee1",
+    "boot_counter": 1,
+    "nonce_hi": 611667687,
+    "nonce_lo": 1911921463,
+    "cpu_hz": 160000000,
+    "models": [
+      "person",
+      "cifar10_resnet"
+    ],
+    "backends": [
+      "esp_nn",
+      "mu_scalar",
+      "mu_fixed",
+      "rust",
+      "tile8_b2p4",
+      "tile16_b2p4",
+      "tile16_b2p4_block_sram",
+      "tile16_b4p2",
+      "selected_rust",
+      "selected_hybrid"
+    ],
+    "samples": 4,
+    "rounds": 5,
+    "expected_checks": 1880,
+    "expected_runs": 400,
+    "expected_profiles": 96,
+    "tensor_ram_bytes": 112144
+  },
+  "last_device_progress": {
+    "challenge": "f82cc6302f9a4afb067ae1c60a4db0cc",
+    "seq": 99,
+    "model": 0,
+    "backend": 2,
+    "sample": 1,
+    "stage": "warmed",
+    "stack_min_free_bytes": 4652
+  },
+  "selection_mode": "trained",
+  "selection": {
+    "schema": 4,
+    "choices": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      5,
+      4,
+      4,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      1,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      5,
+      4,
+      4,
+      3,
+      3,
+      3,
+      4,
+      3
+    ],
+    "training_samples": [
+      0,
+      1
+    ],
+    "held_out_samples": [
+      2,
+      3
+    ],
+    "minimum_improvement_each_training_input": 0.02,
+    "evidence": [
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 0,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 1,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 2,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 3,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 4,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 5,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 6,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 7,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 8,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 9,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 10,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 11,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 12,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 13,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 14,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 15,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 16,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 17,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 18,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 19,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 20,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 21,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 22,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 23,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 24,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 25,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 26,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 27,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 28,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 29,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 0,
+        "layer": 30,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 0,
+        "backend": 5,
+        "training_ratio_to_incumbent": 0.7257663330055666
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 1,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 2,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 3,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 4,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 5,
+        "backend": 5,
+        "training_ratio_to_incumbent": 0.7514926155158167
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 6,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 7,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 8,
+        "backend": 5,
+        "training_ratio_to_incumbent": 0.9324452339009314
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 9,
+        "backend": 4,
+        "training_ratio_to_incumbent": 0.7897862764672882
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 10,
+        "backend": 4,
+        "training_ratio_to_incumbent": 0.8181667194773498
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 11,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 12,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 13,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 14,
+        "backend": 4,
+        "training_ratio_to_incumbent": 0.7287182075455049
+      },
+      {
+        "kind": 0,
+        "model": 1,
+        "layer": 15,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 0,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 1,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 2,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 3,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 4,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 5,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 6,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 7,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 8,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 9,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 10,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 11,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 12,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 13,
+        "backend": 2,
+        "training_ratio_to_incumbent": 0.8175989639978221
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 14,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 15,
+        "backend": 2,
+        "training_ratio_to_incumbent": 0.6859732510403614
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 16,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 17,
+        "backend": 2,
+        "training_ratio_to_incumbent": 0.9249482449120544
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 18,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 19,
+        "backend": 1,
+        "training_ratio_to_incumbent": 0.9314046633006273
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 20,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 21,
+        "backend": 2,
+        "training_ratio_to_incumbent": 0.948830112155705
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 22,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 23,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 24,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 25,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 26,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 27,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 28,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 29,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 0,
+        "layer": 30,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 0,
+        "backend": 5,
+        "training_ratio_to_incumbent": 0.7257663330055666
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 1,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 2,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 3,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 4,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 5,
+        "backend": 5,
+        "training_ratio_to_incumbent": 0.7514926155158167
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 6,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 7,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 8,
+        "backend": 5,
+        "training_ratio_to_incumbent": 0.9324452339009314
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 9,
+        "backend": 4,
+        "training_ratio_to_incumbent": 0.7897862764672882
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 10,
+        "backend": 4,
+        "training_ratio_to_incumbent": 0.8181667194773498
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 11,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 12,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 13,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 14,
+        "backend": 4,
+        "training_ratio_to_incumbent": 0.7287182075455049
+      },
+      {
+        "kind": 1,
+        "model": 1,
+        "layer": 15,
+        "backend": 3,
+        "training_ratio_to_incumbent": 1.0
+      }
+    ],
+    "status": "Frozen from layer profiles; whole-model held-out validation is still required",
+    "build_id": "03508540d7e1eee1"
+  },
+  "device_result": {
+    "challenge": "f82cc6302f9a4afb067ae1c60a4db0cc",
+    "build_id": "03508540d7e1eee1",
+    "correct": true,
+    "mismatches": 0,
+    "checks": 1880,
+    "runs": 400,
+    "calibrations": 3,
+    "boot_counter": 1,
+    "stack_min_free_bytes": 4652
+  },
+  "finished": {
+    "utc": "2026-10-19T11:30:03.608883+00:00",
+    "monotonic_ns": 14642865049435
+  },
+  "hashes": {
+    "raw": "846e104a9179423f585625f0a934839ece88d8ef2ccd408c5d297995ce1cce00",
+    "events": "9fe2226d0596950996a677b33160e3181e6be8106c3bc7e5854ed60501983dd5",
+    "plan": "aac9d5be741651c3a2773dfbdad359a78587809678547bafd6e977cc9156f8ae"
+  }
+}

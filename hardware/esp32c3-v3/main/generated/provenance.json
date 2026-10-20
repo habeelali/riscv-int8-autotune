@@ -1,0 +1,17 @@
+{
+  "revision": 3,
+  "person_model_sha256": "808cfdfc0cf3a6fa6f6fa26bfa379ea97c16d5db7334637766e39c3408502e9d",
+  "resnet_model_sha256": "3c002613d1b2475eb51dd78dfb85a546c8ae658dee71cf6ade43b022fe205415",
+  "resnet_selection": "generated-0",
+  "sources": {
+    "hardware/esp32c3-v3/prepare.py": "4a93f5d068ea94e5411c91155f842419ffc0c386af3fe39b7196ed079955a04e",
+    "hardware/esp32c3-v3/runtime.c": "64444a43dafb5946fcaa622eea218a17926dd603c2973683d7b790dd680dee22",
+    "results/algorithm/variants/hardware-cache-b2-p4/kernels.rs": "24e2dce783f7aaa95def7498e4849957b3fe4ec4ecd62f5e85e4db5cde987b32",
+    "results/algorithm/variants/hardware-cache-b2-p4/constants.h": "57553e39042a07232fc24b23725d78f7d17889512ac483fb2beab8b28bdf2ef9",
+    "results/model/cifar10-resnet/generated-0/source.rs": "dc8a0bb1d073171336be44e614379a6137b84dcb2246f32cb14d9b4c2a88439b",
+    "results/model/cifar10-resnet/generated-0/parameters.h": "c610ace6e5d039c47f5bbc96eb4c60f0caaa3781c74543ed3146843a923d9e59",
+    "results/model/cifar10-resnet/vectors.h": "bee5964fbb717d4f3618a5343eed82f1f23dad8830960823bd418c8c236d6e17",
+    "results/model/person-detection/vectors.h": "6c2455c86b043c2606bc9a57a7d67c66081d6d6535a141e792b8da0fbda1a00e"
+  },
+  "build_id": "1833fe83590e5171"
+}

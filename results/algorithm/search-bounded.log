@@ -1,0 +1,5 @@
+bounded 46456 text bytes; 31909756.75 instructions; ELIGIBLE
+bounded-fold 46924 text bytes; 30352436.75 instructions; ELIGIBLE
+bounded-packed-fold 46692 text bytes; 30384284.75 instructions; ELIGIBLE
+bounded-chunks 47666 text bytes; 30751963.5 instructions; REJECTED no read-only image reduction
+bounded-explicit 48912 text bytes; 30792785.25 instructions; REJECTED text_bytes, no read-only image reduction, stack: person

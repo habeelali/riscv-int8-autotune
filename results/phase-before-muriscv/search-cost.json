@@ -1,0 +1,6 @@
+{
+  "description": "First search of the final extended grid, before final warm-cache reproducibility rerun",
+  "search_wall_seconds": 103.58060189,
+  "candidate_compile_seconds": 69.01621979700155,
+  "candidates": 200
+}

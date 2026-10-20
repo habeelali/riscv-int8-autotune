@@ -1,0 +1,65 @@
+{
+  "schema": 5,
+  "host_capture_uuid": "014decb6726940e382d78b0808b6ba63",
+  "challenge": "01a39c1940ac0ef8268b105a43fccce1",
+  "port": "socket://127.0.0.1:38109",
+  "started": {
+    "utc": "2026-10-19T17:54:35.257985+00:00",
+    "monotonic_ns": 37714514138495
+  },
+  "completed": true,
+  "reset_requested": false,
+  "ready": {
+    "schema": 5,
+    "build_id": "cdd27710ec8a49a9",
+    "boot_counter": 1,
+    "nonce_hi": 1574414425,
+    "nonce_lo": 1455748855,
+    "cpu_hz": 160000000,
+    "tick_hz": 100,
+    "reset_reason": 1
+  },
+  "session": {
+    "challenge": "01a39c1940ac0ef8268b105a43fccce1",
+    "build_id": "cdd27710ec8a49a9",
+    "boot_counter": 1,
+    "nonce_hi": 1574414425,
+    "nonce_lo": 1455748855,
+    "cpu_hz": 160000000,
+    "models": [
+      "person",
+      "cifar10_resnet"
+    ],
+    "backends": [
+      "esp_nn",
+      "mu_scalar",
+      "mu_fixed",
+      "rust"
+    ],
+    "samples": 4,
+    "rounds": 5,
+    "expected_checks": 752,
+    "expected_runs": 160,
+    "tensor_ram_bytes": 112144
+  },
+  "device_result": {
+    "challenge": "01a39c1940ac0ef8268b105a43fccce1",
+    "build_id": "cdd27710ec8a49a9",
+    "correct": true,
+    "mismatches": 0,
+    "checks": 752,
+    "runs": 160,
+    "calibrations": 3,
+    "boot_counter": 1,
+    "stack_min_free_bytes": 6188
+  },
+  "finished": {
+    "utc": "2026-10-19T17:55:04.861631+00:00",
+    "monotonic_ns": 37744117921513
+  },
+  "hashes": {
+    "raw": "239223ab8efc2c4d43290b0abff3c61c937ca795d11d396df249f24449fec1a5",
+    "events": "ef3caff23c99e5529b249631c2bf966a52d5fbd7d97d5016f6b5e65299bd4ead",
+    "plan": "b97577b7cacbdfc539e6486cc1a7d982d3cb3e61153f185da522340e35fa3ed0"
+  }
+}

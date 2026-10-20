@@ -1,0 +1,16 @@
+/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b4-p2/model.elf  :
+section                size         addr
+.text                 40230   2147483648
+.rodata              242432   2147523880
+.bss                 121360   2147766320
+.stack                65536   2147887680
+.riscv.attributes        56            0
+.debug_abbrev           780            0
+.debug_info          132301            0
+.debug_aranges         4328            0
+.debug_ranges         44640            0
+.debug_str           240950            0
+.debug_line          153023            0
+Total               1045636
+
+

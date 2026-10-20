@@ -1,0 +1,26 @@
+{
+  "models": [
+    {
+      "model": "Person detector",
+      "median_boot_speedup_vs_fastest_tested_c": 1.4509683661528747,
+      "speedup_min": 1.4509609900504543,
+      "speedup_max": 1.4509889882405682,
+      "time_reduction_percent": 31.08050986311858
+    },
+    {
+      "model": "CIFAR-10 ResNet",
+      "median_boot_speedup_vs_fastest_tested_c": 0.9098543751571344,
+      "speedup_min": 0.9098537443708834,
+      "speedup_max": 0.9098571556816433,
+      "time_reduction_percent": -9.90769812227339
+    }
+  ],
+  "geomean_over_two_models": 1.1489864734446582,
+  "correctness_checks": 2256,
+  "timed_inferences": 480,
+  "delay_calibrations": 9,
+  "independent_repeatability_evidence": true,
+  "boot_type": "Three hardware resets; no USB power cycle",
+  "aggregation": "Per-input median of five observations; mean across four fixtures; median/range across three fresh captures. Speedup is per-boot geometric mean across four fixtures.",
+  "scope": "One ESP32-C3 SuperMini rev0.4, 160 MHz, two fixed pretrained INT8 graphs, four fixtures each; scalar tested configurations only."
+}

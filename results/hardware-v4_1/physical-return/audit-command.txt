@@ -1,0 +1,1 @@
+python audit.py captures/boot-1 captures/boot-2 --output audit-results (hardware mode; no --emulator)

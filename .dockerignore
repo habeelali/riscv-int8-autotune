@@ -1,0 +1,12 @@
+.git
+target
+.tools
+results/build
+__pycache__
+hardware/**/build
+results/**/build
+results/upstream-build
+artifacts
+.venv
+dist
+review/primary-sources

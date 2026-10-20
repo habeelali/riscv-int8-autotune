@@ -1,0 +1,337 @@
+{
+  "schema": 5,
+  "mode": "physical_hardware",
+  "completed": true,
+  "steps": [
+    {
+      "name": "01-chip-flash-identification",
+      "command": [
+        "C:\\Users\\habeel\\Desktop\\esp\\diagnostic_bundle\\.venv\\Scripts\\python.exe",
+        "-m",
+        "esptool",
+        "--chip",
+        "esp32c3",
+        "--port",
+        "COM6",
+        "--after",
+        "hard_reset",
+        "flash_id"
+      ],
+      "started_utc": "2026-10-19T18:06:50.730784+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-10-19T18:06:51.681711+00:00"
+    },
+    {
+      "name": "02-flash-merged-at-0x0",
+      "command": [
+        "C:\\Users\\habeel\\Desktop\\esp\\diagnostic_bundle\\.venv\\Scripts\\python.exe",
+        "-m",
+        "esptool",
+        "--chip",
+        "esp32c3",
+        "--port",
+        "COM6",
+        "--baud",
+        "460800",
+        "--after",
+        "hard_reset",
+        "write_flash",
+        "--flash_mode",
+        "dio",
+        "--flash_freq",
+        "40m",
+        "--flash_size",
+        "4MB",
+        "0x0",
+        "esp32c3-final-benchmark-v5.bin"
+      ],
+      "started_utc": "2026-10-19T18:06:51.732377+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-10-19T18:07:23.880472+00:00"
+    },
+    {
+      "name": "collect-boot-1",
+      "command": [
+        "C:\\Users\\habeel\\Desktop\\esp\\diagnostic_bundle\\.venv\\Scripts\\python.exe",
+        "collect.py",
+        "--port",
+        "COM6",
+        "--output",
+        "hardware-results\\captures\\boot-1",
+        "--timeout",
+        "2400"
+      ],
+      "started_utc": "2026-10-19T18:07:23.893349+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-10-19T18:10:59.918187+00:00"
+    },
+    {
+      "name": "reset-before-boot-2",
+      "command": [
+        "C:\\Users\\habeel\\Desktop\\esp\\diagnostic_bundle\\.venv\\Scripts\\python.exe",
+        "-m",
+        "esptool",
+        "--chip",
+        "esp32c3",
+        "--port",
+        "COM6",
+        "--after",
+        "hard_reset",
+        "chip_id"
+      ],
+      "started_utc": "2026-10-19T18:10:59.943643+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-10-19T18:11:01.180026+00:00"
+    },
+    {
+      "name": "collect-boot-2",
+      "command": [
+        "C:\\Users\\habeel\\Desktop\\esp\\diagnostic_bundle\\.venv\\Scripts\\python.exe",
+        "collect.py",
+        "--port",
+        "COM6",
+        "--output",
+        "hardware-results\\captures\\boot-2",
+        "--timeout",
+        "2400"
+      ],
+      "started_utc": "2026-10-19T18:11:01.207622+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-10-19T18:14:37.174836+00:00"
+    },
+    {
+      "name": "reset-before-boot-3",
+      "command": [
+        "C:\\Users\\habeel\\Desktop\\esp\\diagnostic_bundle\\.venv\\Scripts\\python.exe",
+        "-m",
+        "esptool",
+        "--chip",
+        "esp32c3",
+        "--port",
+        "COM6",
+        "--after",
+        "hard_reset",
+        "chip_id"
+      ],
+      "started_utc": "2026-10-19T18:14:37.196880+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-10-19T18:14:38.393372+00:00"
+    },
+    {
+      "name": "collect-boot-3",
+      "command": [
+        "C:\\Users\\habeel\\Desktop\\esp\\diagnostic_bundle\\.venv\\Scripts\\python.exe",
+        "collect.py",
+        "--port",
+        "COM6",
+        "--output",
+        "hardware-results\\captures\\boot-3",
+        "--timeout",
+        "2400"
+      ],
+      "started_utc": "2026-10-19T18:14:38.418987+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-10-19T18:18:15.028569+00:00"
+    },
+    {
+      "name": "audit-hardware-three-boots",
+      "command": [
+        "C:\\Users\\habeel\\Desktop\\esp\\diagnostic_bundle\\.venv\\Scripts\\python.exe",
+        "audit.py",
+        "hardware-results\\captures\\boot-1",
+        "hardware-results\\captures\\boot-2",
+        "hardware-results\\captures\\boot-3",
+        "--output",
+        "hardware-results\\audit-results"
+      ],
+      "started_utc": "2026-10-19T18:18:15.030103+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-10-19T18:18:15.270263+00:00"
+    }
+  ],
+  "resets": [
+    {
+      "session": null,
+      "method": "esptool flash_id --after hard_reset (identification)",
+      "requested_utc": "2026-10-19T18:06:50.730784+00:00",
+      "completed_utc": "2026-10-19T18:06:51.681711+00:00",
+      "exit_code": 0,
+      "physical_power_cycle": false
+    },
+    {
+      "session": 1,
+      "method": "esptool write_flash --after hard_reset",
+      "requested_utc": "2026-10-19T18:06:51.732377+00:00",
+      "completed_utc": "2026-10-19T18:07:23.880472+00:00",
+      "exit_code": 0,
+      "physical_power_cycle": false
+    },
+    {
+      "session": 2,
+      "method": "esptool chip_id --after hard_reset",
+      "requested_utc": "2026-10-19T18:10:59.943643+00:00",
+      "completed_utc": "2026-10-19T18:11:01.180026+00:00",
+      "exit_code": 0,
+      "physical_power_cycle": false
+    },
+    {
+      "session": 3,
+      "method": "esptool chip_id --after hard_reset",
+      "requested_utc": "2026-10-19T18:14:37.196880+00:00",
+      "completed_utc": "2026-10-19T18:14:38.393372+00:00",
+      "exit_code": 0,
+      "physical_power_cycle": false
+    }
+  ],
+  "started_utc": "2026-10-19T18:06:50.672697+00:00",
+  "port_observations": [
+    {
+      "utc": "2026-10-19T18:06:50.729816+00:00",
+      "ports": [
+        {
+          "device": "COM3",
+          "description": "Intel(R) Active Management Technology - SOL (COM3)",
+          "vid": null,
+          "pid": null,
+          "serial_number": null,
+          "hwid": "PCI\\VEN_8086&DEV_9D3D&SUBSYS_225817AA&REV_21\\3&11583659&0&B3"
+        },
+        {
+          "device": "COM6",
+          "description": "USB Serial Device (COM6)",
+          "vid": 12346,
+          "pid": 4097,
+          "serial_number": "94:A9:90:96:72:D4",
+          "hwid": "USB VID:PID=303A:1001 SER=94:A9:90:96:72:D4 LOCATION=1-1:x.0"
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-19T18:06:51.729909+00:00",
+      "ports": [
+        {
+          "device": "COM3",
+          "description": "Intel(R) Active Management Technology - SOL (COM3)",
+          "vid": null,
+          "pid": null,
+          "serial_number": null,
+          "hwid": "PCI\\VEN_8086&DEV_9D3D&SUBSYS_225817AA&REV_21\\3&11583659&0&B3"
+        },
+        {
+          "device": "COM6",
+          "description": "USB Serial Device (COM6)",
+          "vid": 12346,
+          "pid": 4097,
+          "serial_number": "94:A9:90:96:72:D4",
+          "hwid": "USB VID:PID=303A:1001 SER=94:A9:90:96:72:D4 LOCATION=1-1:x.0"
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-19T18:07:23.892375+00:00",
+      "ports": [
+        {
+          "device": "COM3",
+          "description": "Intel(R) Active Management Technology - SOL (COM3)",
+          "vid": null,
+          "pid": null,
+          "serial_number": null,
+          "hwid": "PCI\\VEN_8086&DEV_9D3D&SUBSYS_225817AA&REV_21\\3&11583659&0&B3"
+        },
+        {
+          "device": "COM6",
+          "description": "USB Serial Device (COM6)",
+          "vid": 12346,
+          "pid": 4097,
+          "serial_number": "94:A9:90:96:72:D4",
+          "hwid": "USB VID:PID=303A:1001 SER=94:A9:90:96:72:D4 LOCATION=1-1:x.0"
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-19T18:10:59.941487+00:00",
+      "ports": [
+        {
+          "device": "COM3",
+          "description": "Intel(R) Active Management Technology - SOL (COM3)",
+          "vid": null,
+          "pid": null,
+          "serial_number": null,
+          "hwid": "PCI\\VEN_8086&DEV_9D3D&SUBSYS_225817AA&REV_21\\3&11583659&0&B3"
+        },
+        {
+          "device": "COM6",
+          "description": "USB Serial Device (COM6)",
+          "vid": 12346,
+          "pid": 4097,
+          "serial_number": "94:A9:90:96:72:D4",
+          "hwid": "USB VID:PID=303A:1001 SER=94:A9:90:96:72:D4 LOCATION=1-1:x.0"
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-19T18:11:01.205837+00:00",
+      "ports": [
+        {
+          "device": "COM3",
+          "description": "Intel(R) Active Management Technology - SOL (COM3)",
+          "vid": null,
+          "pid": null,
+          "serial_number": null,
+          "hwid": "PCI\\VEN_8086&DEV_9D3D&SUBSYS_225817AA&REV_21\\3&11583659&0&B3"
+        },
+        {
+          "device": "COM6",
+          "description": "USB Serial Device (COM6)",
+          "vid": 12346,
+          "pid": 4097,
+          "serial_number": "94:A9:90:96:72:D4",
+          "hwid": "USB VID:PID=303A:1001 SER=94:A9:90:96:72:D4 LOCATION=1-1:x.0"
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-19T18:14:37.195449+00:00",
+      "ports": [
+        {
+          "device": "COM3",
+          "description": "Intel(R) Active Management Technology - SOL (COM3)",
+          "vid": null,
+          "pid": null,
+          "serial_number": null,
+          "hwid": "PCI\\VEN_8086&DEV_9D3D&SUBSYS_225817AA&REV_21\\3&11583659&0&B3"
+        },
+        {
+          "device": "COM6",
+          "description": "USB Serial Device (COM6)",
+          "vid": 12346,
+          "pid": 4097,
+          "serial_number": "94:A9:90:96:72:D4",
+          "hwid": "USB VID:PID=303A:1001 SER=94:A9:90:96:72:D4 LOCATION=1-1:x.0"
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-19T18:14:38.415488+00:00",
+      "ports": [
+        {
+          "device": "COM3",
+          "description": "Intel(R) Active Management Technology - SOL (COM3)",
+          "vid": null,
+          "pid": null,
+          "serial_number": null,
+          "hwid": "PCI\\VEN_8086&DEV_9D3D&SUBSYS_225817AA&REV_21\\3&11583659&0&B3"
+        },
+        {
+          "device": "COM6",
+          "description": "USB Serial Device (COM6)",
+          "vid": 12346,
+          "pid": 4097,
+          "serial_number": "94:A9:90:96:72:D4",
+          "hwid": "USB VID:PID=303A:1001 SER=94:A9:90:96:72:D4 LOCATION=1-1:x.0"
+        }
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-19T18:18:15.271934+00:00"
+}

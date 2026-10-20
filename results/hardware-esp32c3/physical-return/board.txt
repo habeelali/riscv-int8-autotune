@@ -1,0 +1,7 @@
+Board model: ESP32-C3 SuperMini (board model as identified by the user; chip-level identification recorded separately).
+Chip: ESP32-C3 QFN32 revision 0.4; MAC 94:a9:90:96:72:d4.
+Flash: XMC, detected capacity 4 MB (manufacturer 0x20, device 0x4016).
+USB connection: Native ESP32-C3 USB-Serial/JTAG, enumerated by Windows as USB Serial Device (COM6), VID 303A PID 1001. This is not a separate UART bridge.
+Power arrangement: Powered through the USB connection to the host PC; no external supply or other wiring was reported/observed.
+Host: Windows, details in environment.txt.
+Diagnostic firmware: supplied esp32c3-int8-diagnostic.bin, SHA-256 verified against firmware.sha256; flashed unchanged at offset 0x0. esptool reports flash write hash verified.

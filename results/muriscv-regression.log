@@ -1,0 +1,25 @@
+conv3x3 1 qualified upstream variants correct
+conv3x3 3735928559 qualified upstream variants correct
+conv3x3 123456789 qualified upstream variants correct
+conv_small 1 qualified upstream variants correct
+conv_small 3735928559 qualified upstream variants correct
+conv_small 123456789 qualified upstream variants correct
+depthwise 1 qualified upstream variants correct
+depthwise 3735928559 qualified upstream variants correct
+depthwise 123456789 qualified upstream variants correct
+depthwise_small 1 qualified upstream variants correct
+depthwise_small 3735928559 qualified upstream variants correct
+depthwise_small 123456789 qualified upstream variants correct
+fc_small 1 qualified upstream variants correct
+fc_small 3735928559 qualified upstream variants correct
+fc_small 123456789 qualified upstream variants correct
+fully_connected 1 qualified upstream variants correct
+fully_connected 3735928559 qualified upstream variants correct
+fully_connected 123456789 qualified upstream variants correct
+pointwise 1 qualified upstream variants correct
+pointwise 3735928559 qualified upstream variants correct
+pointwise 123456789 qualified upstream variants correct
+pointwise_small 1 qualified upstream variants correct
+pointwise_small 3735928559 qualified upstream variants correct
+pointwise_small 123456789 qualified upstream variants correct
+All upstream fresh-seed regressions passed: 96 executions

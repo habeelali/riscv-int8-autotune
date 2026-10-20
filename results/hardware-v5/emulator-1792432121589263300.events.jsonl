@@ -1,0 +1,62 @@
+{"type":"send","utc":"2026-10-19T17:48:41.637473+00:00","monotonic_ns":37360893624175,"command":"HELLO 960d0bec5d5c20c55557af63cbdfcace"}
+{"type":"line","utc":"2026-10-19T17:48:41.687845+00:00","monotonic_ns":37360944090524,"text":"ESP-ROM:esp32c3-api1-20210207"}
+{"type":"line","utc":"2026-10-19T17:48:41.688246+00:00","monotonic_ns":37360944390787,"text":"Build:Feb  7 2021"}
+{"type":"line","utc":"2026-10-19T17:48:41.688267+00:00","monotonic_ns":37360944409355,"text":"rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)"}
+{"type":"line","utc":"2026-10-19T17:48:41.688278+00:00","monotonic_ns":37360944420242,"text":"SPIWP:0xee"}
+{"type":"line","utc":"2026-10-19T17:48:41.688287+00:00","monotonic_ns":37360944428895,"text":"mode:DIO, clock div:2"}
+{"type":"line","utc":"2026-10-19T17:48:41.688295+00:00","monotonic_ns":37360944436496,"text":"load:0x3fcd5820,len:0x1574"}
+{"type":"line","utc":"2026-10-19T17:48:41.688301+00:00","monotonic_ns":37360944443186,"text":"load:0x403cc710,len:0xc34"}
+{"type":"line","utc":"2026-10-19T17:48:41.688307+00:00","monotonic_ns":37360944449135,"text":"load:0x403ce710,len:0x2f64"}
+{"type":"line","utc":"2026-10-19T17:48:41.688386+00:00","monotonic_ns":37360944529386,"text":"entry 0x403cc71a"}
+{"type":"line","utc":"2026-10-19T17:48:41.688402+00:00","monotonic_ns":37360944543918,"text":"I (1) boot: ESP-IDF v5.4.2 2nd stage bootloader"}
+{"type":"line","utc":"2026-10-19T17:48:41.688411+00:00","monotonic_ns":37360944552972,"text":"I (1) boot: compile time Oct 19 2026 17:47:09"}
+{"type":"line","utc":"2026-10-19T17:48:41.688418+00:00","monotonic_ns":37360944560383,"text":"I (5) boot: chip revision: v0.3"}
+{"type":"line","utc":"2026-10-19T17:48:41.688425+00:00","monotonic_ns":37360944567444,"text":"I (6) boot: efuse block revision: v0.0"}
+{"type":"line","utc":"2026-10-19T17:48:41.688432+00:00","monotonic_ns":37360944573713,"text":"I (8) boot.esp32c3: SPI Speed      : 40MHz"}
+{"type":"line","utc":"2026-10-19T17:48:41.688438+00:00","monotonic_ns":37360944579682,"text":"I (8) boot.esp32c3: SPI Mode       : SLOW READ"}
+{"type":"line","utc":"2026-10-19T17:48:41.688444+00:00","monotonic_ns":37360944585591,"text":"I (8) boot.esp32c3: SPI Flash Size : 4MB"}
+{"type":"line","utc":"2026-10-19T17:48:41.688450+00:00","monotonic_ns":37360944591660,"text":"I (11) boot: Enabling RNG early entropy source..."}
+{"type":"line","utc":"2026-10-19T17:48:41.688456+00:00","monotonic_ns":37360944597739,"text":"I (15) boot: Partition Table:"}
+{"type":"line","utc":"2026-10-19T17:48:41.688462+00:00","monotonic_ns":37360944604169,"text":"I (16) boot: ## Label            Usage          Type ST Offset   Length"}
+{"type":"line","utc":"2026-10-19T17:48:41.688469+00:00","monotonic_ns":37360944610539,"text":"I (16) boot:  0 nvs              WiFi data        01 02 00009000 00006000"}
+{"type":"line","utc":"2026-10-19T17:48:41.688474+00:00","monotonic_ns":37360944616207,"text":"I (16) boot:  1 phy_init         RF data          01 01 0000f000 00001000"}
+{"type":"line","utc":"2026-10-19T17:48:41.688480+00:00","monotonic_ns":37360944621625,"text":"I (17) boot:  2 factory          factory app      00 00 00010000 003f0000"}
+{"type":"line","utc":"2026-10-19T17:48:41.688486+00:00","monotonic_ns":37360944627354,"text":"I (17) boot: End of partition table"}
+{"type":"line","utc":"2026-10-19T17:48:41.688496+00:00","monotonic_ns":37360944637830,"text":"I (19) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=208bech (2132972) map"}
+{"type":"line","utc":"2026-10-19T17:48:41.889166+00:00","monotonic_ns":37361145326864,"text":"I (376) esp_image: segment 1: paddr=00218c14 vaddr=3fc8c800 size=0140ch (  5132) load"}
+{"type":"line","utc":"2026-10-19T17:48:41.889496+00:00","monotonic_ns":37361145640387,"text":"I (379) esp_image: segment 2: paddr=0021a028 vaddr=40380000 size=05ff0h ( 24560) load"}
+{"type":"line","utc":"2026-10-19T17:48:41.889513+00:00","monotonic_ns":37361145655690,"text":"I (384) esp_image: segment 3: paddr=00220020 vaddr=42000020 size=40ce8h (265448) map"}
+{"type":"line","utc":"2026-10-19T17:48:41.889523+00:00","monotonic_ns":37361145665224,"text":"I (432) esp_image: segment 4: paddr=00260d10 vaddr=40385ff0 size=06778h ( 26488) load"}
+{"type":"line","utc":"2026-10-19T17:48:41.889546+00:00","monotonic_ns":37361145741289,"text":"I (437) esp_image: segment 5: paddr=00267490 vaddr=50000000 size=0001ch (    28) load"}
+{"type":"line","utc":"2026-10-19T17:48:41.889612+00:00","monotonic_ns":37361145754068,"text":"I (440) boot: Loaded app from partition at offset 0x10000"}
+{"type":"line","utc":"2026-10-19T17:48:41.889619+00:00","monotonic_ns":37361145761249,"text":"I (440) boot: Disabling RNG early entropy source..."}
+{"type":"line","utc":"2026-10-19T17:48:41.939785+00:00","monotonic_ns":37361196058588,"text":"I (457) cpu_start: Unicore app"}
+{"type":"line","utc":"2026-10-19T17:48:41.939973+00:00","monotonic_ns":37361196116416,"text":"I (471) cpu_start: Pro cpu start user code"}
+{"type":"line","utc":"2026-10-19T17:48:41.939986+00:00","monotonic_ns":37361196128324,"text":"I (471) cpu_start: cpu freq: 160000000 Hz"}
+{"type":"line","utc":"2026-10-19T17:48:41.939994+00:00","monotonic_ns":37361196135945,"text":"I (471) app_init: Application information:"}
+{"type":"line","utc":"2026-10-19T17:48:41.940001+00:00","monotonic_ns":37361196142425,"text":"I (471) app_init: Project name:     riscv_int8_final_benchmark"}
+{"type":"line","utc":"2026-10-19T17:48:41.940008+00:00","monotonic_ns":37361196149866,"text":"I (471) app_init: App version:      0.5.0"}
+{"type":"line","utc":"2026-10-19T17:48:41.940015+00:00","monotonic_ns":37361196156366,"text":"I (472) app_init: Compile time:     Oct 19 2026 17:47:01"}
+{"type":"line","utc":"2026-10-19T17:48:41.940021+00:00","monotonic_ns":37361196163006,"text":"I (472) app_init: ELF file SHA256:  d715815c9..."}
+{"type":"line","utc":"2026-10-19T17:48:41.940028+00:00","monotonic_ns":37361196169796,"text":"I (472) app_init: ESP-IDF:          v5.4.2"}
+{"type":"line","utc":"2026-10-19T17:48:41.940034+00:00","monotonic_ns":37361196175325,"text":"I (472) efuse_init: Min chip rev:     v0.0"}
+{"type":"line","utc":"2026-10-19T17:48:41.940039+00:00","monotonic_ns":37361196181023,"text":"I (472) efuse_init: Max chip rev:     v1.99"}
+{"type":"line","utc":"2026-10-19T17:48:41.940047+00:00","monotonic_ns":37361196188595,"text":"I (472) efuse_init: Chip rev:         v0.3"}
+{"type":"line","utc":"2026-10-19T17:48:41.940054+00:00","monotonic_ns":37361196195815,"text":"I (474) heap_init: Initializing. RAM available for dynamic allocation:"}
+{"type":"line","utc":"2026-10-19T17:48:41.940061+00:00","monotonic_ns":37361196203207,"text":"I (475) heap_init: At 3FCAA190 len 00015E70 (87 KiB): RAM"}
+{"type":"line","utc":"2026-10-19T17:48:41.940068+00:00","monotonic_ns":37361196209666,"text":"I (475) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM"}
+{"type":"line","utc":"2026-10-19T17:48:41.940074+00:00","monotonic_ns":37361196215635,"text":"I (476) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM"}
+{"type":"line","utc":"2026-10-19T17:48:41.940080+00:00","monotonic_ns":37361196222265,"text":"I (476) heap_init: At 50000020 len 00001FC8 (7 KiB): RTCRAM"}
+{"type":"line","utc":"2026-10-19T17:48:41.940086+00:00","monotonic_ns":37361196228014,"text":"I (483) spi_flash: detected chip: gd"}
+{"type":"line","utc":"2026-10-19T17:48:41.940093+00:00","monotonic_ns":37361196234804,"text":"I (483) spi_flash: flash io: dio"}
+{"type":"line","utc":"2026-10-19T17:48:41.940099+00:00","monotonic_ns":37361196240823,"text":"I (484) sleep_gpio: Configure to isolate all GPIO pins in sleep state"}
+{"type":"line","utc":"2026-10-19T17:48:41.940106+00:00","monotonic_ns":37361196247694,"text":"I (485) sleep_gpio: Enable automatic switching of GPIO sleep configuration"}
+{"type":"line","utc":"2026-10-19T17:48:41.940113+00:00","monotonic_ns":37361196254504,"text":"I (489) main_task: Started on CPU0"}
+{"type":"line","utc":"2026-10-19T17:48:41.940119+00:00","monotonic_ns":37361196261074,"text":"I (489) main_task: Calling app_main()"}
+{"type":"line","utc":"2026-10-19T17:48:41.940125+00:00","monotonic_ns":37361196267363,"text":"V5_READY {\"schema\":5,\"build_id\":\"cdd27710ec8a49a9\",\"boot_counter\":1,\"nonce_hi\":2076657067,\"nonce_lo\":2066795164,\"cpu_hz\":160000000,\"tick_hz\":100,\"reset_reason\":1}"}
+{"type":"send","utc":"2026-10-19T17:48:41.940679+00:00","monotonic_ns":37361196825405,"command":"BEGIN 960d0bec5d5c20c55557af63cbdfcace"}
+{"type":"line","utc":"2026-10-19T17:48:41.940756+00:00","monotonic_ns":37361196899437,"text":"V5_READY {\"schema\":5,\"build_id\":\"cdd27710ec8a49a9\",\"boot_counter\":1,\"nonce_hi\":2076657067,\"nonce_lo\":2066795164,\"cpu_hz\":160000000,\"tick_hz\":100,\"reset_reason\":1}"}
+{"type":"line","utc":"2026-10-19T17:48:41.940780+00:00","monotonic_ns":37361196922381,"text":"I (489) main_task: Returned from app_main()"}
+{"type":"line","utc":"2026-10-19T17:48:41.991072+00:00","monotonic_ns":37361247236832,"text":"V5_SESSION {\"challenge\":\"960d0bec5d5c20c55557af63cbdfcace\",\"build_id\":\"cdd27710ec8a49a9\",\"boot_counter\":1,\"nonce_hi\":2076657067,\"nonce_lo\":2066795164,\"cpu_hz\":160000000,\"models\":[\"person\",\"cifar10_resnet\"],\"backends\":[\"esp_nn\",\"mu_scalar\",\"mu_fixed\",\"rust\"],\"samples\":4,\"rounds\":5,\"expected_checks\":752,\"expected_runs\":160,\"tensor_ram_bytes\":112144}"}
+{"type":"send","utc":"2026-10-19T17:48:41.991210+00:00","monotonic_ns":37361247352897,"command":"CHECK 960d0bec5d5c20c55557af63cbdfcace"}
+{"type":"line","utc":"2026-10-19T17:48:42.041451+00:00","monotonic_ns":37361297612024,"text":"V5_CHECK {\"challenge\":\"960d0bec5d5c20c55557af63cbdfcace\",\"model\":0,\"backend\":0,\"sample\":0,\"layer\":0,\"bytes\":18432,\"mismatches\":0,\"output_hash\":4158904482,\"expected_hash\":4158904482}"}

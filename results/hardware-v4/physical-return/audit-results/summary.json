@@ -1,0 +1,29 @@
+{
+  "schema": 4,
+  "emulation_only": false,
+  "build_id": "7492ae5875a8e422",
+  "captures": [
+    {
+      "prefix": "diagnostic_bundle_v4\\results\\captures\\boot-1-v4",
+      "valid": false,
+      "error": "Capture incomplete"
+    },
+    {
+      "prefix": "diagnostic_bundle_v4\\results\\captures\\boot-1-v4-retry",
+      "valid": false,
+      "error": "Capture incomplete"
+    },
+    {
+      "prefix": "diagnostic_bundle_v4\\results\\captures\\boot-1-v4-retry2",
+      "valid": false,
+      "error": "Capture incomplete"
+    }
+  ],
+  "valid_captures": 0,
+  "failed_captures": 3,
+  "distinct_device_identities": 0,
+  "distinct_timing_sequences": 0,
+  "independent_repeatability_evidence": false,
+  "comparisons": [],
+  "limitation": "Three direct challenge-bound captures with randomized phases support repeatability, not cryptographic device attestation or cross-board generalization. No fabricated variance or confidence intervals."
+}

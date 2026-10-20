@@ -1,0 +1,11 @@
+Capture notes
+=============
+All raw attempts are retained as boot-N.log with their capture controller output.
+
+boot-1: Reached HW_DONE; all 196 HW_RUN lines were saved, but the raw log contains only 858 HW_LAYER lines. Its first line is a partial ESP-IDF boot message and its first saved layer record is layer 10. HW_DONE reports 868 layers and zero mismatches. summarize.py therefore marks the saved log incomplete/incorrect as a capture.
+
+boot-2: No serial bytes or HW_BEGIN arrived during the capture attempt. The capture was stopped after several minutes of silence to recover the serial port; the zero-byte raw log and controller output are preserved. A separate esptool reset/check succeeded immediately afterward.
+
+boot-3, boot-4, boot-5: Each reached HW_DONE; each has exactly 868 HW_LAYER and 196 HW_RUN records, with correct=true and mismatches_total=0. Their first raw line is a partial ESP-IDF image-segment boot message because capture started after esptool's reset command returned. All diagnostic records from HW_BEGIN through HW_DONE are present. The boot logs contain no saved HW_ERROR, panic, Guru Meditation, watchdog, or WDT lines; earlier boot bytes may have been lost before the serial reader attached.
+
+No firmware was rebuilt or altered. The supplied image hash was checked before flashing, and esptool reported “Hash of data verified” after writing at 0x0.

@@ -1,0 +1,25 @@
+{
+  "code_bytes_before": 63858,
+  "code_bytes_after": 48138,
+  "code_bytes_saved": 15720,
+  "code_reduction": 0.24617119233298881,
+  "deploy_image_bytes_before": 302832,
+  "deploy_image_bytes_after": 286536,
+  "deploy_image_bytes_saved": 16296,
+  "deploy_image_reduction": 0.053812014582342686,
+  "model_instructions_before": 32571202.75,
+  "model_instructions_after": 32571202.75,
+  "original_bodies": 28,
+  "shared_bodies": 20,
+  "four_input_instruction_deltas": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "all_124_layer_instruction_deltas_zero": true,
+  "fifth_input_instruction_delta": 0,
+  "candidates": 9,
+  "eligible_candidates": 1,
+  "unchanged_previous_microbenchmark_exports": true
+}

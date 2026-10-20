@@ -1,0 +1,77 @@
+[
+  {
+    "prefix": "boot-1",
+    "completed": true,
+    "error": null,
+    "records": {
+      "V5_READY": 2,
+      "V5_SESSION": 1,
+      "V5_CHECK": 752,
+      "V5_CHECK_DONE": 1,
+      "V5_CAL": 3,
+      "V5_RUN": 160,
+      "V5_DONE": 1
+    },
+    "last_sent_command": {
+      "type": "send",
+      "utc": "2026-10-19T18:10:59.802905+00:00",
+      "monotonic_ns": 104385033779100,
+      "command": "END 3858a0a5d62fa2359939377a4c0dc6fd"
+    },
+    "metadata_hashes": {
+      "raw": "47abfbd6317d59b4b89b1a15134f46b3fc09d72d10acff8ab6f60b51a053af21",
+      "events": "0068f27e4d17d1c994d5ece7df15d82e30f4cee89493a7bdf87296fbbdf2072d",
+      "plan": "8e6b2b5c3d5ffc077de4fa65a1201accb5efbf91d890b0a55780de5755d6ee96"
+    }
+  },
+  {
+    "prefix": "boot-2",
+    "completed": true,
+    "error": null,
+    "records": {
+      "V5_READY": 2,
+      "V5_SESSION": 1,
+      "V5_CHECK": 752,
+      "V5_CHECK_DONE": 1,
+      "V5_CAL": 3,
+      "V5_RUN": 160,
+      "V5_DONE": 1
+    },
+    "last_sent_command": {
+      "type": "send",
+      "utc": "2026-10-19T18:14:37.050621+00:00",
+      "monotonic_ns": 104602281514700,
+      "command": "END 86a8efe00da3bff8d1d66826f947541d"
+    },
+    "metadata_hashes": {
+      "raw": "191f33f9fdbdd6af184d90b216cfd03392e62b14891c93c9599f71a93f42e9b9",
+      "events": "ec44d7ac4d1d7c033dcb8a583be88bd258c57452d22a0e8a81090e36345026e6",
+      "plan": "833ffdff99a04097f06ae3c83a1e3c715efde8af57cafafaa76dea327a2b1b89"
+    }
+  },
+  {
+    "prefix": "boot-3",
+    "completed": true,
+    "error": null,
+    "records": {
+      "V5_READY": 2,
+      "V5_SESSION": 1,
+      "V5_CHECK": 752,
+      "V5_CHECK_DONE": 1,
+      "V5_CAL": 3,
+      "V5_RUN": 160,
+      "V5_DONE": 1
+    },
+    "last_sent_command": {
+      "type": "send",
+      "utc": "2026-10-19T18:18:14.934815+00:00",
+      "monotonic_ns": 104820165688100,
+      "command": "END 8eeda7f7635692b2f997aec69777b905"
+    },
+    "metadata_hashes": {
+      "raw": "5cbc8339fbada4cd7b3b1da4bdef351f0b9f422f72e0a4df0e31d82f072974ae",
+      "events": "10ae4995e3f149d82a98cf8bdb33d4505378c1f5deb4469291bc0b35ab36c70a",
+      "plan": "1d861500f603e534159c9d640277f684a9eba613986d4fafe07f30211052978d"
+    }
+  }
+]

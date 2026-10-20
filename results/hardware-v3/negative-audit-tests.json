@@ -1,0 +1,20 @@
+[
+  {
+    "case": "changed_raw_hash",
+    "rejected": true,
+    "reason": "Changed raw file",
+    "not_a_benchmark": true
+  },
+  {
+    "case": "missing_check",
+    "rejected": true,
+    "reason": "Missing/duplicate tensor checks",
+    "not_a_benchmark": true
+  },
+  {
+    "case": "altered_host_command",
+    "rejected": true,
+    "reason": "Recorded command differs from plan",
+    "not_a_benchmark": true
+  }
+]

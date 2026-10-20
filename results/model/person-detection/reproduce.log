@@ -1,0 +1,18 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.04s
+     Running `target/debug/autotuner benchmark-model`
+c 61049258.75 instructions; correct= True
+muriscv 43813436.0 instructions; correct= True
+muriscv-portable 43378089.25 instructions; correct= True
+muriscv-fixed-asm 42814564.0 instructions; correct= True
+muriscv-portable-fixed-asm 43291200.0 instructions; correct= True
+c-native 58206622.5 instructions; correct= True
+muriscv-native 44002384.0 instructions; correct= True
+muriscv-portable-native 43460163.0 instructions; correct= True
+muriscv-fixed-asm-native 42984302.0 instructions; correct= True
+muriscv-portable-fixed-asm-native 43236374.75 instructions; correct= True
+generic 266447470.75 instructions; correct= True
+generated-0 33897832.75 instructions; correct= True
+generated-1 38961566.0 instructions; correct= True
+generated-2 37577554.0 instructions; correct= True
+generated-3 36479236.25 instructions; correct= True
+generated-selected 32571202.75 instructions; correct= True

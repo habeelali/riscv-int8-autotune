@@ -1,0 +1,2194 @@
+[
+  {
+    "kind": "hardware-cache-b4-p2",
+    "correct": true,
+    "cache_key": "f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa",
+    "samples": [
+      {
+        "name": "person",
+        "instructions": 29580743,
+        "raw_instructions": 29580747,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          4,
+          -4
+        ],
+        "stack_watermark_bytes": 708
+      },
+      {
+        "name": "no_person",
+        "instructions": 29580376,
+        "raw_instructions": 29580380,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          77,
+          -77
+        ],
+        "stack_watermark_bytes": 708
+      },
+      {
+        "name": "person_mirrored",
+        "instructions": 29580508,
+        "raw_instructions": 29580512,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          7,
+          -7
+        ],
+        "stack_watermark_bytes": 708
+      },
+      {
+        "name": "no_person_mirrored",
+        "instructions": 29580196,
+        "raw_instructions": 29580200,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          57,
+          -57
+        ],
+        "stack_watermark_bytes": 708
+      }
+    ],
+    "layers": [
+      {
+        "sample": 0,
+        "layer": 0,
+        "instructions": 971347,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 1,
+        "instructions": 1150150,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 2,
+        "instructions": 1901245,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 3,
+        "instructions": 540089,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 4,
+        "instructions": 1361828,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 5,
+        "instructions": 1478835,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 6,
+        "instructions": 2288768,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 7,
+        "instructions": 249443,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 8,
+        "instructions": 1142794,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 9,
+        "instructions": 704077,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 10,
+        "instructions": 2065444,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 11,
+        "instructions": 130012,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 12,
+        "instructions": 1033399,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 13,
+        "instructions": 321416,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 14,
+        "instructions": 1952567,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 15,
+        "instructions": 321601,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 16,
+        "instructions": 1952716,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 17,
+        "instructions": 321914,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 18,
+        "instructions": 1952565,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 19,
+        "instructions": 321936,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 20,
+        "instructions": 1952706,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 21,
+        "instructions": 321770,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 22,
+        "instructions": 1952737,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 23,
+        "instructions": 67613,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 24,
+        "instructions": 1014108,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 25,
+        "instructions": 136101,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 26,
+        "instructions": 1962706,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 28,
+        "instructions": 2017,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 30,
+        "instructions": 1202,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 0,
+        "instructions": 971971,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 1,
+        "instructions": 1149631,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 2,
+        "instructions": 1901635,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 3,
+        "instructions": 540969,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 4,
+        "instructions": 1361449,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 5,
+        "instructions": 1478482,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 6,
+        "instructions": 2288446,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 7,
+        "instructions": 248983,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 8,
+        "instructions": 1142025,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 9,
+        "instructions": 703802,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 10,
+        "instructions": 2065347,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 11,
+        "instructions": 130051,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 12,
+        "instructions": 1033546,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 13,
+        "instructions": 321752,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 14,
+        "instructions": 1952652,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 15,
+        "instructions": 321638,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 16,
+        "instructions": 1952596,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 17,
+        "instructions": 321861,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 18,
+        "instructions": 1952696,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 19,
+        "instructions": 321992,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 20,
+        "instructions": 1952712,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 21,
+        "instructions": 321668,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 22,
+        "instructions": 1952646,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 23,
+        "instructions": 67593,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 24,
+        "instructions": 1014107,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 25,
+        "instructions": 135955,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 26,
+        "instructions": 1963268,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 28,
+        "instructions": 2017,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 30,
+        "instructions": 1249,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 0,
+        "instructions": 971321,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 1,
+        "instructions": 1150091,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 2,
+        "instructions": 1901311,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 3,
+        "instructions": 539913,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 4,
+        "instructions": 1361793,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 5,
+        "instructions": 1478805,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 6,
+        "instructions": 2288932,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 7,
+        "instructions": 249497,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 8,
+        "instructions": 1142830,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 9,
+        "instructions": 704065,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 10,
+        "instructions": 2065480,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 11,
+        "instructions": 129866,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 12,
+        "instructions": 1033398,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 13,
+        "instructions": 321434,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 14,
+        "instructions": 1952479,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 15,
+        "instructions": 321625,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 16,
+        "instructions": 1952591,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 17,
+        "instructions": 321864,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 18,
+        "instructions": 1952674,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 19,
+        "instructions": 321884,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 20,
+        "instructions": 1952719,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 21,
+        "instructions": 321797,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 22,
+        "instructions": 1952756,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 23,
+        "instructions": 67638,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 24,
+        "instructions": 1014047,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 25,
+        "instructions": 136079,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 26,
+        "instructions": 1962763,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 28,
+        "instructions": 2017,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 30,
+        "instructions": 1202,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 0,
+        "instructions": 971967,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 1,
+        "instructions": 1149639,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 2,
+        "instructions": 1901795,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 3,
+        "instructions": 540828,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 4,
+        "instructions": 1361417,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 5,
+        "instructions": 1478231,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 6,
+        "instructions": 2288468,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 7,
+        "instructions": 248947,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 8,
+        "instructions": 1142111,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 9,
+        "instructions": 703878,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 10,
+        "instructions": 2065296,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 11,
+        "instructions": 130073,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 12,
+        "instructions": 1033559,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 13,
+        "instructions": 321772,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 14,
+        "instructions": 1952645,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 15,
+        "instructions": 321650,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 16,
+        "instructions": 1952558,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 17,
+        "instructions": 321837,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 18,
+        "instructions": 1952855,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 19,
+        "instructions": 321947,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 20,
+        "instructions": 1952817,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 21,
+        "instructions": 321640,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 22,
+        "instructions": 1952651,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 23,
+        "instructions": 67583,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 24,
+        "instructions": 1014084,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 25,
+        "instructions": 135915,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 26,
+        "instructions": 1963129,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 28,
+        "instructions": 2017,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 30,
+        "instructions": 1250,
+        "mismatches": 0
+      }
+    ],
+    "mean_instructions": 29580455.75,
+    "text_bytes": 44906,
+    "rodata_bytes": 1206668,
+    "static_ram_bytes": 112640,
+    "reserved_stack_bytes": 65536,
+    "compile_seconds": 2.952737311999954,
+    "qemu_seconds": 0.4905255029998443,
+    "toolchains": {
+      "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+      "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+      "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+    },
+    "toolchain_hashes": {
+      "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+      "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+      "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+      "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+    },
+    "cflags": [
+      "-O3",
+      "-march=rv32imc",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables"
+    ],
+    "rustflags": [
+      "--edition=2021",
+      "--crate-type=staticlib",
+      "--target=riscv32imc-unknown-none-elf",
+      "-C",
+      "opt-level=3",
+      "-C",
+      "panic=abort",
+      "-C",
+      "codegen-units=1",
+      "-C",
+      "overflow-checks=off"
+    ],
+    "qemu_flags": [
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off"
+    ],
+    "constants_override": "results/algorithm/variants/hardware-cache-b4-p2/constants.h",
+    "graph_override": "results/algorithm/variants/hardware-cache-b4-p2/graph.c",
+    "linker_override": "results/algorithm/link.ld",
+    "build_dir": "results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa",
+    "commands": [
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-march=rv32imc_zicsr",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/graph.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/0.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/memory.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/1.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-march=rv32imc_zicsr",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/start.S",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/2.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_s8.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/3.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_common_s8.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/4.o"
+      ],
+      [
+        "rustc",
+        "--edition=2021",
+        "--crate-type=staticlib",
+        "--target=riscv32imc-unknown-none-elf",
+        "-C",
+        "opt-level=3",
+        "-C",
+        "panic=abort",
+        "-C",
+        "codegen-units=1",
+        "-C",
+        "overflow-checks=off",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/kernels.rs",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/kernels.a"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-nostdlib",
+        "-Wl,--gc-sections",
+        "-Wl,--no-relax",
+        "-Wl,-Map=/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/link.map",
+        "-T",
+        "/workspace/riscv-int8-autotune/results/algorithm/link.ld",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/0.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/1.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/2.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/3.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/4.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/kernels.a",
+        "-lgcc",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/model.elf"
+      ],
+      [
+        "riscv64-unknown-elf-objdump",
+        "-d",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/model.elf"
+      ],
+      [
+        "riscv64-unknown-elf-readelf",
+        "-A",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/model.elf"
+      ],
+      [
+        "riscv64-unknown-elf-size",
+        "-A",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/model.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/model.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/model.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/f76537dd4fda6cda441825ada7fcbebe5e969e67156ed79dad037c4db7607baa/model.elf"
+      ]
+    ],
+    "variant": "hardware-cache-b4-p2",
+    "source": "results/algorithm/variants/hardware-cache-b4-p2/kernels.rs",
+    "parameter_manifest": "results/algorithm/variants/hardware-cache-b4-p2/manifest.json",
+    "hardware_cycles": null
+  },
+  {
+    "kind": "hardware-cache-b2-p4",
+    "correct": true,
+    "cache_key": "53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0",
+    "samples": [
+      {
+        "name": "person",
+        "instructions": 29645515,
+        "raw_instructions": 29645519,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          4,
+          -4
+        ],
+        "stack_watermark_bytes": 708
+      },
+      {
+        "name": "no_person",
+        "instructions": 29645086,
+        "raw_instructions": 29645090,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          77,
+          -77
+        ],
+        "stack_watermark_bytes": 708
+      },
+      {
+        "name": "person_mirrored",
+        "instructions": 29645231,
+        "raw_instructions": 29645235,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          7,
+          -7
+        ],
+        "stack_watermark_bytes": 708
+      },
+      {
+        "name": "no_person_mirrored",
+        "instructions": 29644846,
+        "raw_instructions": 29644850,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          57,
+          -57
+        ],
+        "stack_watermark_bytes": 708
+      }
+    ],
+    "layers": [
+      {
+        "sample": 0,
+        "layer": 0,
+        "instructions": 971347,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 1,
+        "instructions": 1150150,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 2,
+        "instructions": 1901245,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 3,
+        "instructions": 540089,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 4,
+        "instructions": 1361828,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 5,
+        "instructions": 1478835,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 6,
+        "instructions": 2288768,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 7,
+        "instructions": 249443,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 8,
+        "instructions": 1142794,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 9,
+        "instructions": 704077,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 10,
+        "instructions": 2065444,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 11,
+        "instructions": 130012,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 12,
+        "instructions": 1033399,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 13,
+        "instructions": 321416,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 14,
+        "instructions": 1946613,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 15,
+        "instructions": 321601,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 16,
+        "instructions": 1946728,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 17,
+        "instructions": 321914,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 18,
+        "instructions": 1946612,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 19,
+        "instructions": 321936,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 20,
+        "instructions": 1946753,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 21,
+        "instructions": 321770,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 22,
+        "instructions": 1946744,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 23,
+        "instructions": 67613,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 24,
+        "instructions": 1045446,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 25,
+        "instructions": 136101,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 26,
+        "instructions": 2025981,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 28,
+        "instructions": 2017,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 30,
+        "instructions": 1202,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 0,
+        "instructions": 971971,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 1,
+        "instructions": 1149631,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 2,
+        "instructions": 1901635,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 3,
+        "instructions": 540969,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 4,
+        "instructions": 1361449,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 5,
+        "instructions": 1478482,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 6,
+        "instructions": 2288446,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 7,
+        "instructions": 248983,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 8,
+        "instructions": 1142025,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 9,
+        "instructions": 703802,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 10,
+        "instructions": 2065347,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 11,
+        "instructions": 130051,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 12,
+        "instructions": 1033546,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 13,
+        "instructions": 321752,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 14,
+        "instructions": 1946638,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 15,
+        "instructions": 321638,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 16,
+        "instructions": 1946669,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 17,
+        "instructions": 321861,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 18,
+        "instructions": 1946711,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 19,
+        "instructions": 321992,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 20,
+        "instructions": 1946717,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 21,
+        "instructions": 321668,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 22,
+        "instructions": 1946727,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 23,
+        "instructions": 67593,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 24,
+        "instructions": 1045455,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 25,
+        "instructions": 135955,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 26,
+        "instructions": 2026470,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 28,
+        "instructions": 2017,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 30,
+        "instructions": 1249,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 0,
+        "instructions": 971321,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 1,
+        "instructions": 1150091,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 2,
+        "instructions": 1901311,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 3,
+        "instructions": 539913,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 4,
+        "instructions": 1361793,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 5,
+        "instructions": 1478805,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 6,
+        "instructions": 2288932,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 7,
+        "instructions": 249497,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 8,
+        "instructions": 1142830,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 9,
+        "instructions": 704065,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 10,
+        "instructions": 2065480,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 11,
+        "instructions": 129866,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 12,
+        "instructions": 1033398,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 13,
+        "instructions": 321434,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 14,
+        "instructions": 1946537,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 15,
+        "instructions": 321625,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 16,
+        "instructions": 1946615,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 17,
+        "instructions": 321864,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 18,
+        "instructions": 1946699,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 19,
+        "instructions": 321884,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 20,
+        "instructions": 1946730,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 21,
+        "instructions": 321797,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 22,
+        "instructions": 1946758,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 23,
+        "instructions": 67638,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 24,
+        "instructions": 1045392,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 25,
+        "instructions": 136079,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 26,
+        "instructions": 2026021,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 28,
+        "instructions": 2017,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 30,
+        "instructions": 1202,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 0,
+        "instructions": 971967,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 1,
+        "instructions": 1149639,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 2,
+        "instructions": 1901795,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 3,
+        "instructions": 540828,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 4,
+        "instructions": 1361417,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 5,
+        "instructions": 1478231,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 6,
+        "instructions": 2288468,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 7,
+        "instructions": 248947,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 8,
+        "instructions": 1142111,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 9,
+        "instructions": 703878,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 10,
+        "instructions": 2065296,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 11,
+        "instructions": 130073,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 12,
+        "instructions": 1033559,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 13,
+        "instructions": 321772,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 14,
+        "instructions": 1946648,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 15,
+        "instructions": 321650,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 16,
+        "instructions": 1946649,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 17,
+        "instructions": 321837,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 18,
+        "instructions": 1946814,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 19,
+        "instructions": 321947,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 20,
+        "instructions": 1946816,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 21,
+        "instructions": 321640,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 22,
+        "instructions": 1946704,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 23,
+        "instructions": 67583,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 24,
+        "instructions": 1045423,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 25,
+        "instructions": 135915,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 26,
+        "instructions": 2026335,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 28,
+        "instructions": 2017,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 30,
+        "instructions": 1250,
+        "mismatches": 0
+      }
+    ],
+    "mean_instructions": 29645169.5,
+    "text_bytes": 44172,
+    "rodata_bytes": 1206620,
+    "static_ram_bytes": 112640,
+    "reserved_stack_bytes": 65536,
+    "compile_seconds": 2.614511427999787,
+    "qemu_seconds": 0.5269758690001254,
+    "toolchains": {
+      "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+      "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+      "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+    },
+    "toolchain_hashes": {
+      "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+      "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+      "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+      "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+    },
+    "cflags": [
+      "-O3",
+      "-march=rv32imc",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables"
+    ],
+    "rustflags": [
+      "--edition=2021",
+      "--crate-type=staticlib",
+      "--target=riscv32imc-unknown-none-elf",
+      "-C",
+      "opt-level=3",
+      "-C",
+      "panic=abort",
+      "-C",
+      "codegen-units=1",
+      "-C",
+      "overflow-checks=off"
+    ],
+    "qemu_flags": [
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off"
+    ],
+    "constants_override": "results/algorithm/variants/hardware-cache-b2-p4/constants.h",
+    "graph_override": "results/algorithm/variants/hardware-cache-b2-p4/graph.c",
+    "linker_override": "results/algorithm/link.ld",
+    "build_dir": "results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0",
+    "commands": [
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-march=rv32imc_zicsr",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/graph.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/0.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/memory.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/1.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-march=rv32imc_zicsr",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/start.S",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/2.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_s8.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/3.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_common_s8.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/4.o"
+      ],
+      [
+        "rustc",
+        "--edition=2021",
+        "--crate-type=staticlib",
+        "--target=riscv32imc-unknown-none-elf",
+        "-C",
+        "opt-level=3",
+        "-C",
+        "panic=abort",
+        "-C",
+        "codegen-units=1",
+        "-C",
+        "overflow-checks=off",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/kernels.rs",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/kernels.a"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-nostdlib",
+        "-Wl,--gc-sections",
+        "-Wl,--no-relax",
+        "-Wl,-Map=/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/link.map",
+        "-T",
+        "/workspace/riscv-int8-autotune/results/algorithm/link.ld",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/0.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/1.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/2.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/3.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/4.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/kernels.a",
+        "-lgcc",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/model.elf"
+      ],
+      [
+        "riscv64-unknown-elf-objdump",
+        "-d",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/model.elf"
+      ],
+      [
+        "riscv64-unknown-elf-readelf",
+        "-A",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/model.elf"
+      ],
+      [
+        "riscv64-unknown-elf-size",
+        "-A",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/model.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/model.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/model.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/model.elf"
+      ]
+    ],
+    "variant": "hardware-cache-b2-p4",
+    "source": "results/algorithm/variants/hardware-cache-b2-p4/kernels.rs",
+    "parameter_manifest": "results/algorithm/variants/hardware-cache-b2-p4/manifest.json",
+    "hardware_cycles": null
+  }
+]

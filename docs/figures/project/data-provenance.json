@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "results/hardware-v5/physical-audit/comparison.json": "30183a2b03297f0e07ef359dd7654732af00e527f89020d5f6740dc1e31e2d78",
+    "results/hardware-v5/physical-audit/summary.json": "fc2e64b1ffa332a56523ea385ffbb48f7c2ffd506e8514e684b7d2f6ee309c34",
+    "results/hardware-v5/physical-audit/runs.csv": "d4294006e5aeb1803a904edf5b04967cba1ceacdf723992b4135367bc8cba43d",
+    "results/comparison.json": "1b9366195d07cf54119e524f28943228433b20a44f92d0e1fcbbfd41e58dc5ff",
+    "results/flash/summary.json": "98bddfb6c919a86938c344bd0b0919aa9ddf601c7c45d29967984459a327b7d0",
+    "results/hardware-v4/qemu-comparison.json": "1ce2a465204d479d88ef8e66313e5b10212e55e79d0443909080f832b76a3aba"
+  },
+  "generator": "scripts/presentation.py",
+  "measurement_policy": "No synthetic measurements, inferred uncertainty, or hardware claims from emulator counts. Social 1.59x is the rounded equal-model physical speedup."
+}

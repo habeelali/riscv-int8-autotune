@@ -1,0 +1,13 @@
+{
+  "emulation_only": true,
+  "physical_board_tested": false,
+  "build_id": "cdd27710ec8a49a9",
+  "image_sha256": "2473cdccadc3adee4528ccdc5a7fbbae66746b52bfaed8f2a0af5e000c26a760",
+  "functional_pass": true,
+  "full_tensor_checks": 752,
+  "host_triggered_runs": 160,
+  "requested_delay_calibrations": 3,
+  "host_challenge_and_timestamps_validated": true,
+  "capture_prefix": "results/hardware-v5/emulator-1792432475223403978",
+  "no_hardware_performance_claim": true
+}

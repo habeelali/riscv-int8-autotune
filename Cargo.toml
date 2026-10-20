@@ -1,0 +1,13 @@
+[workspace]
+members = ["crates/kernel-core", "crates/reference", "crates/kernel-generator", "crates/autotuner"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+panic = "abort"

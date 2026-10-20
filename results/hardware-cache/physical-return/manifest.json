@@ -1,0 +1,40 @@
+{
+  "chip": "ESP32-C3",
+  "minimum_flash_bytes": 4194304,
+  "flash_offset": "0x0",
+  "image": "esp32c3-int8-cache-v2.bin",
+  "image_bytes": 4194304,
+  "image_sha256": "144b94cd5b2d7f374c68af468af1ebd3749906a24f3dcb6b23cae437f39d740c",
+  "build_id": "6b800894f7429a74",
+  "cpu_hz": 160000000,
+  "flash_mode": "DIO",
+  "flash_frequency_hz": 40000000,
+  "uart_baudrate": 115200,
+  "expected_layer_records": 1116,
+  "expected_run_records": 252,
+  "expected_end_marker": "HW_DONE",
+  "backends": [
+    "esp_nn_native",
+    "mu_scalar",
+    "mu_portable",
+    "mu_fixed",
+    "mu_portable_fixed",
+    "rust_compact",
+    "rust_candidate",
+    "rust_cache4",
+    "rust_cache2"
+  ],
+  "target_test": {
+    "platform": "Espressif ESP32-C3 QEMU",
+    "emulation_only": true,
+    "physical_board_tested": false,
+    "functional_pass": true,
+    "layer_records": 1116,
+    "run_records": 252,
+    "mismatches_total": 0,
+    "build_id": "6b800894f7429a74",
+    "timing_not_a_hardware_result": true
+  },
+  "hardware_performance_for_v2": "UNMEASURED",
+  "diagnostic_flash_size_is_not_single_model_size": true
+}

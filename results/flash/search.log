@@ -1,0 +1,13 @@
+   Compiling autotuner v0.1.0 (/workspace/riscv-int8-autotune/crates/autotuner)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.37s
+     Running `target/debug/autotuner tune-flash`
+dedup-O3 48138 text bytes; 32571202.75 instructions; ELIGIBLE
+dedup-Os 48562 text bytes; 33790207.5 instructions; REJECTED: whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+dedup-Oz 55924 text bytes; 48864238.5 instructions; REJECTED: no read-only image reduction, whole-model instructions: person, stack: person
+outline-O3 57554 text bytes; 35097499.75 instructions; REJECTED: whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+outline-Os 63084 text bytes; 36052750.5 instructions; REJECTED: no read-only image reduction, whole-model instructions: person, whole-model instructions: no_person
+outline-Oz 73352 text bytes; 56766182.5 instructions; REJECTED: text_bytes, static_ram_bytes, no read-only image reduction
+dedup-outline-O3 44114 text bytes; 35097499.75 instructions; REJECTED: whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+dedup-outline-Os 44116 text bytes; 36052750.5 instructions; REJECTED: whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+dedup-outline-Oz 50734 text bytes; 57718931.5 instructions; REJECTED: whole-model instructions: person, stack: person, whole-model instructions: no_person
+Selected dedup-O3 with zero measured regressions

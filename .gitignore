@@ -1,0 +1,23 @@
+/target/
+/.tools/
+__pycache__/
+*.pyc
+qemu/count-plugin.so
+/results/build/
+
+/results/upstream-build/
+/results/model/person-detection/build/
+
+# Local hardware builds and generated archives
+/hardware/**/build/
+/hardware/**/main/generated/*.a
+/hardware/**/managed_components/
+/results/**/build/
+/results/upstream-overlays/
+*.o
+*.a
+*.elf
+*.bin
+/artifacts/
+/.venv/
+/dist/

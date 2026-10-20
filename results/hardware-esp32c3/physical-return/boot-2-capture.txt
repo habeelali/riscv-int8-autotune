@@ -1,0 +1,1 @@
+Reset requested; listening on COM6

@@ -1,0 +1,37 @@
+rm: cannot remove '/var/cache/apt/archives/partial/*.deb': Permission denied
+W: Unable to read /etc/apt/apt.conf.d/80-applied-apt-retries - open (13: Permission denied)
+Get:1 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 binutils-riscv64-unknown-elf amd64 2.44-3+7+b1 [2929 kB]
+Get:2 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 libcapstone5 amd64 5.0.7-1~deb13u1 [778 kB]
+Get:3 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 libfdt1 amd64 1.7.2-2+b1 [20.0 kB]
+Get:4 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 gcc-riscv64-unknown-elf amd64 14.2.0+19 [61.0 MB]
+Get:5 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 libgio-2.0-dev amd64 2.84.4-3~deb13u5 [1692 kB]
+Get:6 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 libaio1t64 amd64 0.3.113-8+b1 [14.9 kB]
+Get:7 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 libslirp0 amd64 4.8.0-1+deb13u1 [66.5 kB]
+Get:8 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 liburing2 amd64 2.9-1 [26.4 kB]
+Get:9 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 libdaxctl1 amd64 81-1 [22.2 kB]
+Get:10 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 libndctl6 amd64 81-1 [62.3 kB]
+Get:11 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 libpmem1 amd64 1.13.1-1.1+b1 [91.7 kB]
+Get:12 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 qemu-system-common amd64 1:10.0.13+ds-0+deb13u1 [1001 kB]
+Get:13 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 qemu-system-data all 1:10.0.13+ds-0+deb13u1 [2144 kB]
+Get:14 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 qemu-system-riscv amd64 1:10.0.13+ds-0+deb13u1 [7631 kB]
+Get:15 https://snapshot.debian.org/archive/debian/20260925T181338Z trixie/main amd64 libvdeplug2t64 amd64 4.0.1-5.1+b1 [28.5 kB]
+Fetched 77.5 MB in 2s (40.6 MB/s)
+W: Unable to read /etc/apt/apt.conf.d/80-applied-apt-retries - open (13: Permission denied)
+info: syncing channel updates for 1.90.0-x86_64-unknown-linux-gnu
+info: latest update on 2025-09-18 for version 1.90.0 (1159e78c4 2025-09-14)
+info: component clippy is up to date
+info: component rust-std for target riscv32imc-unknown-none-elf is up to date
+info: component rustfmt is up to date
+
+  1.90.0-x86_64-unknown-linux-gnu unchanged - rustc 1.90.0 (1159e78c4 2025-09-14)
+
+info: checking for self-update (current version: 1.29.1)
+QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)
+Copyright (c) 2003-2025 Fabrice Bellard and the QEMU Project developers
+riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+cargo 1.90.0 (840b83a10 2025-07-30)
+Setup complete. Run: source scripts/env.sh

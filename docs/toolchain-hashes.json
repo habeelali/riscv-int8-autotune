@@ -1,0 +1,18 @@
+{
+  "rustc": {
+    "path": "/home/agent/.rustup/toolchains/1.90.0-x86_64-unknown-linux-gnu/bin/rustc",
+    "sha256": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa"
+  },
+  "gcc": {
+    "path": "/workspace/tools/usr/bin/riscv64-unknown-elf-gcc",
+    "sha256": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da"
+  },
+  "gcc_cc1": {
+    "path": "/workspace/tools/usr/bin/../lib/gcc/riscv64-unknown-elf/14.2.0/cc1",
+    "sha256": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215"
+  },
+  "qemu": {
+    "path": "/workspace/tools/usr/bin/qemu-system-riscv32",
+    "sha256": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "objective": "Minimum observed whole-model physical-board cycles among v2 backends",
+  "backend": "rust_cache2",
+  "variant": "hardware-cache-b2-p4",
+  "status": "Validated across three challenge-bound hardware reset sessions; no power-cycle or cross-board claim",
+  "evidence": "results/hardware-v3/physical-audit/summary.json",
+  "report": "results/hardware-v3/physical-audit/evaluation.md",
+  "firmware_build_id": "1833fe83590e5171",
+  "ratios": {
+    "speedup_vs_fastest_tested_c": 1.4509683661528747,
+    "time_reduction_percent": 31.08050986311858
+  },
+  "mean_sample_median_ms": 259.229234375,
+  "qemu_mean_guest_instructions": 29645169.5,
+  "sources": {
+    "kernels.rs": "24e2dce783f7aaa95def7498e4849957b3fe4ec4ecd62f5e85e4db5cde987b32",
+    "constants.h": "57553e39042a07232fc24b23725d78f7d17889512ac483fb2beab8b28bdf2ef9",
+    "manifest.json": "7ae7795ef94ecc2e93542f4c66b501dbe49d36555539e00e5b4b05aedba25996",
+    "graph-manifest.json": "f27588600558cf6957968e866de44cb1ebf742e306f6142ea29c5b992f5e518b",
+    "graph.c": "4d548a135883109080236fb37b2a3c9566273bc90f49292dfbb04d2ee96c37e0"
+  },
+  "v2_observation": {
+    "status": "Best in returned logs; repeated timing sequences require qualification",
+    "evidence": "results/hardware-cache/analysis/audit.json",
+    "firmware_build_id": "6b800894f7429a74",
+    "ratios": {
+      "speedup_vs_fastest_tested_c": 1.4235186071410364,
+      "speedup_vs_previous_candidate": 1.7165138575258083,
+      "time_reduction_vs_fastest_tested_c_percent": 29.751532928088796,
+      "time_reduction_vs_previous_candidate_percent": 41.74238701216167
+    },
+    "mean_sample_median_ms": 257.9875875
+  },
+  "independent_repeatability_evidence": true
+}

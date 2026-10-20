@@ -1,0 +1,135 @@
+{
+  "schema": 5,
+  "emulation_only": true,
+  "build_id": "cdd27710ec8a49a9",
+  "captures": [
+    {
+      "prefix": "/workspace/riscv-int8-autotune/results/hardware-v5/emulator-1792432475223403978",
+      "valid": true,
+      "challenge": "01a39c1940ac0ef8268b105a43fccce1",
+      "host_uuid": "014decb6726940e382d78b0808b6ba63",
+      "boot_counter": 1,
+      "nonce_hi": 1574414425,
+      "nonce_lo": 1455748855,
+      "statistics": [
+        {
+          "model": 0,
+          "backend": 0,
+          "mean_input_median_cycles": 4764945.75,
+          "mean_input_median_ms": 29.7809109375,
+          "input_median_cycles": [
+            4748663,
+            4892418,
+            4413166,
+            5005536
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 1,
+          "mean_input_median_cycles": 3094939.5,
+          "mean_input_median_ms": 19.343371875,
+          "input_median_cycles": [
+            3031680,
+            3159124,
+            2970036,
+            3218918
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 2,
+          "mean_input_median_cycles": 3057564.75,
+          "mean_input_median_ms": 19.1097796875,
+          "input_median_cycles": [
+            3133597,
+            2917947,
+            3224077,
+            2954638
+          ]
+        },
+        {
+          "model": 0,
+          "backend": 3,
+          "mean_input_median_cycles": 2290700.5,
+          "mean_input_median_ms": 14.316878125,
+          "input_median_cycles": [
+            2283139,
+            2305965,
+            2288789,
+            2284909
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 0,
+          "mean_input_median_cycles": 6436821.75,
+          "mean_input_median_ms": 40.2301359375,
+          "input_median_cycles": [
+            7108233,
+            5956143,
+            6491390,
+            6191521
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 1,
+          "mean_input_median_cycles": 3706891.5,
+          "mean_input_median_ms": 23.168071875,
+          "input_median_cycles": [
+            3585361,
+            3992673,
+            3355555,
+            3893977
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 2,
+          "mean_input_median_cycles": 4030820.5,
+          "mean_input_median_ms": 25.192628125,
+          "input_median_cycles": [
+            4017636,
+            4003038,
+            4298580,
+            3804028
+          ]
+        },
+        {
+          "model": 1,
+          "backend": 3,
+          "mean_input_median_cycles": 3336972.75,
+          "mean_input_median_ms": 20.8560796875,
+          "input_median_cycles": [
+            3380022,
+            3311797,
+            3222501,
+            3433571
+          ]
+        }
+      ],
+      "phase_count": 159,
+      "timing_sequence_sha256": "97d1378972739063b583724ae71bba27b2f61b70b930e9a1b81c91b65bf3e604",
+      "device_host_clock_ratio": 1.000714628244467
+    }
+  ],
+  "valid_captures": 1,
+  "failed_captures": 0,
+  "distinct_device_identities": 1,
+  "distinct_timing_sequences": 1,
+  "independent_repeatability_evidence": false,
+  "comparisons": [
+    {
+      "capture": "/workspace/riscv-int8-autotune/results/hardware-v5/emulator-1792432475223403978",
+      "model": "person",
+      "geomean_best_c_over_rust": 1.2958112771689707
+    },
+    {
+      "capture": "/workspace/riscv-int8-autotune/results/hardware-v5/emulator-1792432475223403978",
+      "model": "cifar10_resnet",
+      "geomean_best_c_over_rust": 1.102098960541168
+    }
+  ],
+  "limitation": "Three direct challenge-bound captures with randomized phases support repeatability, not cryptographic device attestation or cross-board generalization. No fabricated variance or confidence intervals."
+}

@@ -1,0 +1,17 @@
+{
+  "resnet_variant": "tile16_b2p4",
+  "rust_source_sha256": "1e61c83ab116b08715a9a79172616db9ab9ccc75b5edefb3624651b06ef4f63c",
+  "parameter_sha256": "44f7c651fa96a6bff8c33cbbd057edd5baca7ccd3ceffeb63cc7b5f5bc881a2c",
+  "staging_candidates_compiled": false,
+  "profile_or_select_protocol_included": false,
+  "fixed_backend_count": 4,
+  "person_export_hashes_preserved": {
+    "kernels.rs": "24e2dce783f7aaa95def7498e4849957b3fe4ec4ecd62f5e85e4db5cde987b32",
+    "constants.h": "57553e39042a07232fc24b23725d78f7d17889512ac483fb2beab8b28bdf2ef9",
+    "manifest.json": "7ae7795ef94ecc2e93542f4c66b501dbe49d36555539e00e5b4b05aedba25996",
+    "graph-manifest.json": "f27588600558cf6957968e866de44cb1ebf742e306f6142ea29c5b992f5e518b",
+    "graph.c": "4d548a135883109080236fb37b2a3c9566273bc90f49292dfbb04d2ee96c37e0"
+  },
+  "prior_observation": "V4.1 successful session: fixed tile16 held-out C/Rust 1.761388x; not a claim for V5",
+  "hardware_repeatability_pending": true
+}

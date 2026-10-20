@@ -1,0 +1,17 @@
+{
+  "model": "TFLM MobileNet person detection",
+  "samples": 4,
+  "original_images": 2,
+  "held_out_mirrors": 2,
+  "operators": 31,
+  "generated_kernel_layers": 28,
+  "model_builds": 16,
+  "qemu_processes": 48,
+  "intermediate_tensor_comparisons": 5952,
+  "speedup_vs_stock_muriscv": 1.3317926753564542,
+  "speedup_vs_strongest_muriscv": 1.3144913415885449,
+  "speedup_vs_esp_nn": 1.787057817507215,
+  "instruction_reduction_vs_strongest_muriscv": 0.23924945843194856,
+  "selected": "4e51b4c8cd47281f9078c42ae2e9cef3514b0d7f7a7b74c31785ac0add2b6c55",
+  "counter_crosscheck": true
+}

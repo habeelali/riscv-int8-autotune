@@ -1,0 +1,9 @@
+UTC timeline (2026-10-19, UTC)
+- v4 merged image was checksum-verified and flashed to COM6 at offset 0x0; esptool reported Hash of data verified. See flash-output.txt.
+- Initial sessions boot-1 and boot-1-retry exposed old v3 firmware (V3_ERROR / V3_READY); preserved.
+- Correct v4 firmware build 7492ae5875a8e422 was then confirmed by V4_READY in captures.
+- boot-1-v4: fresh collector session; timed out waiting for V4_PROFILE (model 1/backend 6/sample 1).
+- boot-1-v4-retry: esptool hard reset; started 2026-10-19T11:10:37Z; timed out at profile sequence 42 (model 1/backend 6/sample 1) at 11:14:03Z.
+- boot-1-v4-retry2: esptool hard reset; timed out at profile sequence 12 (model 1/backend 6/sample 0) at 11:17:26Z.
+- All resets used esptool --after hard_reset (RTS); board stayed USB powered. No physical power cycle was performed.
+- No training session completed; no frozen selection file exists. Therefore no boot-2/boot-3 frozen-selection sessions were started.

@@ -1,0 +1,478 @@
+{
+  "complete": true,
+  "correct": true,
+  "start": [
+    {
+      "type": "HW_BEGIN",
+      "schema": 1,
+      "build_id": "6b800894f7429a74",
+      "idf": "v5.4.2",
+      "chip_model": 5,
+      "revision": 3,
+      "cpu_hz": 160000000,
+      "flash_bytes": 4194304,
+      "reset_reason": 1,
+      "free_heap": 207412,
+      "worker_stack_bytes": 16384,
+      "interrupts_enabled": true,
+      "model_sha256": "808cfdfc0cf3a6fa6f6fa26bfa379ea97c16d5db7334637766e39c3408502e9d"
+    }
+  ],
+  "end": [
+    {
+      "type": "HW_DONE",
+      "build_id": "6b800894f7429a74",
+      "correct": true,
+      "mismatches_total": 0,
+      "layer_records": 1116,
+      "run_records": 252,
+      "free_heap": 207412,
+      "minimum_free_heap": 198364,
+      "worker_min_free_stack_bytes": 11020
+    }
+  ],
+  "layer_records": 1116,
+  "run_records": 252,
+  "parse_errors": [],
+  "statistics": [
+    {
+      "backend": "esp_nn_native",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 3477152,
+      "median_cycles": 3723160,
+      "max_cycles": 5153207,
+      "median_wall_us": 22353,
+      "mismatches": 0
+    },
+    {
+      "backend": "esp_nn_native",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 3364478,
+      "median_cycles": 3453901,
+      "max_cycles": 3903692,
+      "median_wall_us": 20731,
+      "mismatches": 0
+    },
+    {
+      "backend": "esp_nn_native",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 3330600,
+      "median_cycles": 3813248,
+      "max_cycles": 4277993,
+      "median_wall_us": 22889,
+      "mismatches": 0
+    },
+    {
+      "backend": "esp_nn_native",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 3364150,
+      "median_cycles": 3617572,
+      "max_cycles": 3953677,
+      "median_wall_us": 21712,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_fixed",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 2630646,
+      "median_cycles": 2890055,
+      "max_cycles": 4375287,
+      "median_wall_us": 17361,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_fixed",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 2617645,
+      "median_cycles": 2664984,
+      "max_cycles": 2938196,
+      "median_wall_us": 16007,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_fixed",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 2500019,
+      "median_cycles": 2783593,
+      "max_cycles": 4346375,
+      "median_wall_us": 16718,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_fixed",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 2429590,
+      "median_cycles": 2592789,
+      "max_cycles": 3019768,
+      "median_wall_us": 15577,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 3080031,
+      "median_cycles": 3168111,
+      "max_cycles": 3734683,
+      "median_wall_us": 19033,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 2753897,
+      "median_cycles": 2905462,
+      "max_cycles": 3623772,
+      "median_wall_us": 17461,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 2703474,
+      "median_cycles": 2938924,
+      "max_cycles": 3287956,
+      "median_wall_us": 17644,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 2717622,
+      "median_cycles": 2999676,
+      "max_cycles": 4199236,
+      "median_wall_us": 18009,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable_fixed",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 2934026,
+      "median_cycles": 3237792,
+      "max_cycles": 4455773,
+      "median_wall_us": 19448,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable_fixed",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 2677169,
+      "median_cycles": 2877418,
+      "max_cycles": 3157446,
+      "median_wall_us": 17274,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable_fixed",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 2824167,
+      "median_cycles": 2934924,
+      "max_cycles": 3305189,
+      "median_wall_us": 17620,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable_fixed",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 2742016,
+      "median_cycles": 3082826,
+      "max_cycles": 5579737,
+      "median_wall_us": 18510,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_scalar",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 2741606,
+      "median_cycles": 2945514,
+      "max_cycles": 3801343,
+      "median_wall_us": 17695,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_scalar",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 2512142,
+      "median_cycles": 2608064,
+      "max_cycles": 2964095,
+      "median_wall_us": 15667,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_scalar",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 2374714,
+      "median_cycles": 3005586,
+      "max_cycles": 3366097,
+      "median_wall_us": 18056,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_scalar",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 2395883,
+      "median_cycles": 2637220,
+      "max_cycles": 2922401,
+      "median_wall_us": 15832,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_cache2",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 2063922,
+      "median_cycles": 2211658,
+      "max_cycles": 3234580,
+      "median_wall_us": 13284,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_cache2",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 1940157,
+      "median_cycles": 2046670,
+      "max_cycles": 2327279,
+      "median_wall_us": 12290,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_cache2",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 1904893,
+      "median_cycles": 2104014,
+      "max_cycles": 2247101,
+      "median_wall_us": 12637,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_cache2",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 1981316,
+      "median_cycles": 2029831,
+      "max_cycles": 2459805,
+      "median_wall_us": 12232,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_cache4",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 2142794,
+      "median_cycles": 2336815,
+      "max_cycles": 3594995,
+      "median_wall_us": 14039,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_cache4",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 1916902,
+      "median_cycles": 1997255,
+      "max_cycles": 3498778,
+      "median_wall_us": 11991,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_cache4",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 1969121,
+      "median_cycles": 2090698,
+      "max_cycles": 10005491,
+      "median_wall_us": 12551,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_cache4",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 1873913,
+      "median_cycles": 2203810,
+      "max_cycles": 2477501,
+      "median_wall_us": 13231,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_candidate",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 1923305,
+      "median_cycles": 2055040,
+      "max_cycles": 2893537,
+      "median_wall_us": 12341,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_candidate",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 1912519,
+      "median_cycles": 1975928,
+      "max_cycles": 2175914,
+      "median_wall_us": 11866,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_candidate",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 1978023,
+      "median_cycles": 2229376,
+      "max_cycles": 2691494,
+      "median_wall_us": 13385,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_candidate",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 1933598,
+      "median_cycles": 2065086,
+      "max_cycles": 2692498,
+      "median_wall_us": 12398,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_compact",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 2134411,
+      "median_cycles": 2278836,
+      "max_cycles": 2597337,
+      "median_wall_us": 13686,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_compact",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 2042161,
+      "median_cycles": 2115241,
+      "max_cycles": 2334425,
+      "median_wall_us": 12701,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_compact",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 2023082,
+      "median_cycles": 2174471,
+      "max_cycles": 2382776,
+      "median_wall_us": 13058,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_compact",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 2021574,
+      "median_cycles": 2194274,
+      "max_cycles": 2659852,
+      "median_wall_us": 13177,
+      "mismatches": 0
+    }
+  ],
+  "ratios": [
+    {
+      "sample": 0,
+      "compact_over_candidate": 1.1089010432886952,
+      "best_c_over_candidate": 1.4063254243226408
+    },
+    {
+      "sample": 1,
+      "compact_over_candidate": 1.0705050993760907,
+      "best_c_over_candidate": 1.3199185395419266
+    },
+    {
+      "sample": 2,
+      "compact_over_candidate": 0.9753720323534478,
+      "best_c_over_candidate": 1.2485973653614284
+    },
+    {
+      "sample": 3,
+      "compact_over_candidate": 1.062558169490278,
+      "best_c_over_candidate": 1.255535604812584
+    },
+    {
+      "sample": 0,
+      "backend": "rust_cache2",
+      "previous_candidate_over_cache": 0.9291852537779349,
+      "best_c_over_cache": 1.306736846293595
+    },
+    {
+      "sample": 0,
+      "backend": "rust_cache4",
+      "previous_candidate_over_cache": 0.8794192094795694,
+      "best_c_over_cache": 1.2367495929288368
+    },
+    {
+      "sample": 1,
+      "backend": "rust_cache2",
+      "previous_candidate_over_cache": 0.9654355611798678,
+      "best_c_over_cache": 1.2742962959343715
+    },
+    {
+      "sample": 1,
+      "backend": "rust_cache4",
+      "previous_candidate_over_cache": 0.9893218442312073,
+      "best_c_over_cache": 1.3058242437745806
+    },
+    {
+      "sample": 2,
+      "backend": "rust_cache2",
+      "previous_candidate_over_cache": 1.0595823031595797,
+      "best_c_over_cache": 1.3229916721086457
+    },
+    {
+      "sample": 2,
+      "backend": "rust_cache4",
+      "previous_candidate_over_cache": 1.0663309574123092,
+      "best_c_over_cache": 1.3314180240283389
+    },
+    {
+      "sample": 3,
+      "backend": "rust_cache2",
+      "previous_candidate_over_cache": 1.0173684410179962,
+      "best_c_over_cache": 1.2773423009107654
+    },
+    {
+      "sample": 3,
+      "backend": "rust_cache4",
+      "previous_candidate_over_cache": 0.9370526497293323,
+      "best_c_over_cache": 1.1765029653191519
+    }
+  ],
+  "capture_identities": [
+    {
+      "type": "HW_CAPTURE",
+      "boot_counter": 1,
+      "nonce_hi": 1655026810,
+      "nonce_lo": 94926216
+    }
+  ],
+  "measurement": "Raw board cycle counter with RTOS interrupts; emulator logs are functional tests only"
+}

@@ -1,0 +1,10 @@
+{
+  "platform": "Espressif ESP32-C3 QEMU",
+  "emulation_only": true,
+  "physical_board_tested": false,
+  "functional_pass": true,
+  "layer_records": 868,
+  "run_records": 196,
+  "mismatches_total": 0,
+  "timing_not_a_hardware_result": true
+}

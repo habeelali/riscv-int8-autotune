@@ -1,0 +1,6619 @@
+{
+  "reference": {
+    "kind": "algorithm-reference",
+    "correct": true,
+    "cache_key": "62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459",
+    "samples": [
+      {
+        "name": "person",
+        "instructions": 32571431,
+        "raw_instructions": 32571435,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          4,
+          -4
+        ],
+        "stack_watermark_bytes": 708
+      },
+      {
+        "name": "no_person",
+        "instructions": 32571183,
+        "raw_instructions": 32571187,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          77,
+          -77
+        ],
+        "stack_watermark_bytes": 708
+      },
+      {
+        "name": "person_mirrored",
+        "instructions": 32571204,
+        "raw_instructions": 32571208,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          7,
+          -7
+        ],
+        "stack_watermark_bytes": 708
+      },
+      {
+        "name": "no_person_mirrored",
+        "instructions": 32570993,
+        "raw_instructions": 32570997,
+        "measurement_overhead": 4,
+        "mismatches": 0,
+        "output": [
+          57,
+          -57
+        ],
+        "stack_watermark_bytes": 708
+      }
+    ],
+    "layers": [
+      {
+        "sample": 0,
+        "layer": 0,
+        "instructions": 1047374,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 1,
+        "instructions": 1639357,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 2,
+        "instructions": 2056869,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 3,
+        "instructions": 642385,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 4,
+        "instructions": 1492719,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 5,
+        "instructions": 1534309,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 6,
+        "instructions": 2492117,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 7,
+        "instructions": 300756,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 8,
+        "instructions": 1242823,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 9,
+        "instructions": 731653,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 10,
+        "instructions": 2239568,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 11,
+        "instructions": 156195,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 12,
+        "instructions": 1120063,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 13,
+        "instructions": 339087,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 14,
+        "instructions": 2115760,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 15,
+        "instructions": 339272,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 16,
+        "instructions": 2115909,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 17,
+        "instructions": 339585,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 18,
+        "instructions": 2115758,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 19,
+        "instructions": 339607,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 20,
+        "instructions": 2115899,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 21,
+        "instructions": 339441,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 22,
+        "instructions": 2115930,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 23,
+        "instructions": 76632,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 24,
+        "instructions": 1148149,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 25,
+        "instructions": 145070,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 26,
+        "instructions": 2217414,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 28,
+        "instructions": 2891,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 0,
+        "layer": 30,
+        "instructions": 1202,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 0,
+        "instructions": 1047998,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 1,
+        "instructions": 1638855,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 2,
+        "instructions": 2057259,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 3,
+        "instructions": 643265,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 4,
+        "instructions": 1492163,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 5,
+        "instructions": 1533956,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 6,
+        "instructions": 2492040,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 7,
+        "instructions": 300296,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 8,
+        "instructions": 1242128,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 9,
+        "instructions": 731378,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 10,
+        "instructions": 2239520,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 11,
+        "instructions": 156234,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 12,
+        "instructions": 1120210,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 13,
+        "instructions": 339423,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 14,
+        "instructions": 2115845,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 15,
+        "instructions": 339309,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 16,
+        "instructions": 2115789,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 17,
+        "instructions": 339532,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 18,
+        "instructions": 2115889,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 19,
+        "instructions": 339663,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 20,
+        "instructions": 2115905,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 21,
+        "instructions": 339339,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 22,
+        "instructions": 2115839,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 23,
+        "instructions": 76620,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 24,
+        "instructions": 1148141,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 25,
+        "instructions": 144924,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 26,
+        "instructions": 2217886,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 28,
+        "instructions": 2891,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 1,
+        "layer": 30,
+        "instructions": 1249,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 0,
+        "instructions": 1047348,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 1,
+        "instructions": 1639294,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 2,
+        "instructions": 2056935,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 3,
+        "instructions": 642209,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 4,
+        "instructions": 1492700,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 5,
+        "instructions": 1534279,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 6,
+        "instructions": 2492220,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 7,
+        "instructions": 300810,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 8,
+        "instructions": 1242844,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 9,
+        "instructions": 731641,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 10,
+        "instructions": 2239606,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 11,
+        "instructions": 156049,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 12,
+        "instructions": 1120062,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 13,
+        "instructions": 339105,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 14,
+        "instructions": 2115672,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 15,
+        "instructions": 339296,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 16,
+        "instructions": 2115784,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 17,
+        "instructions": 339535,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 18,
+        "instructions": 2115867,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 19,
+        "instructions": 339555,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 20,
+        "instructions": 2115912,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 21,
+        "instructions": 339468,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 22,
+        "instructions": 2115949,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 23,
+        "instructions": 76712,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 24,
+        "instructions": 1148116,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 25,
+        "instructions": 145048,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 26,
+        "instructions": 2217458,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 28,
+        "instructions": 2891,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 2,
+        "layer": 30,
+        "instructions": 1202,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 0,
+        "instructions": 1047994,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 1,
+        "instructions": 1638860,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 2,
+        "instructions": 2057419,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 3,
+        "instructions": 643124,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 4,
+        "instructions": 1492086,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 5,
+        "instructions": 1533705,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 6,
+        "instructions": 2492042,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 7,
+        "instructions": 300260,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 8,
+        "instructions": 1242215,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 9,
+        "instructions": 731454,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 10,
+        "instructions": 2239467,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 11,
+        "instructions": 156256,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 12,
+        "instructions": 1120223,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 13,
+        "instructions": 339443,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 14,
+        "instructions": 2115838,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 15,
+        "instructions": 339321,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 16,
+        "instructions": 2115751,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 17,
+        "instructions": 339508,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 18,
+        "instructions": 2116048,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 19,
+        "instructions": 339618,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 20,
+        "instructions": 2116010,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 21,
+        "instructions": 339311,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 22,
+        "instructions": 2115844,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 23,
+        "instructions": 76619,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 24,
+        "instructions": 1148142,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 25,
+        "instructions": 144884,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 26,
+        "instructions": 2217773,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 27,
+        "instructions": 7177,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 28,
+        "instructions": 2891,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 29,
+        "instructions": 33,
+        "mismatches": 0
+      },
+      {
+        "sample": 3,
+        "layer": 30,
+        "instructions": 1250,
+        "mismatches": 0
+      }
+    ],
+    "mean_instructions": 32571202.75,
+    "text_bytes": 48138,
+    "rodata_bytes": 1207308,
+    "static_ram_bytes": 112640,
+    "reserved_stack_bytes": 65536,
+    "compile_seconds": 2.8972054940004455,
+    "qemu_seconds": 0.8098921320015506,
+    "toolchains": {
+      "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+      "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+      "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+    },
+    "toolchain_hashes": {
+      "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+      "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+      "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+      "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+    },
+    "cflags": [
+      "-O3",
+      "-march=rv32imc",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables"
+    ],
+    "rustflags": [
+      "--edition=2021",
+      "--crate-type=staticlib",
+      "--target=riscv32imc-unknown-none-elf",
+      "-C",
+      "opt-level=3",
+      "-C",
+      "panic=abort",
+      "-C",
+      "codegen-units=1",
+      "-C",
+      "overflow-checks=off"
+    ],
+    "qemu_flags": [
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off"
+    ],
+    "constants_override": null,
+    "graph_override": null,
+    "linker_override": "results/algorithm/link.ld",
+    "build_dir": "results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459",
+    "commands": [
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-march=rv32imc_zicsr",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/graph.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/0.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/memory.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/1.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-march=rv32imc_zicsr",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/qemu/start.S",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/2.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_s8.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/3.o"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+        "-I/workspace/riscv-int8-autotune/baselines/c/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+        "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+        "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+        "-c",
+        "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_common_s8.c",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/4.o"
+      ],
+      [
+        "rustc",
+        "--edition=2021",
+        "--crate-type=staticlib",
+        "--target=riscv32imc-unknown-none-elf",
+        "-C",
+        "opt-level=3",
+        "-C",
+        "panic=abort",
+        "-C",
+        "codegen-units=1",
+        "-C",
+        "overflow-checks=off",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/kernels.rs",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/kernels.a"
+      ],
+      [
+        "riscv64-unknown-elf-gcc",
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables",
+        "-nostdlib",
+        "-Wl,--gc-sections",
+        "-Wl,--no-relax",
+        "-Wl,-Map=/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/link.map",
+        "-T",
+        "/workspace/riscv-int8-autotune/results/algorithm/link.ld",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/0.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/1.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/2.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/3.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/4.o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/kernels.a",
+        "-lgcc",
+        "-o",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/model.elf"
+      ],
+      [
+        "riscv64-unknown-elf-objdump",
+        "-d",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/model.elf"
+      ],
+      [
+        "riscv64-unknown-elf-readelf",
+        "-A",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/model.elf"
+      ],
+      [
+        "riscv64-unknown-elf-size",
+        "-A",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/model.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/model.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/model.elf"
+      ],
+      [
+        "qemu-system-riscv32",
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off",
+        "-kernel",
+        "/workspace/riscv-int8-autotune/results/model/person-detection/build/62e8fed01d44b6abe8ee2b5ded023f764ce0e9431f1145be8fbd9a7da8fe4459/model.elf"
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "kind": "algorithm-bounded",
+      "correct": true,
+      "cache_key": "364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907",
+      "samples": [
+        {
+          "name": "person",
+          "instructions": 31909985,
+          "raw_instructions": 31909989,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            4,
+            -4
+          ],
+          "stack_watermark_bytes": 676
+        },
+        {
+          "name": "no_person",
+          "instructions": 31909737,
+          "raw_instructions": 31909741,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            77,
+            -77
+          ],
+          "stack_watermark_bytes": 676
+        },
+        {
+          "name": "person_mirrored",
+          "instructions": 31909758,
+          "raw_instructions": 31909762,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            7,
+            -7
+          ],
+          "stack_watermark_bytes": 676
+        },
+        {
+          "name": "no_person_mirrored",
+          "instructions": 31909547,
+          "raw_instructions": 31909551,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            57,
+            -57
+          ],
+          "stack_watermark_bytes": 676
+        }
+      ],
+      "layers": [
+        {
+          "sample": 0,
+          "layer": 0,
+          "instructions": 992051,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 1,
+          "instructions": 1566098,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 2,
+          "instructions": 1955477,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 3,
+          "instructions": 623137,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 4,
+          "instructions": 1446607,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 5,
+          "instructions": 1478981,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 6,
+          "instructions": 2446005,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 7,
+          "instructions": 291060,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 8,
+          "instructions": 1219719,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 9,
+          "instructions": 704724,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 10,
+          "instructions": 2216464,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 11,
+          "instructions": 150242,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 12,
+          "instructions": 1108415,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 13,
+          "instructions": 322702,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 14,
+          "instructions": 2104112,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 15,
+          "instructions": 322887,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 16,
+          "instructions": 2104261,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 17,
+          "instructions": 323200,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 18,
+          "instructions": 2104110,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 19,
+          "instructions": 323222,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 20,
+          "instructions": 2104251,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 21,
+          "instructions": 323056,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 22,
+          "instructions": 2104282,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 23,
+          "instructions": 73305,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 24,
+          "instructions": 1140981,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 25,
+          "instructions": 138668,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 26,
+          "instructions": 2210246,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 28,
+          "instructions": 2883,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 0,
+          "instructions": 992675,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 1,
+          "instructions": 1565596,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 2,
+          "instructions": 1955867,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 3,
+          "instructions": 624017,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 4,
+          "instructions": 1446051,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 5,
+          "instructions": 1478628,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 6,
+          "instructions": 2445928,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 7,
+          "instructions": 290600,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 8,
+          "instructions": 1219024,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 9,
+          "instructions": 704449,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 10,
+          "instructions": 2216416,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 11,
+          "instructions": 150281,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 12,
+          "instructions": 1108562,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 13,
+          "instructions": 323038,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 14,
+          "instructions": 2104197,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 15,
+          "instructions": 322924,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 16,
+          "instructions": 2104141,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 17,
+          "instructions": 323147,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 18,
+          "instructions": 2104241,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 19,
+          "instructions": 323278,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 20,
+          "instructions": 2104257,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 21,
+          "instructions": 322954,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 22,
+          "instructions": 2104191,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 23,
+          "instructions": 73293,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 24,
+          "instructions": 1140973,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 25,
+          "instructions": 138522,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 26,
+          "instructions": 2210718,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 28,
+          "instructions": 2883,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 30,
+          "instructions": 1249,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 0,
+          "instructions": 992025,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 1,
+          "instructions": 1566035,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 2,
+          "instructions": 1955543,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 3,
+          "instructions": 622961,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 4,
+          "instructions": 1446588,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 5,
+          "instructions": 1478951,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 6,
+          "instructions": 2446108,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 7,
+          "instructions": 291114,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 8,
+          "instructions": 1219740,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 9,
+          "instructions": 704712,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 10,
+          "instructions": 2216502,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 11,
+          "instructions": 150096,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 12,
+          "instructions": 1108414,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 13,
+          "instructions": 322720,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 14,
+          "instructions": 2104024,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 15,
+          "instructions": 322911,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 16,
+          "instructions": 2104136,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 17,
+          "instructions": 323150,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 18,
+          "instructions": 2104219,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 19,
+          "instructions": 323170,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 20,
+          "instructions": 2104264,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 21,
+          "instructions": 323083,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 22,
+          "instructions": 2104301,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 23,
+          "instructions": 73385,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 24,
+          "instructions": 1140948,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 25,
+          "instructions": 138646,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 26,
+          "instructions": 2210290,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 28,
+          "instructions": 2883,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 0,
+          "instructions": 992671,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 1,
+          "instructions": 1565601,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 2,
+          "instructions": 1956027,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 3,
+          "instructions": 623876,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 4,
+          "instructions": 1445974,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 5,
+          "instructions": 1478377,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 6,
+          "instructions": 2445930,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 7,
+          "instructions": 290564,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 8,
+          "instructions": 1219111,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 9,
+          "instructions": 704525,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 10,
+          "instructions": 2216363,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 11,
+          "instructions": 150303,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 12,
+          "instructions": 1108575,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 13,
+          "instructions": 323058,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 14,
+          "instructions": 2104190,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 15,
+          "instructions": 322936,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 16,
+          "instructions": 2104103,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 17,
+          "instructions": 323123,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 18,
+          "instructions": 2104400,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 19,
+          "instructions": 323233,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 20,
+          "instructions": 2104362,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 21,
+          "instructions": 322926,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 22,
+          "instructions": 2104196,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 23,
+          "instructions": 73292,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 24,
+          "instructions": 1140974,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 25,
+          "instructions": 138482,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 26,
+          "instructions": 2210605,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 28,
+          "instructions": 2883,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 30,
+          "instructions": 1250,
+          "mismatches": 0
+        }
+      ],
+      "mean_instructions": 31909756.75,
+      "text_bytes": 46456,
+      "rodata_bytes": 1207308,
+      "static_ram_bytes": 112640,
+      "reserved_stack_bytes": 65536,
+      "compile_seconds": 2.8785213570008636,
+      "qemu_seconds": 0.5358164329991268,
+      "toolchains": {
+        "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+        "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+        "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+      },
+      "toolchain_hashes": {
+        "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+        "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+        "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+        "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+      },
+      "cflags": [
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables"
+      ],
+      "rustflags": [
+        "--edition=2021",
+        "--crate-type=staticlib",
+        "--target=riscv32imc-unknown-none-elf",
+        "-C",
+        "opt-level=3",
+        "-C",
+        "panic=abort",
+        "-C",
+        "codegen-units=1",
+        "-C",
+        "overflow-checks=off"
+      ],
+      "qemu_flags": [
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off"
+      ],
+      "constants_override": "results/algorithm/variants/bounded/constants.h",
+      "graph_override": "results/algorithm/variants/bounded/graph.c",
+      "linker_override": "results/algorithm/link.ld",
+      "build_dir": "results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907",
+      "commands": [
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/graph.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/0.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/memory.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/1.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/start.S",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/2.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/3.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_common_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/4.o"
+        ],
+        [
+          "rustc",
+          "--edition=2021",
+          "--crate-type=staticlib",
+          "--target=riscv32imc-unknown-none-elf",
+          "-C",
+          "opt-level=3",
+          "-C",
+          "panic=abort",
+          "-C",
+          "codegen-units=1",
+          "-C",
+          "overflow-checks=off",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/kernels.rs",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/kernels.a"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-nostdlib",
+          "-Wl,--gc-sections",
+          "-Wl,--no-relax",
+          "-Wl,-Map=/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/link.map",
+          "-T",
+          "/workspace/riscv-int8-autotune/results/algorithm/link.ld",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/0.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/1.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/2.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/3.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/4.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/kernels.a",
+          "-lgcc",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-objdump",
+          "-d",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-readelf",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-size",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/364042fa9cd52e284c09794b93f6083eaad68bcf88546e849c30fe76d5121907/model.elf"
+        ]
+      ],
+      "variant": "bounded",
+      "source": "results/algorithm/variants/bounded/kernels.rs",
+      "parameter_manifest": "results/algorithm/variants/bounded/manifest.json",
+      "rejection_reasons": [],
+      "eligible": true
+    },
+    {
+      "kind": "algorithm-bounded-fold",
+      "correct": true,
+      "cache_key": "039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd",
+      "samples": [
+        {
+          "name": "person",
+          "instructions": 30352685,
+          "raw_instructions": 30352689,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            4,
+            -4
+          ],
+          "stack_watermark_bytes": 672
+        },
+        {
+          "name": "no_person",
+          "instructions": 30352429,
+          "raw_instructions": 30352433,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            77,
+            -77
+          ],
+          "stack_watermark_bytes": 672
+        },
+        {
+          "name": "person_mirrored",
+          "instructions": 30352403,
+          "raw_instructions": 30352407,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            7,
+            -7
+          ],
+          "stack_watermark_bytes": 672
+        },
+        {
+          "name": "no_person_mirrored",
+          "instructions": 30352230,
+          "raw_instructions": 30352234,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            57,
+            -57
+          ],
+          "stack_watermark_bytes": 672
+        }
+      ],
+      "layers": [
+        {
+          "sample": 0,
+          "layer": 0,
+          "instructions": 969011,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 1,
+          "instructions": 1566098,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 2,
+          "instructions": 1937046,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 3,
+          "instructions": 540193,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 4,
+          "instructions": 1372879,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 5,
+          "instructions": 1478981,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 6,
+          "instructions": 2298549,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 7,
+          "instructions": 249588,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 8,
+          "instructions": 1145991,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 9,
+          "instructions": 704724,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 10,
+          "instructions": 2069008,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 11,
+          "instructions": 130658,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 12,
+          "instructions": 1034687,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 13,
+          "instructions": 322702,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 14,
+          "instructions": 1956656,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 15,
+          "instructions": 322887,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 16,
+          "instructions": 1956805,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 17,
+          "instructions": 323200,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 18,
+          "instructions": 1956654,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 19,
+          "instructions": 323222,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 20,
+          "instructions": 1956795,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 21,
+          "instructions": 323056,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 22,
+          "instructions": 1956826,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 23,
+          "instructions": 65700,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 24,
+          "instructions": 1104117,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 25,
+          "instructions": 138668,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 26,
+          "instructions": 2136518,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 0,
+          "instructions": 969635,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 1,
+          "instructions": 1565596,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 2,
+          "instructions": 1937436,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 3,
+          "instructions": 541073,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 4,
+          "instructions": 1372323,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 5,
+          "instructions": 1478628,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 6,
+          "instructions": 2298472,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 7,
+          "instructions": 249128,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 8,
+          "instructions": 1145296,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 9,
+          "instructions": 704449,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 10,
+          "instructions": 2068960,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 11,
+          "instructions": 130697,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 12,
+          "instructions": 1034834,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 13,
+          "instructions": 323038,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 14,
+          "instructions": 1956741,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 15,
+          "instructions": 322924,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 16,
+          "instructions": 1956685,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 17,
+          "instructions": 323147,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 18,
+          "instructions": 1956785,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 19,
+          "instructions": 323278,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 20,
+          "instructions": 1956801,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 21,
+          "instructions": 322954,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 22,
+          "instructions": 1956735,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 23,
+          "instructions": 65680,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 24,
+          "instructions": 1104109,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 25,
+          "instructions": 138522,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 26,
+          "instructions": 2136990,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 30,
+          "instructions": 1249,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 0,
+          "instructions": 968985,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 1,
+          "instructions": 1566035,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 2,
+          "instructions": 1937112,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 3,
+          "instructions": 540017,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 4,
+          "instructions": 1372860,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 5,
+          "instructions": 1478951,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 6,
+          "instructions": 2298652,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 7,
+          "instructions": 249642,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 8,
+          "instructions": 1146012,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 9,
+          "instructions": 704712,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 10,
+          "instructions": 2069046,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 11,
+          "instructions": 130512,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 12,
+          "instructions": 1034686,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 13,
+          "instructions": 322720,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 14,
+          "instructions": 1956568,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 15,
+          "instructions": 322911,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 16,
+          "instructions": 1956680,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 17,
+          "instructions": 323150,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 18,
+          "instructions": 1956763,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 19,
+          "instructions": 323170,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 20,
+          "instructions": 1956808,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 21,
+          "instructions": 323083,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 22,
+          "instructions": 1956845,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 23,
+          "instructions": 65725,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 24,
+          "instructions": 1104084,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 25,
+          "instructions": 138646,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 26,
+          "instructions": 2136562,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 0,
+          "instructions": 969631,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 1,
+          "instructions": 1565601,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 2,
+          "instructions": 1937596,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 3,
+          "instructions": 540932,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 4,
+          "instructions": 1372246,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 5,
+          "instructions": 1478377,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 6,
+          "instructions": 2298474,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 7,
+          "instructions": 249092,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 8,
+          "instructions": 1145383,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 9,
+          "instructions": 704525,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 10,
+          "instructions": 2068907,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 11,
+          "instructions": 130719,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 12,
+          "instructions": 1034847,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 13,
+          "instructions": 323058,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 14,
+          "instructions": 1956734,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 15,
+          "instructions": 322936,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 16,
+          "instructions": 1956647,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 17,
+          "instructions": 323123,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 18,
+          "instructions": 1956944,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 19,
+          "instructions": 323233,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 20,
+          "instructions": 1956906,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 21,
+          "instructions": 322926,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 22,
+          "instructions": 1956740,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 23,
+          "instructions": 65670,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 24,
+          "instructions": 1104110,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 25,
+          "instructions": 138482,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 26,
+          "instructions": 2136877,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 30,
+          "instructions": 1250,
+          "mismatches": 0
+        }
+      ],
+      "mean_instructions": 30352436.75,
+      "text_bytes": 46924,
+      "rodata_bytes": 1207308,
+      "static_ram_bytes": 112640,
+      "reserved_stack_bytes": 65536,
+      "compile_seconds": 2.980023452999376,
+      "qemu_seconds": 0.5026150399990001,
+      "toolchains": {
+        "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+        "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+        "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+      },
+      "toolchain_hashes": {
+        "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+        "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+        "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+        "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+      },
+      "cflags": [
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables"
+      ],
+      "rustflags": [
+        "--edition=2021",
+        "--crate-type=staticlib",
+        "--target=riscv32imc-unknown-none-elf",
+        "-C",
+        "opt-level=3",
+        "-C",
+        "panic=abort",
+        "-C",
+        "codegen-units=1",
+        "-C",
+        "overflow-checks=off"
+      ],
+      "qemu_flags": [
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off"
+      ],
+      "constants_override": "results/algorithm/variants/bounded-fold/constants.h",
+      "graph_override": "results/algorithm/variants/bounded-fold/graph.c",
+      "linker_override": "results/algorithm/link.ld",
+      "build_dir": "results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd",
+      "commands": [
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/graph.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/0.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/memory.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/1.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/start.S",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/2.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/3.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_common_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/4.o"
+        ],
+        [
+          "rustc",
+          "--edition=2021",
+          "--crate-type=staticlib",
+          "--target=riscv32imc-unknown-none-elf",
+          "-C",
+          "opt-level=3",
+          "-C",
+          "panic=abort",
+          "-C",
+          "codegen-units=1",
+          "-C",
+          "overflow-checks=off",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/kernels.rs",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/kernels.a"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-nostdlib",
+          "-Wl,--gc-sections",
+          "-Wl,--no-relax",
+          "-Wl,-Map=/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/link.map",
+          "-T",
+          "/workspace/riscv-int8-autotune/results/algorithm/link.ld",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/0.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/1.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/2.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/3.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/4.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/kernels.a",
+          "-lgcc",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-objdump",
+          "-d",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-readelf",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-size",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/039b81a2abbbc9753e6156ff57ca590a74551e81c515388cc2db3b84e1fd1efd/model.elf"
+        ]
+      ],
+      "variant": "bounded-fold",
+      "source": "results/algorithm/variants/bounded-fold/kernels.rs",
+      "parameter_manifest": "results/algorithm/variants/bounded-fold/manifest.json",
+      "rejection_reasons": [],
+      "eligible": true
+    },
+    {
+      "kind": "algorithm-bounded-packed-fold",
+      "correct": true,
+      "cache_key": "997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2",
+      "samples": [
+        {
+          "name": "person",
+          "instructions": 30384533,
+          "raw_instructions": 30384537,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            4,
+            -4
+          ],
+          "stack_watermark_bytes": 672
+        },
+        {
+          "name": "no_person",
+          "instructions": 30384277,
+          "raw_instructions": 30384281,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            77,
+            -77
+          ],
+          "stack_watermark_bytes": 672
+        },
+        {
+          "name": "person_mirrored",
+          "instructions": 30384251,
+          "raw_instructions": 30384255,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            7,
+            -7
+          ],
+          "stack_watermark_bytes": 672
+        },
+        {
+          "name": "no_person_mirrored",
+          "instructions": 30384078,
+          "raw_instructions": 30384082,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            57,
+            -57
+          ],
+          "stack_watermark_bytes": 672
+        }
+      ],
+      "layers": [
+        {
+          "sample": 0,
+          "layer": 0,
+          "instructions": 969011,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 1,
+          "instructions": 1566098,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 2,
+          "instructions": 1918614,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 3,
+          "instructions": 540193,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 4,
+          "instructions": 1381879,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 5,
+          "instructions": 1478981,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 6,
+          "instructions": 2307549,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 7,
+          "instructions": 249588,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 8,
+          "instructions": 1152294,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 9,
+          "instructions": 704724,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 10,
+          "instructions": 2075311,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 11,
+          "instructions": 130658,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 12,
+          "instructions": 1037966,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 13,
+          "instructions": 322702,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 14,
+          "instructions": 1959935,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 15,
+          "instructions": 322887,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 16,
+          "instructions": 1960084,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 17,
+          "instructions": 323200,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 18,
+          "instructions": 1959933,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 19,
+          "instructions": 323222,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 20,
+          "instructions": 1960074,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 21,
+          "instructions": 323056,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 22,
+          "instructions": 1960105,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 23,
+          "instructions": 65700,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 24,
+          "instructions": 1104117,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 25,
+          "instructions": 138668,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 26,
+          "instructions": 2136518,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 0,
+          "instructions": 969635,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 1,
+          "instructions": 1565596,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 2,
+          "instructions": 1919004,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 3,
+          "instructions": 541073,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 4,
+          "instructions": 1381323,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 5,
+          "instructions": 1478628,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 6,
+          "instructions": 2307472,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 7,
+          "instructions": 249128,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 8,
+          "instructions": 1151599,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 9,
+          "instructions": 704449,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 10,
+          "instructions": 2075263,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 11,
+          "instructions": 130697,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 12,
+          "instructions": 1038113,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 13,
+          "instructions": 323038,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 14,
+          "instructions": 1960020,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 15,
+          "instructions": 322924,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 16,
+          "instructions": 1959964,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 17,
+          "instructions": 323147,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 18,
+          "instructions": 1960064,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 19,
+          "instructions": 323278,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 20,
+          "instructions": 1960080,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 21,
+          "instructions": 322954,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 22,
+          "instructions": 1960014,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 23,
+          "instructions": 65680,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 24,
+          "instructions": 1104109,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 25,
+          "instructions": 138522,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 26,
+          "instructions": 2136990,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 30,
+          "instructions": 1249,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 0,
+          "instructions": 968985,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 1,
+          "instructions": 1566035,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 2,
+          "instructions": 1918680,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 3,
+          "instructions": 540017,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 4,
+          "instructions": 1381860,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 5,
+          "instructions": 1478951,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 6,
+          "instructions": 2307652,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 7,
+          "instructions": 249642,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 8,
+          "instructions": 1152315,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 9,
+          "instructions": 704712,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 10,
+          "instructions": 2075349,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 11,
+          "instructions": 130512,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 12,
+          "instructions": 1037965,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 13,
+          "instructions": 322720,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 14,
+          "instructions": 1959847,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 15,
+          "instructions": 322911,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 16,
+          "instructions": 1959959,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 17,
+          "instructions": 323150,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 18,
+          "instructions": 1960042,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 19,
+          "instructions": 323170,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 20,
+          "instructions": 1960087,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 21,
+          "instructions": 323083,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 22,
+          "instructions": 1960124,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 23,
+          "instructions": 65725,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 24,
+          "instructions": 1104084,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 25,
+          "instructions": 138646,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 26,
+          "instructions": 2136562,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 0,
+          "instructions": 969631,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 1,
+          "instructions": 1565601,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 2,
+          "instructions": 1919164,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 3,
+          "instructions": 540932,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 4,
+          "instructions": 1381246,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 5,
+          "instructions": 1478377,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 6,
+          "instructions": 2307474,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 7,
+          "instructions": 249092,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 8,
+          "instructions": 1151686,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 9,
+          "instructions": 704525,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 10,
+          "instructions": 2075210,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 11,
+          "instructions": 130719,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 12,
+          "instructions": 1038126,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 13,
+          "instructions": 323058,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 14,
+          "instructions": 1960013,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 15,
+          "instructions": 322936,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 16,
+          "instructions": 1959926,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 17,
+          "instructions": 323123,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 18,
+          "instructions": 1960223,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 19,
+          "instructions": 323233,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 20,
+          "instructions": 1960185,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 21,
+          "instructions": 322926,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 22,
+          "instructions": 1960019,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 23,
+          "instructions": 65670,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 24,
+          "instructions": 1104110,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 25,
+          "instructions": 138482,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 26,
+          "instructions": 2136877,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 30,
+          "instructions": 1250,
+          "mismatches": 0
+        }
+      ],
+      "mean_instructions": 30384284.75,
+      "text_bytes": 46692,
+      "rodata_bytes": 1207308,
+      "static_ram_bytes": 112640,
+      "reserved_stack_bytes": 65536,
+      "compile_seconds": 3.034107387000404,
+      "qemu_seconds": 0.5410356060001504,
+      "toolchains": {
+        "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+        "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+        "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+      },
+      "toolchain_hashes": {
+        "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+        "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+        "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+        "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+      },
+      "cflags": [
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables"
+      ],
+      "rustflags": [
+        "--edition=2021",
+        "--crate-type=staticlib",
+        "--target=riscv32imc-unknown-none-elf",
+        "-C",
+        "opt-level=3",
+        "-C",
+        "panic=abort",
+        "-C",
+        "codegen-units=1",
+        "-C",
+        "overflow-checks=off"
+      ],
+      "qemu_flags": [
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off"
+      ],
+      "constants_override": "results/algorithm/variants/bounded-packed-fold/constants.h",
+      "graph_override": "results/algorithm/variants/bounded-packed-fold/graph.c",
+      "linker_override": "results/algorithm/link.ld",
+      "build_dir": "results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2",
+      "commands": [
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/graph.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/0.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/memory.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/1.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/start.S",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/2.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/3.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_common_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/4.o"
+        ],
+        [
+          "rustc",
+          "--edition=2021",
+          "--crate-type=staticlib",
+          "--target=riscv32imc-unknown-none-elf",
+          "-C",
+          "opt-level=3",
+          "-C",
+          "panic=abort",
+          "-C",
+          "codegen-units=1",
+          "-C",
+          "overflow-checks=off",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/kernels.rs",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/kernels.a"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-nostdlib",
+          "-Wl,--gc-sections",
+          "-Wl,--no-relax",
+          "-Wl,-Map=/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/link.map",
+          "-T",
+          "/workspace/riscv-int8-autotune/results/algorithm/link.ld",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/0.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/1.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/2.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/3.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/4.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/kernels.a",
+          "-lgcc",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-objdump",
+          "-d",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-readelf",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-size",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/997dcef57682cd53101125a3b05acb1fad2427394024b421456042f8afe74ba2/model.elf"
+        ]
+      ],
+      "variant": "bounded-packed-fold",
+      "source": "results/algorithm/variants/bounded-packed-fold/kernels.rs",
+      "parameter_manifest": "results/algorithm/variants/bounded-packed-fold/manifest.json",
+      "rejection_reasons": [],
+      "eligible": true
+    },
+    {
+      "kind": "algorithm-bounded-chunks",
+      "correct": true,
+      "cache_key": "cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa",
+      "samples": [
+        {
+          "name": "person",
+          "instructions": 30752246,
+          "raw_instructions": 30752250,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            4,
+            -4
+          ],
+          "stack_watermark_bytes": 672
+        },
+        {
+          "name": "no_person",
+          "instructions": 30751968,
+          "raw_instructions": 30751972,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            77,
+            -77
+          ],
+          "stack_watermark_bytes": 672
+        },
+        {
+          "name": "person_mirrored",
+          "instructions": 30751915,
+          "raw_instructions": 30751919,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            7,
+            -7
+          ],
+          "stack_watermark_bytes": 672
+        },
+        {
+          "name": "no_person_mirrored",
+          "instructions": 30751725,
+          "raw_instructions": 30751729,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            57,
+            -57
+          ],
+          "stack_watermark_bytes": 672
+        }
+      ],
+      "layers": [
+        {
+          "sample": 0,
+          "layer": 0,
+          "instructions": 969011,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 1,
+          "instructions": 1566098,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 2,
+          "instructions": 2050602,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 3,
+          "instructions": 540193,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 4,
+          "instructions": 1439165,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 5,
+          "instructions": 1478981,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 6,
+          "instructions": 2363661,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 7,
+          "instructions": 249588,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 8,
+          "instructions": 1175879,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 9,
+          "instructions": 704724,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 10,
+          "instructions": 2098515,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 11,
+          "instructions": 130658,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 12,
+          "instructions": 1049449,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 13,
+          "instructions": 322702,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 14,
+          "instructions": 1971316,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 15,
+          "instructions": 322887,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 16,
+          "instructions": 1971455,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 17,
+          "instructions": 323200,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 18,
+          "instructions": 1971320,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 19,
+          "instructions": 323222,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 20,
+          "instructions": 1971457,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 21,
+          "instructions": 323056,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 22,
+          "instructions": 1971480,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 23,
+          "instructions": 65700,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 24,
+          "instructions": 1107618,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 25,
+          "instructions": 138668,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 26,
+          "instructions": 2140174,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 28,
+          "instructions": 2628,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 0,
+          "instructions": 969635,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 1,
+          "instructions": 1565596,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 2,
+          "instructions": 2050992,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 3,
+          "instructions": 541073,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 4,
+          "instructions": 1438760,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 5,
+          "instructions": 1478628,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 6,
+          "instructions": 2363409,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 7,
+          "instructions": 249128,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 8,
+          "instructions": 1175199,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 9,
+          "instructions": 704449,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 10,
+          "instructions": 2098454,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 11,
+          "instructions": 130697,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 12,
+          "instructions": 1049595,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 13,
+          "instructions": 323038,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 14,
+          "instructions": 1971380,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 15,
+          "instructions": 322924,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 16,
+          "instructions": 1971370,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 17,
+          "instructions": 323147,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 18,
+          "instructions": 1971433,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 19,
+          "instructions": 323278,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 20,
+          "instructions": 1971439,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 21,
+          "instructions": 322954,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 22,
+          "instructions": 1971421,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 23,
+          "instructions": 65680,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 24,
+          "instructions": 1107607,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 25,
+          "instructions": 138522,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 26,
+          "instructions": 2140646,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 28,
+          "instructions": 2628,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 30,
+          "instructions": 1249,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 0,
+          "instructions": 968985,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 1,
+          "instructions": 1566035,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 2,
+          "instructions": 2050668,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 3,
+          "instructions": 540017,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 4,
+          "instructions": 1439130,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 5,
+          "instructions": 1478951,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 6,
+          "instructions": 2363765,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 7,
+          "instructions": 249642,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 8,
+          "instructions": 1175907,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 9,
+          "instructions": 704712,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 10,
+          "instructions": 2098547,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 11,
+          "instructions": 130512,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 12,
+          "instructions": 1049447,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 13,
+          "instructions": 322720,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 14,
+          "instructions": 1971246,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 15,
+          "instructions": 322911,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 16,
+          "instructions": 1971339,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 17,
+          "instructions": 323150,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 18,
+          "instructions": 1971418,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 19,
+          "instructions": 323170,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 20,
+          "instructions": 1971446,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 21,
+          "instructions": 323083,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 22,
+          "instructions": 1971488,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 23,
+          "instructions": 65725,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 24,
+          "instructions": 1107570,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 25,
+          "instructions": 138646,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 26,
+          "instructions": 2140218,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 28,
+          "instructions": 2628,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 0,
+          "instructions": 969631,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 1,
+          "instructions": 1565601,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 2,
+          "instructions": 2051152,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 3,
+          "instructions": 540932,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 4,
+          "instructions": 1438701,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 5,
+          "instructions": 1478377,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 6,
+          "instructions": 2363423,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 7,
+          "instructions": 249092,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 8,
+          "instructions": 1175274,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 9,
+          "instructions": 704525,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 10,
+          "instructions": 2098405,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 11,
+          "instructions": 130719,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 12,
+          "instructions": 1049599,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 13,
+          "instructions": 323058,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 14,
+          "instructions": 1971377,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 15,
+          "instructions": 322936,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 16,
+          "instructions": 1971340,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 17,
+          "instructions": 323123,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 18,
+          "instructions": 1971554,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 19,
+          "instructions": 323233,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 20,
+          "instructions": 1971537,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 21,
+          "instructions": 322926,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 22,
+          "instructions": 1971409,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 23,
+          "instructions": 65670,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 24,
+          "instructions": 1107601,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 25,
+          "instructions": 138482,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 26,
+          "instructions": 2140533,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 28,
+          "instructions": 2628,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 30,
+          "instructions": 1250,
+          "mismatches": 0
+        }
+      ],
+      "mean_instructions": 30751963.5,
+      "text_bytes": 47666,
+      "rodata_bytes": 1207844,
+      "static_ram_bytes": 112640,
+      "reserved_stack_bytes": 65536,
+      "compile_seconds": 2.93834609699843,
+      "qemu_seconds": 0.5317464720010321,
+      "toolchains": {
+        "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+        "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+        "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+      },
+      "toolchain_hashes": {
+        "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+        "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+        "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+        "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+      },
+      "cflags": [
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables"
+      ],
+      "rustflags": [
+        "--edition=2021",
+        "--crate-type=staticlib",
+        "--target=riscv32imc-unknown-none-elf",
+        "-C",
+        "opt-level=3",
+        "-C",
+        "panic=abort",
+        "-C",
+        "codegen-units=1",
+        "-C",
+        "overflow-checks=off"
+      ],
+      "qemu_flags": [
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off"
+      ],
+      "constants_override": "results/algorithm/variants/bounded-chunks/constants.h",
+      "graph_override": "results/algorithm/variants/bounded-chunks/graph.c",
+      "linker_override": "results/algorithm/link.ld",
+      "build_dir": "results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa",
+      "commands": [
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/graph.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/0.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/memory.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/1.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/start.S",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/2.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/3.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_common_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/4.o"
+        ],
+        [
+          "rustc",
+          "--edition=2021",
+          "--crate-type=staticlib",
+          "--target=riscv32imc-unknown-none-elf",
+          "-C",
+          "opt-level=3",
+          "-C",
+          "panic=abort",
+          "-C",
+          "codegen-units=1",
+          "-C",
+          "overflow-checks=off",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/kernels.rs",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/kernels.a"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-nostdlib",
+          "-Wl,--gc-sections",
+          "-Wl,--no-relax",
+          "-Wl,-Map=/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/link.map",
+          "-T",
+          "/workspace/riscv-int8-autotune/results/algorithm/link.ld",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/0.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/1.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/2.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/3.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/4.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/kernels.a",
+          "-lgcc",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-objdump",
+          "-d",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-readelf",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-size",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/cb0d2c96d5f4f06d00399bfe320bc797bf76e9fbabdc2766c5772b7ce90619fa/model.elf"
+        ]
+      ],
+      "variant": "bounded-chunks",
+      "source": "results/algorithm/variants/bounded-chunks/kernels.rs",
+      "parameter_manifest": "results/algorithm/variants/bounded-chunks/manifest.json",
+      "rejection_reasons": [
+        "no read-only image reduction"
+      ],
+      "eligible": false
+    },
+    {
+      "kind": "algorithm-bounded-explicit",
+      "correct": true,
+      "cache_key": "05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820",
+      "samples": [
+        {
+          "name": "person",
+          "instructions": 30793044,
+          "raw_instructions": 30793048,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            4,
+            -4
+          ],
+          "stack_watermark_bytes": 712
+        },
+        {
+          "name": "no_person",
+          "instructions": 30792768,
+          "raw_instructions": 30792772,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            77,
+            -77
+          ],
+          "stack_watermark_bytes": 712
+        },
+        {
+          "name": "person_mirrored",
+          "instructions": 30792727,
+          "raw_instructions": 30792731,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            7,
+            -7
+          ],
+          "stack_watermark_bytes": 712
+        },
+        {
+          "name": "no_person_mirrored",
+          "instructions": 30792602,
+          "raw_instructions": 30792606,
+          "measurement_overhead": 4,
+          "mismatches": 0,
+          "output": [
+            57,
+            -57
+          ],
+          "stack_watermark_bytes": 712
+        }
+      ],
+      "layers": [
+        {
+          "sample": 0,
+          "layer": 0,
+          "instructions": 969011,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 1,
+          "instructions": 1150187,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 2,
+          "instructions": 1937046,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 3,
+          "instructions": 540193,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 4,
+          "instructions": 1372879,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 5,
+          "instructions": 1547804,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 6,
+          "instructions": 2298549,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 7,
+          "instructions": 249588,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 8,
+          "instructions": 1145991,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 9,
+          "instructions": 859715,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 10,
+          "instructions": 2069008,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 11,
+          "instructions": 130658,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 12,
+          "instructions": 1034687,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 13,
+          "instructions": 449152,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 14,
+          "instructions": 1956656,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 15,
+          "instructions": 449337,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 16,
+          "instructions": 1956805,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 17,
+          "instructions": 449650,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 18,
+          "instructions": 1956654,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 19,
+          "instructions": 449672,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 20,
+          "instructions": 1956795,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 21,
+          "instructions": 449506,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 22,
+          "instructions": 1956826,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 23,
+          "instructions": 65700,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 24,
+          "instructions": 1104117,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 25,
+          "instructions": 138874,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 26,
+          "instructions": 2136518,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 0,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 0,
+          "instructions": 969635,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 1,
+          "instructions": 1149668,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 2,
+          "instructions": 1937436,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 3,
+          "instructions": 541073,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 4,
+          "instructions": 1372323,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 5,
+          "instructions": 1547451,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 6,
+          "instructions": 2298472,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 7,
+          "instructions": 249128,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 8,
+          "instructions": 1145296,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 9,
+          "instructions": 859440,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 10,
+          "instructions": 2068960,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 11,
+          "instructions": 130697,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 12,
+          "instructions": 1034834,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 13,
+          "instructions": 449488,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 14,
+          "instructions": 1956741,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 15,
+          "instructions": 449374,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 16,
+          "instructions": 1956685,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 17,
+          "instructions": 449597,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 18,
+          "instructions": 1956785,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 19,
+          "instructions": 449728,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 20,
+          "instructions": 1956801,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 21,
+          "instructions": 449404,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 22,
+          "instructions": 1956735,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 23,
+          "instructions": 65680,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 24,
+          "instructions": 1104109,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 25,
+          "instructions": 138725,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 26,
+          "instructions": 2136990,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 1,
+          "layer": 30,
+          "instructions": 1249,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 0,
+          "instructions": 968985,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 1,
+          "instructions": 1150128,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 2,
+          "instructions": 1937112,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 3,
+          "instructions": 540017,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 4,
+          "instructions": 1372860,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 5,
+          "instructions": 1547774,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 6,
+          "instructions": 2298652,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 7,
+          "instructions": 249642,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 8,
+          "instructions": 1146012,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 9,
+          "instructions": 859703,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 10,
+          "instructions": 2069046,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 11,
+          "instructions": 130512,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 12,
+          "instructions": 1034686,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 13,
+          "instructions": 449170,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 14,
+          "instructions": 1956568,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 15,
+          "instructions": 449361,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 16,
+          "instructions": 1956680,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 17,
+          "instructions": 449600,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 18,
+          "instructions": 1956763,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 19,
+          "instructions": 449620,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 20,
+          "instructions": 1956808,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 21,
+          "instructions": 449533,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 22,
+          "instructions": 1956845,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 23,
+          "instructions": 65725,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 24,
+          "instructions": 1104084,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 25,
+          "instructions": 138813,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 26,
+          "instructions": 2136562,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 2,
+          "layer": 30,
+          "instructions": 1202,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 0,
+          "instructions": 969631,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 1,
+          "instructions": 1149676,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 2,
+          "instructions": 1937596,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 3,
+          "instructions": 540932,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 4,
+          "instructions": 1372246,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 5,
+          "instructions": 1547200,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 6,
+          "instructions": 2298474,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 7,
+          "instructions": 249092,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 8,
+          "instructions": 1145383,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 9,
+          "instructions": 859516,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 10,
+          "instructions": 2068907,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 11,
+          "instructions": 130719,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 12,
+          "instructions": 1034847,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 13,
+          "instructions": 449508,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 14,
+          "instructions": 1956734,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 15,
+          "instructions": 449386,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 16,
+          "instructions": 1956647,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 17,
+          "instructions": 449573,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 18,
+          "instructions": 1956944,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 19,
+          "instructions": 449683,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 20,
+          "instructions": 1956906,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 21,
+          "instructions": 449376,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 22,
+          "instructions": 1956740,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 23,
+          "instructions": 65670,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 24,
+          "instructions": 1104110,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 25,
+          "instructions": 138715,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 26,
+          "instructions": 2136877,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 27,
+          "instructions": 7177,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 28,
+          "instructions": 2627,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 29,
+          "instructions": 33,
+          "mismatches": 0
+        },
+        {
+          "sample": 3,
+          "layer": 30,
+          "instructions": 1250,
+          "mismatches": 0
+        }
+      ],
+      "mean_instructions": 30792785.25,
+      "text_bytes": 48912,
+      "rodata_bytes": 1206876,
+      "static_ram_bytes": 112640,
+      "reserved_stack_bytes": 65536,
+      "compile_seconds": 3.0990663189986662,
+      "qemu_seconds": 0.5816077590006898,
+      "toolchains": {
+        "gcc": "riscv64-unknown-elf-gcc (14.2.0+19) 14.2.0",
+        "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+        "qemu": "QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1)"
+      },
+      "toolchain_hashes": {
+        "rustc": "e6abf55ab1859e7c990be77fd593f51661ea99fb2fde626ae9f4108aaa34e7fa",
+        "gcc": "9105719e661cb7362a3cd014f84807c8242e804716798d7f6b3a0770bd3c93da",
+        "gcc_cc1": "f0a57fb69fe2890848e0791ce5f51888b770ec74c4cdf97df1cc16f98e70b215",
+        "qemu": "9f4d87b836f8198661e7053987bb9eb4651209858869929584f82bb2ec624406"
+      },
+      "cflags": [
+        "-O3",
+        "-march=rv32imc",
+        "-mabi=ilp32",
+        "-ffreestanding",
+        "-fno-builtin",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-unwind-tables",
+        "-fno-asynchronous-unwind-tables"
+      ],
+      "rustflags": [
+        "--edition=2021",
+        "--crate-type=staticlib",
+        "--target=riscv32imc-unknown-none-elf",
+        "-C",
+        "opt-level=3",
+        "-C",
+        "panic=abort",
+        "-C",
+        "codegen-units=1",
+        "-C",
+        "overflow-checks=off"
+      ],
+      "qemu_flags": [
+        "-M",
+        "virt",
+        "-cpu",
+        "lowrisc-ibex",
+        "-smp",
+        "1",
+        "-m",
+        "4M",
+        "-nographic",
+        "-monitor",
+        "none",
+        "-bios",
+        "none",
+        "-icount",
+        "shift=0,align=off,sleep=off"
+      ],
+      "constants_override": "results/algorithm/variants/bounded-explicit/constants.h",
+      "graph_override": "results/algorithm/variants/bounded-explicit/graph.c",
+      "linker_override": "results/algorithm/link.ld",
+      "build_dir": "results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820",
+      "commands": [
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/graph.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/0.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/memory.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/1.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-march=rv32imc_zicsr",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/qemu/start.S",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/2.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/3.o"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+          "-I/workspace/riscv-int8-autotune/baselines/c/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/include",
+          "-I/workspace/riscv-int8-autotune/baselines/esp-nn/src/common",
+          "-I/workspace/riscv-int8-autotune/baselines/muriscv-nn/Include",
+          "-c",
+          "/workspace/riscv-int8-autotune/baselines/muriscv-nn/Source/SoftmaxFunctions/muriscv_nn_softmax_common_s8.c",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/4.o"
+        ],
+        [
+          "rustc",
+          "--edition=2021",
+          "--crate-type=staticlib",
+          "--target=riscv32imc-unknown-none-elf",
+          "-C",
+          "opt-level=3",
+          "-C",
+          "panic=abort",
+          "-C",
+          "codegen-units=1",
+          "-C",
+          "overflow-checks=off",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/kernels.rs",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/kernels.a"
+        ],
+        [
+          "riscv64-unknown-elf-gcc",
+          "-O3",
+          "-march=rv32imc",
+          "-mabi=ilp32",
+          "-ffreestanding",
+          "-fno-builtin",
+          "-ffunction-sections",
+          "-fdata-sections",
+          "-fno-unwind-tables",
+          "-fno-asynchronous-unwind-tables",
+          "-nostdlib",
+          "-Wl,--gc-sections",
+          "-Wl,--no-relax",
+          "-Wl,-Map=/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/link.map",
+          "-T",
+          "/workspace/riscv-int8-autotune/results/algorithm/link.ld",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/0.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/1.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/2.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/3.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/4.o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/kernels.a",
+          "-lgcc",
+          "-o",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-objdump",
+          "-d",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-readelf",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/model.elf"
+        ],
+        [
+          "riscv64-unknown-elf-size",
+          "-A",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/model.elf"
+        ],
+        [
+          "qemu-system-riscv32",
+          "-M",
+          "virt",
+          "-cpu",
+          "lowrisc-ibex",
+          "-smp",
+          "1",
+          "-m",
+          "4M",
+          "-nographic",
+          "-monitor",
+          "none",
+          "-bios",
+          "none",
+          "-icount",
+          "shift=0,align=off,sleep=off",
+          "-kernel",
+          "/workspace/riscv-int8-autotune/results/model/person-detection/build/05704d1c1c8ac0acce1874776e0f32f21684dcb3f85b8cc40caf255b1983b820/model.elf"
+        ]
+      ],
+      "variant": "bounded-explicit",
+      "source": "results/algorithm/variants/bounded-explicit/kernels.rs",
+      "parameter_manifest": "results/algorithm/variants/bounded-explicit/manifest.json",
+      "rejection_reasons": [
+        "text_bytes",
+        "no read-only image reduction",
+        "stack: person",
+        "stack: no_person",
+        "stack: person_mirrored",
+        "stack: no_person_mirrored",
+        "layer instructions: 0/5",
+        "layer instructions: 0/9",
+        "layer instructions: 0/13",
+        "layer instructions: 0/15",
+        "layer instructions: 0/17",
+        "layer instructions: 0/19",
+        "layer instructions: 0/21",
+        "layer instructions: 1/5",
+        "layer instructions: 1/9",
+        "layer instructions: 1/13",
+        "layer instructions: 1/15",
+        "layer instructions: 1/17",
+        "layer instructions: 1/19",
+        "layer instructions: 1/21",
+        "layer instructions: 2/5",
+        "layer instructions: 2/9",
+        "layer instructions: 2/13",
+        "layer instructions: 2/15",
+        "layer instructions: 2/17",
+        "layer instructions: 2/19",
+        "layer instructions: 2/21",
+        "layer instructions: 3/5",
+        "layer instructions: 3/9",
+        "layer instructions: 3/13",
+        "layer instructions: 3/15",
+        "layer instructions: 3/17",
+        "layer instructions: 3/19",
+        "layer instructions: 3/21"
+      ],
+      "eligible": false
+    }
+  ],
+  "search_seconds": 22.561551782000606
+}

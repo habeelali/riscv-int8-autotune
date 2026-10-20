@@ -1,0 +1,6 @@
+{
+  "description": "Completed extended-grid search wall times from the successful final reproduction; some cache hits are present. Per-candidate compilation times are retained from actual builds.",
+  "search_wall_seconds": 323.137760066,
+  "candidate_compile_seconds": 224.6430362279998,
+  "candidates": 588
+}

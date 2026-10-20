@@ -1,0 +1,8 @@
+{
+  "validated": true,
+  "workloads": 8,
+  "baseline": "ESP-NN generic optimized",
+  "upstream_commit": "f1bfc45cb0edfdbe8fd4871f3abc0adfc7fe1c47",
+  "metric": "QEMU executed guest instructions",
+  "completed_utc": "2026-10-18T19:23:24Z"
+}

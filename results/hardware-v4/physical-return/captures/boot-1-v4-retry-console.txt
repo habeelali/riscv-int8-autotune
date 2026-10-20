@@ -1,0 +1,4 @@
+Capture fd76a822047c43118cbf07f4c1c66836 challenge 3dc73fb4252b1b862936c6278cf26667
+16/96 profiles captured
+32/96 profiles captured
+Capture failed; keep all files: Timed out waiting for V4_PROFILE

@@ -1,0 +1,18 @@
+Host capture UUID: 6a7800e5-a9c8-434a-8db2-f446b8c6a0ee
+I (515) esp_image: segment 1: paddr=001f2a94 vaddr=3fc8b200 sizeHW_CAPTURE {"boot_counter":1070239406,"nonce_hi":2104637736,"nonce_lo":2563362644}
+HW_BEGIN {"schema":1,"build_id":"6b800894f7429a74","idf":"v5.4.2","chip_model":5,"revision":4,"cpu_hz":160000000,"flash_bytes":4194304,"reset_reason":11,"free_heap":207412,"worker_stack_bytes":16384,"interrupts_enabled":true,"model_sha256":"808cfdfc0cf3a6fa6f6fa26bfa379ea97c16d5db7334637766e39c3408502e9d"}
+Captured 100 diagnostic records
+Captured 200 diagnostic records
+Captured 300 diagnostic records
+Captured 400 diagnostic records
+Captured 500 diagnostic records
+Captured 600 diagnostic records
+Captured 700 diagnostic records
+Captured 800 diagnostic records
+Captured 900 diagnostic records
+Captured 1000 diagnostic records
+Captured 1100 diagnostic records
+Captured 1200 diagnostic records
+Captured 1300 diagnostic records
+HW_DONE {"build_id":"6b800894f7429a74","correct":true,"mismatches_total":0,"layer_records":1116,"run_records":252,"free_heap":207412,"minimum_free_heap":198364,"worker_min_free_stack_bytes":11020}
+Complete serial log: C:\Users\habeel\Desktop\esp\diagnostic_bundle_v2\results\boot-2-retry.log

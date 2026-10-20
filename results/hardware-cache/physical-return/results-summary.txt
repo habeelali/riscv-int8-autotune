@@ -1,0 +1,22 @@
+V2 HARDWARE RUN SUMMARY
+=======================
+
+Firmware: v2 image, SHA-256 verified and flashed unchanged at 0x0; esptool reported Hash of data verified.
+Board: ESP32-C3 SuperMini as identified by user; chip ESP32-C3 rev 0.4, 4 MB XMC flash, native USB-Serial/JTAG on COM6.
+Successful device runs: boot-1, boot-2-retry, boot-3. Each has HW_CAPTURE, HW_BEGIN, HW_INFO, 1116 HW_LAYER, 252 HW_RUN, and HW_DONE; each is complete/correct with zero mismatches.
+Device boot counters and nonce triples are unique across the three successful logs: 3/3.
+Raw log SHA-256 hashes are distinct: 3/3.
+The first automatic-reset capture attempt for boot 2 received no serial bytes; its empty raw log, controller output, summary, and failure metadata are preserved. The COM port was recovered using an esptool connection/hard reset, then the --no-reset capture completed successfully.
+Boot logs start with a partial ESP-IDF image-segment line because the native USB console opened after initial bytes. All diagnostic data from HW_CAPTURE through HW_DONE is present in the three successful logs.
+Error/panic/watchdog text matches in saved successful logs: 0.
+
+PER-INPUT MEDIAN WHOLE-MODEL CYCLE COMPARISON
+Median of each boot's seven raw cycle measurements, then median across the three successful boots. Speedup > 1 means the cache backend used fewer cycles.
+sample 0 rust_cache2: 41278311 cycles; 1.7165x vs rust_candidate; 1.4236x vs fastest C (mu_scalar, 58762899 cycles).
+sample 0 rust_cache4: 42780005 cycles; 1.6562x vs rust_candidate; 1.3736x vs fastest C (mu_scalar, 58762899 cycles).
+sample 1 rust_cache2: 41279841 cycles; 1.7165x vs rust_candidate; 1.4234x vs fastest C (mu_scalar, 58758389 cycles).
+sample 1 rust_cache4: 42781767 cycles; 1.6562x vs rust_candidate; 1.3734x vs fastest C (mu_scalar, 58758389 cycles).
+sample 2 rust_cache2: 41275651 cycles; 1.7166x vs rust_candidate; 1.4235x vs fastest C (mu_scalar, 58757267 cycles).
+sample 2 rust_cache4: 42779021 cycles; 1.6563x vs rust_candidate; 1.3735x vs fastest C (mu_scalar, 58757267 cycles).
+sample 3 rust_cache2: 41278253 cycles; 1.7165x vs rust_candidate; 1.4235x vs fastest C (mu_scalar, 58761529 cycles).
+sample 3 rust_cache4: 42781599 cycles; 1.6562x vs rust_candidate; 1.3735x vs fastest C (mu_scalar, 58761529 cycles).

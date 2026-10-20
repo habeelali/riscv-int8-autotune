@@ -1,0 +1,27 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/autotuner regression`
+conv3x3 1 C / generic / generated correct
+conv3x3 3735928559 C / generic / generated correct
+conv3x3 123456789 C / generic / generated correct
+conv_small 1 C / generic / generated correct
+conv_small 3735928559 C / generic / generated correct
+conv_small 123456789 C / generic / generated correct
+depthwise 1 C / generic / generated correct
+depthwise 3735928559 C / generic / generated correct
+depthwise 123456789 C / generic / generated correct
+depthwise_small 1 C / generic / generated correct
+depthwise_small 3735928559 C / generic / generated correct
+depthwise_small 123456789 C / generic / generated correct
+fc_small 1 C / generic / generated correct
+fc_small 3735928559 C / generic / generated correct
+fc_small 123456789 C / generic / generated correct
+fully_connected 1 C / generic / generated correct
+fully_connected 3735928559 C / generic / generated correct
+fully_connected 123456789 C / generic / generated correct
+pointwise 1 C / generic / generated correct
+pointwise 3735928559 C / generic / generated correct
+pointwise 123456789 C / generic / generated correct
+pointwise_small 1 C / generic / generated correct
+pointwise_small 3735928559 C / generic / generated correct
+pointwise_small 123456789 C / generic / generated correct
+All QEMU regressions and the incorrect-kernel rejection passed.

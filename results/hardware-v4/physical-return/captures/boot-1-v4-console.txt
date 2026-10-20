@@ -1,0 +1,3 @@
+Capture e921b1ee9a754edbbe72df1ba6358ae3 challenge 11a30f4750a277176f420bb165b41624
+16/96 profiles captured
+Capture failed; keep all files: Timed out waiting for V4_PROFILE

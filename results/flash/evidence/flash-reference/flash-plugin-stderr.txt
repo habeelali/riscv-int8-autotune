@@ -1,0 +1,8 @@
+qemu-system-riscv32: -plugin /workspace/riscv-int8-autotune/qemu/count-plugin.so,0x80000b30,0x80000b3c: warning: short-form boolean option '0x80000b30' deprecated
+Please use 0x80000b30=on instead
+qemu-system-riscv32: -plugin /workspace/riscv-int8-autotune/qemu/count-plugin.so,0x80000b30,0x80000b3c: warning: short-form boolean option '0x80000b3c' deprecated
+Please use 0x80000b3c=on instead
+PLUGIN_REGION 32571435
+PLUGIN_REGION 32571187
+PLUGIN_REGION 32571208
+PLUGIN_REGION 32570997

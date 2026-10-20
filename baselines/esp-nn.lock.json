@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/espressif/esp-nn.git",
+  "commit": "f1bfc45cb0edfdbe8fd4871f3abc0adfc7fe1c47",
+  "license": "Apache-2.0",
+  "dispatch": "ESP32-C3 generic optimized scalar convolution and depthwise; ANSI fully connected"
+}

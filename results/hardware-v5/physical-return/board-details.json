@@ -1,0 +1,8 @@
+{
+  "board_model": "ESP32-C3 SuperMini (user identified)",
+  "usb_connection": "Native USB Serial/JTAG, VID 303A PID 1001",
+  "expected_usb_serial": "94:A9:90:96:72:D4",
+  "power": "Assumed host USB bus power through the existing cable; no independent rail measurement or wiring inspection",
+  "cable_or_power_changed_by_agent": false,
+  "physical_power_cycle": false
+}

@@ -1,0 +1,8 @@
+conv3x3 4710899
+conv_small 21511
+depthwise 1670374
+depthwise_small 9343
+fc_small 2382
+fully_connected 125457
+pointwise 1373728
+pointwise_small 20000

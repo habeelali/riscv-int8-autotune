@@ -1,0 +1,35 @@
+{
+  "scope": "Deliberately corrupted test fixtures, not performance measurements",
+  "tests": [
+    {
+      "case": "control",
+      "passed": true,
+      "expected_acceptance": true,
+      "audit_exit_code": 0
+    },
+    {
+      "case": "changed_raw",
+      "passed": true,
+      "expected_acceptance": false,
+      "audit_exit_code": 2
+    },
+    {
+      "case": "changed_selected_map",
+      "passed": true,
+      "expected_acceptance": false,
+      "audit_exit_code": 2
+    },
+    {
+      "case": "missing_profile",
+      "passed": true,
+      "expected_acceptance": false,
+      "audit_exit_code": 2
+    },
+    {
+      "case": "frozen_without_training",
+      "passed": true,
+      "expected_acceptance": false,
+      "audit_exit_code": 2
+    }
+  ]
+}

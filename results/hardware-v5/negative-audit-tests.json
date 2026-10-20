@@ -1,0 +1,25 @@
+{
+  "scope": "Deliberately corrupted fixtures, not measurements",
+  "tests": [
+    {
+      "case": "control",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "case": "changed_raw",
+      "passed": true,
+      "exit_code": 2
+    },
+    {
+      "case": "altered_command",
+      "passed": true,
+      "exit_code": 2
+    },
+    {
+      "case": "missing_run",
+      "passed": true,
+      "exit_code": 2
+    }
+  ]
+}

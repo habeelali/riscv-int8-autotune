@@ -1,0 +1,42 @@
+{
+  "build_id": "cdd27710ec8a49a9",
+  "image_sha256": "2473cdccadc3adee4528ccdc5a7fbbae66746b52bfaed8f2a0af5e000c26a760",
+  "valid_captures": 3,
+  "tensor_checks": 2256,
+  "timed_inferences": 480,
+  "mismatches": 0,
+  "independent_reset_repeatability": true,
+  "physical_power_cycles": false,
+  "models": [
+    {
+      "model": "Person detector",
+      "best_tested_c_ms": 376.314834375,
+      "rust_ms": 259.2283166666667,
+      "rust_ms_min": 259.22751875,
+      "rust_ms_max": 259.22968125,
+      "rust_boot_range_percent": 0.000834206705426348,
+      "c_over_rust": 1.4516733322468884,
+      "ratio_min": 1.4516673300842056,
+      "ratio_max": 1.4516797656390525
+    },
+    {
+      "model": "CIFAR-10 ResNet",
+      "best_tested_c_ms": 620.3838197916666,
+      "rust_ms": 354.6903854166667,
+      "rust_ms_min": 354.689475,
+      "rust_ms_max": 354.691371875,
+      "rust_boot_range_percent": 0.000534797411486524,
+      "c_over_rust": 1.7490855271905934,
+      "ratio_min": 1.7490771151547924,
+      "ratio_max": 1.749100850803486
+    }
+  ],
+  "equal_model_geomean": 1.5934556208572532,
+  "limitations": [
+    "One board, three hard-reset sessions; not power cycles or long-duration reliability.",
+    "Fixed schedules; four previously used validation fixtures per model, not a new held-out dataset or accuracy study.",
+    "Common C graph operators remain in both implementations; this is not a language-only comparison.",
+    "V5 QEMU stalls and earlier V4/V4.1 hardware stalls remain undiagnosed. Passing hardware captures do not prove the emulator is at fault.",
+    "The multi-backend diagnostic image does not establish per-backend production flash size."
+  ]
+}

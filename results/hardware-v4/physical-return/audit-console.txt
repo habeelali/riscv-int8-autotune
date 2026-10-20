@@ -1,0 +1,9 @@
+{
+  "valid": 0,
+  "failed": 3,
+  "independent_repeatability_evidence": false,
+  "output": "diagnostic_bundle_v4\\results\\audit-results"
+}
+diagnostic_bundle_v4\results\captures\boot-1-v4 Capture incomplete
+diagnostic_bundle_v4\results\captures\boot-1-v4-retry Capture incomplete
+diagnostic_bundle_v4\results\captures\boot-1-v4-retry2 Capture incomplete

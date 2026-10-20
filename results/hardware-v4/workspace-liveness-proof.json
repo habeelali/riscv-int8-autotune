@@ -1,0 +1,98 @@
+{
+  "model": "cifar10_resnet",
+  "proof": [
+    {
+      "layer": 0,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 0,
+      "weights_bytes": 432,
+      "weight_offset": 37984,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    },
+    {
+      "layer": 1,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 0,
+      "weights_bytes": 2304,
+      "weight_offset": 36112,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    },
+    {
+      "layer": 2,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 0,
+      "weights_bytes": 2304,
+      "weight_offset": 36112,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    },
+    {
+      "layer": 4,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 17424,
+      "weights_bytes": 4608,
+      "weight_offset": 33808,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    },
+    {
+      "layer": 5,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 0,
+      "weights_bytes": 9216,
+      "weight_offset": 29200,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    },
+    {
+      "layer": 6,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 0,
+      "weights_bytes": 512,
+      "weight_offset": 37904,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    },
+    {
+      "layer": 8,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 9248,
+      "weights_bytes": 18432,
+      "weight_offset": 19984,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    },
+    {
+      "layer": 9,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 0,
+      "weights_bytes": 36864,
+      "weight_offset": 1552,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    },
+    {
+      "layer": 10,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 0,
+      "weights_bytes": 2048,
+      "weight_offset": 36368,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    },
+    {
+      "layer": 14,
+      "buffer_bytes": 38416,
+      "live_padded_input_bytes": 0,
+      "weights_bytes": 640,
+      "weight_offset": 37776,
+      "nonoverlap": true,
+      "extra_static_ram_bytes": 0
+    }
+  ],
+  "copy_in_timed_region": true,
+  "task_stack_reservation_bytes": 16384,
+  "max_explicit_tile_stack_bytes": 9216
+}

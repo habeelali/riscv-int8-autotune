@@ -1,0 +1,7 @@
+UTC reset and capture timeline (2026-10-19)
+- Image checksum verified: 186c34b70a00132624b923df7d5f475a402f49a6b3f573fb7498a88fe810ab51; board identified as ESP32-C3 with 4 MB XMC flash.
+- v4.1 merged image flashed once at 0x0. esptool completed at approximately 2026-10-19T11:46:32Z and reported "Hash of data verified." The esptool command used --after hard_reset, which performed the post-flash RTS reset.
+- boot-1 started 2026-10-19T11:46:32Z, completed successfully 11:55:22Z. 96 profiles, 1880 checks, 400 runs; trained selection saved as captures/boot-1.selection.json.
+- boot-2 reset requested 2026-10-19T11:55:28.2797581Z using esptool --after hard_reset chip_id (RTS); collector started 11:55:29Z with the exact boot-1 frozen selection.
+- boot-2 failed at 2026-10-19T11:58:27Z: timed out waiting for V4_PROFILE. Last device progress: seq 12, model 1, backend 6, sample 1, stage warmed, stack_min_free_bytes 4652. Full metadata and raw/event logs are preserved.
+- Per the v4.1 bundle recovery instruction, collection stopped after this first failed profile; boot-3 was not started. No physical power cycle was performed. Board remained USB-powered through the same host cable.

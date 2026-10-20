@@ -1,0 +1,165 @@
+{
+  "label": "after",
+  "correct": true,
+  "output": [
+    72,
+    -72
+  ],
+  "instructions_raw": 32578621,
+  "text_bytes": 43462,
+  "rodata_bytes": 243072,
+  "data_bytes": 0,
+  "flash_bytes": 286534,
+  "binary_file_bytes": 286536,
+  "static_ram_bytes": 121360,
+  "reserved_stack_bytes": 65536,
+  "kernel_benchmark_key": "f72665117a965d258fbf66a311c2c6c2ec87d0adbda8f931f6af82b72d8d154b",
+  "elf_sha256": "8d3b4052b64d46960bd0d8c12126d7784a39aa9e6881f583e5150ba775aee336",
+  "build_dir": "results/flash/deployment/after",
+  "commands": [
+    [
+      "riscv64-unknown-elf-gcc",
+      "-O3",
+      "-march=rv32imc",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables",
+      "-march=rv32imc_zicsr",
+      "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+      "-c",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/graph.c",
+      "-o",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/graph.o"
+    ],
+    [
+      "riscv64-unknown-elf-gcc",
+      "-O3",
+      "-march=rv32imc",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables",
+      "-nostdlib",
+      "-Wl,--gc-sections",
+      "-Wl,--no-relax",
+      "-Wl,-Map=/workspace/riscv-int8-autotune/results/flash/deployment/after/link.map",
+      "-T",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/link.ld",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/graph.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/f72665117a965d258fbf66a311c2c6c2ec87d0adbda8f931f6af82b72d8d154b/1.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/f72665117a965d258fbf66a311c2c6c2ec87d0adbda8f931f6af82b72d8d154b/2.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/f72665117a965d258fbf66a311c2c6c2ec87d0adbda8f931f6af82b72d8d154b/3.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/f72665117a965d258fbf66a311c2c6c2ec87d0adbda8f931f6af82b72d8d154b/4.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/f72665117a965d258fbf66a311c2c6c2ec87d0adbda8f931f6af82b72d8d154b/kernels.a",
+      "-lgcc",
+      "-o",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-size",
+      "-A",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-objdump",
+      "-d",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-nm",
+      "-S",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/model.elf"
+    ],
+    [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/model.elf"
+    ],
+    [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/model.elf"
+    ],
+    [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-objcopy",
+      "-O",
+      "binary",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/model.elf",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/after/model.bin"
+    ]
+  ],
+  "samples": [
+    [
+      32578621,
+      72,
+      -72
+    ],
+    [
+      32578621,
+      72,
+      -72
+    ],
+    [
+      32578621,
+      72,
+      -72
+    ]
+  ]
+}

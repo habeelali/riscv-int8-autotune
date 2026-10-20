@@ -1,0 +1,12 @@
+[package]
+name = "autotuner"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Measured scalar RV32IMC INT8 kernel generation and tuning"
+[[bin]]
+name = "riscv-int8"
+path = "src/main.rs"
+[dependencies]
+kernel-generator = { path = "../kernel-generator" }
+serde_json = "=1.0.145"

@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/tum-ei-eda/muriscv-nn.git",
+  "commit": "f69494442858980be78180868d96c3524dbf26f9",
+  "license": "Apache-2.0",
+  "dispatch": "Upstream convolution/depthwise/FC wrappers; scalar and portable-vector algorithms compiled for RV32IMC"
+}

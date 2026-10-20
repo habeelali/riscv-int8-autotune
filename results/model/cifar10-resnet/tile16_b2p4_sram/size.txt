@@ -1,0 +1,16 @@
+/workspace/riscv-int8-autotune/results/model/cifar10-resnet/tile16_b2p4_sram/model.elf  :
+section                size         addr
+.text                 38498   2147483648
+.rodata              555748   2147522148
+.bss                 112160   2148077904
+.stack                65536   2148190064
+.riscv.attributes        56            0
+.debug_abbrev           780            0
+.debug_info          132301            0
+.debug_aranges         4328            0
+.debug_ranges         44640            0
+.debug_str           240950            0
+.debug_line          153023            0
+Total               1348020
+
+

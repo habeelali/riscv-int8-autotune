@@ -1,0 +1,103 @@
+{
+  "selected_capture": "boot-3.log",
+  "captures": {
+    "boot-1.log": {
+      "sha256": "222f30a43cab9415d2f38fe16b1259d234f0c5f035dc135efe5eeba572741d9c",
+      "complete": false,
+      "layers": 858,
+      "runs": 196,
+      "correct": false
+    },
+    "boot-2.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "complete": false,
+      "layers": 0,
+      "runs": 0,
+      "correct": false
+    },
+    "boot-3.log": {
+      "sha256": "c28db335b008b269092c48354f7b363bd03d1056da0f92b30691dbd035da8298",
+      "complete": true,
+      "layers": 868,
+      "runs": 196,
+      "correct": true
+    },
+    "boot-4.log": {
+      "sha256": "c28db335b008b269092c48354f7b363bd03d1056da0f92b30691dbd035da8298",
+      "complete": true,
+      "layers": 868,
+      "runs": 196,
+      "correct": true
+    },
+    "boot-5.log": {
+      "sha256": "09698a7045a10d3e7fa2723f78ea6079a0b189f42ca4899af4c580999ce81030",
+      "complete": true,
+      "layers": 868,
+      "runs": 196,
+      "correct": true
+    }
+  },
+  "duplicate_audit": [
+    {
+      "capture": "boot-1.log",
+      "comparable_timing_records": 1054,
+      "identical_cycle_counts": 1052
+    },
+    {
+      "capture": "boot-2.log",
+      "comparable_timing_records": 0,
+      "identical_cycle_counts": 0
+    },
+    {
+      "capture": "boot-3.log",
+      "comparable_timing_records": 1064,
+      "identical_cycle_counts": 1064
+    },
+    {
+      "capture": "boot-4.log",
+      "comparable_timing_records": 1064,
+      "identical_cycle_counts": 1064
+    },
+    {
+      "capture": "boot-5.log",
+      "comparable_timing_records": 1064,
+      "identical_cycle_counts": 1063
+    }
+  ],
+  "backends": {
+    "esp_nn_native": {
+      "mean_sample_median_cycles": 122521083,
+      "mean_sample_median_ms": 765.75676875
+    },
+    "mu_fixed": {
+      "mean_sample_median_cycles": 58621555.5,
+      "mean_sample_median_ms": 366.384721875
+    },
+    "mu_portable": {
+      "mean_sample_median_cycles": 59141114,
+      "mean_sample_median_ms": 369.6319625
+    },
+    "mu_portable_fixed": {
+      "mean_sample_median_cycles": 59487083.5,
+      "mean_sample_median_ms": 371.794271875
+    },
+    "mu_scalar": {
+      "mean_sample_median_cycles": 58511834,
+      "mean_sample_median_ms": 365.6989625
+    },
+    "rust_candidate": {
+      "mean_sample_median_cycles": 73108929.5,
+      "mean_sample_median_ms": 456.930809375
+    },
+    "rust_compact": {
+      "mean_sample_median_cycles": 84341099.5,
+      "mean_sample_median_ms": 527.131871875
+    }
+  },
+  "geometric_mean_ratios": {
+    "compact_over_candidate": 1.1536361001508506,
+    "best_c_over_candidate": 0.8003377277653849
+  },
+  "provenance_limit": "Boots 3 and 4 are byte-identical; boot 5 differs in one timing record. Independence unconfirmed; no pooling.",
+  "scope": "Returned physical-board logs, interrupts enabled, one model, four fixtures, warm inference, seven repetitions."
+}

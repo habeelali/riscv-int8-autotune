@@ -1,0 +1,26 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.04s
+     Running `target/debug/autotuner compare`
+| Workload | ESP-NN C | Generic Rust | Tuned Rust | C / tuned | Selected |
+|---|---:|---:|---:|---:|---|
+| conv3x3 | 8,546,046 | 38,396,168 | 4,032,868 | 2.119× | `b2_u1_s0_im2col_p4_qpos` |
+| pointwise | 2,129,234 | 9,594,346 | 1,105,945 | 1.925× | `b4_u1_s0_p2_qpos` |
+| depthwise | 1,955,993 | 6,841,273 | 1,372,290 | 1.425× | `b4_u1_s1_qpos` |
+| fully_connected | 302,154 | 1,067,547 | 124,485 | 2.427× | `b8_u1_s0_qpos` |
+| conv_small | 41,891 | 144,555 | 16,675 | 2.512× | `b2_u1_s1_qpos` |
+| depthwise_small | 13,480 | 36,411 | 6,883 | 1.958× | `b1_u1_s1_cxy_qpos` |
+| fc_small | 4,426 | 15,013 | 2,181 | 2.029× | `b8_u1_s0_qpos` |
+| pointwise_small | 36,524 | 117,697 | 14,885 | 2.454× | `b2_u1_s0_qpos` |
+
+Primary geometric mean: 1.938289x; all workloads: 2.076602x; candidates: 588
+| Workload | Stock muRISCV-NN | Best incl. local fix | Tuned Rust | Best mu / Rust | Selected Rust |
+|---|---:|---:|---:|---:|---|
+| conv3x3 | 4,875,226 | 4,811,060 | 4,032,868 | 1.193× | `b2_u1_s0_im2col_p4_qpos` |
+| pointwise | 1,381,594 | 1,375,451 | 1,105,945 | 1.244× | `b4_u1_s0_p2_qpos` |
+| depthwise | 1,940,678 | 1,843,989 | 1,372,290 | 1.344× | `b4_u1_s1_qpos` |
+| fully_connected | 140,648 | 139,788 | 124,485 | 1.123× | `b8_u1_s0_qpos` |
+| conv_small | 32,582 | 31,584 | 16,675 | 1.894× | `b2_u1_s1_qpos` |
+| depthwise_small | 12,172 | 11,185 | 6,883 | 1.625× | `b1_u1_s1_cxy_qpos` |
+| fc_small | 2,625 | 2,531 | 2,181 | 1.160× | `b8_u1_s0_qpos` |
+| pointwise_small | 26,795 | 24,389 | 14,885 | 1.638× | `b2_u1_s0_qpos` |
+
+Primary mean vs stock: 1.246344047904548 vs strongest incl. fix: 1.223209692509371

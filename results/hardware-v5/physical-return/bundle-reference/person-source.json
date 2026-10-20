@@ -1,0 +1,27 @@
+{
+  "project": "TensorFlow Lite Micro",
+  "commit": "64b3de836daf42ef5094d06035742c058e7638f6",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "file": "person_detect.tflite",
+      "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/64b3de836daf42ef5094d06035742c058e7638f6/tensorflow/lite/micro/models/person_detect.tflite",
+      "sha256": "808cfdfc0cf3a6fa6f6fa26bfa379ea97c16d5db7334637766e39c3408502e9d"
+    },
+    {
+      "file": "person.bmp",
+      "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/64b3de836daf42ef5094d06035742c058e7638f6/tensorflow/lite/micro/examples/person_detection/testdata/person.bmp",
+      "sha256": "b50a4d51e86551ea13038c96c222b9c3aaf653f5946211e5e5fd3e60b029e4d2"
+    },
+    {
+      "file": "no_person.bmp",
+      "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/64b3de836daf42ef5094d06035742c058e7638f6/tensorflow/lite/micro/examples/person_detection/testdata/no_person.bmp",
+      "sha256": "2322df94e6788b05e4051e531f7a3a95b6db54624d170ebc9af2f1d5a73e9f79"
+    },
+    {
+      "file": "LICENSE.tflite-micro",
+      "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/64b3de836daf42ef5094d06035742c058e7638f6/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  ]
+}

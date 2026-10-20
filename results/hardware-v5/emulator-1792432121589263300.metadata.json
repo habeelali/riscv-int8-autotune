@@ -1,0 +1,55 @@
+{
+  "schema": 5,
+  "host_capture_uuid": "3b36b26a023c443f895e7e865ecb50d8",
+  "challenge": "960d0bec5d5c20c55557af63cbdfcace",
+  "port": "socket://127.0.0.1:60837",
+  "started": {
+    "utc": "2026-10-19T17:48:41.626728+00:00",
+    "monotonic_ns": 37360882881570
+  },
+  "completed": false,
+  "reset_requested": false,
+  "ready": {
+    "schema": 5,
+    "build_id": "cdd27710ec8a49a9",
+    "boot_counter": 1,
+    "nonce_hi": 2076657067,
+    "nonce_lo": 2066795164,
+    "cpu_hz": 160000000,
+    "tick_hz": 100,
+    "reset_reason": 1
+  },
+  "session": {
+    "challenge": "960d0bec5d5c20c55557af63cbdfcace",
+    "build_id": "cdd27710ec8a49a9",
+    "boot_counter": 1,
+    "nonce_hi": 2076657067,
+    "nonce_lo": 2066795164,
+    "cpu_hz": 160000000,
+    "models": [
+      "person",
+      "cifar10_resnet"
+    ],
+    "backends": [
+      "esp_nn",
+      "mu_scalar",
+      "mu_fixed",
+      "rust"
+    ],
+    "samples": 4,
+    "rounds": 5,
+    "expected_checks": 752,
+    "expected_runs": 160,
+    "tensor_ram_bytes": 112144
+  },
+  "error": "read failed: socket disconnected",
+  "finished": {
+    "utc": "2026-10-19T17:50:33.597964+00:00",
+    "monotonic_ns": 37472854132155
+  },
+  "hashes": {
+    "raw": "2d10f230bf2a6cfd32220da23430231e3232dd07d284627ebd5f65955021537d",
+    "events": "23a2a5adca656e96f505000fc7eacf616daa02bf0b14b58483047dfd60a70a99",
+    "plan": "ee6e7a385e1e4dec80b60daa826f0e9ee6ed92b41658652171693d3bfd9fcdc8"
+  }
+}

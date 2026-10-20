@@ -1,0 +1,13 @@
+variant,correct,feasible,instructions,text_bytes,flash_bytes,static_ram_bytes,reserved_stack_bytes,scratch_bytes,error
+b1_u1_s0,True,True,269416,5694,40390,136,65536,0,
+b1_u16_s0,True,True,182133,5964,40660,140,65536,0,
+b2_u16_s0,True,True,171317,6444,41140,140,65536,0,
+b4_u16_s0,True,True,188821,7564,42260,140,65536,0,
+b8_u8_s0,True,True,201875,8666,43362,140,65536,0,
+b16_u1_s0,True,True,160445,9734,44430,128,65536,0,
+b1_u4_s0_qpos,True,True,210860,5772,40728,136,65536,0,
+b2_u4_s0_qpos,True,True,157303,5936,40892,132,65536,0,
+b4_u1_s0_qpos,True,True,144819,6072,41028,140,65536,0,
+b8_u1_s0_qpos,True,True,124485,6536,41492,140,65536,0,
+b4_u2_s0_qpos,True,True,140790,6142,41098,132,65536,0,
+b16_u4_s0_qpos,True,True,233196,8832,43788,132,65536,0,

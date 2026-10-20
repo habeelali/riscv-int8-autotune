@@ -1,0 +1,165 @@
+{
+  "label": "cache-hardware-cache-b2-p4",
+  "correct": true,
+  "output": [
+    72,
+    -72
+  ],
+  "instructions_raw": 29652488,
+  "text_bytes": 39496,
+  "rodata_bytes": 242384,
+  "data_bytes": 0,
+  "flash_bytes": 281880,
+  "binary_file_bytes": 281880,
+  "static_ram_bytes": 121360,
+  "reserved_stack_bytes": 65536,
+  "kernel_benchmark_key": "53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0",
+  "elf_sha256": "ee92d3fd34f236f3465046fe23dd1f5e257aba6cf064e8074102207144924a22",
+  "build_dir": "results/flash/deployment/cache-hardware-cache-b2-p4",
+  "commands": [
+    [
+      "riscv64-unknown-elf-gcc",
+      "-O3",
+      "-march=rv32imc",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables",
+      "-march=rv32imc_zicsr",
+      "-I/workspace/riscv-int8-autotune/results/model/person-detection",
+      "-c",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/graph.c",
+      "-o",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/graph.o"
+    ],
+    [
+      "riscv64-unknown-elf-gcc",
+      "-O3",
+      "-march=rv32imc",
+      "-mabi=ilp32",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables",
+      "-nostdlib",
+      "-Wl,--gc-sections",
+      "-Wl,--no-relax",
+      "-Wl,-Map=/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/link.map",
+      "-T",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/link.ld",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/graph.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/1.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/2.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/3.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/4.o",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/53b664c40e0a24f1c56ba37ee2754dcb555f2a604a32740fe6fb3dd228b7bab0/kernels.a",
+      "-lgcc",
+      "-o",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-size",
+      "-A",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-objdump",
+      "-d",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-nm",
+      "-S",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/model.elf"
+    ],
+    [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/model.elf"
+    ],
+    [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/model.elf"
+    ],
+    [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/model.elf"
+    ],
+    [
+      "riscv64-unknown-elf-objcopy",
+      "-O",
+      "binary",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/model.elf",
+      "/workspace/riscv-int8-autotune/results/flash/deployment/cache-hardware-cache-b2-p4/model.bin"
+    ]
+  ],
+  "samples": [
+    [
+      29652488,
+      72,
+      -72
+    ],
+    [
+      29652488,
+      72,
+      -72
+    ],
+    [
+      29652488,
+      72,
+      -72
+    ]
+  ]
+}

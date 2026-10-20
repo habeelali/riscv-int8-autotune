@@ -1,0 +1,55 @@
+{
+  "schema": 5,
+  "host_capture_uuid": "03153ccdb53a4d7bb396712834310547",
+  "challenge": "8c193f1d1ddf359cdbdcad4eda50ff98",
+  "port": "socket://127.0.0.1:35965",
+  "started": {
+    "utc": "2026-10-19T17:51:35.856393+00:00",
+    "monotonic_ns": 37535112549324
+  },
+  "completed": false,
+  "reset_requested": false,
+  "ready": {
+    "schema": 5,
+    "build_id": "cdd27710ec8a49a9",
+    "boot_counter": 1,
+    "nonce_hi": 2006609166,
+    "nonce_lo": 379559079,
+    "cpu_hz": 160000000,
+    "tick_hz": 100,
+    "reset_reason": 1
+  },
+  "session": {
+    "challenge": "8c193f1d1ddf359cdbdcad4eda50ff98",
+    "build_id": "cdd27710ec8a49a9",
+    "boot_counter": 1,
+    "nonce_hi": 2006609166,
+    "nonce_lo": 379559079,
+    "cpu_hz": 160000000,
+    "models": [
+      "person",
+      "cifar10_resnet"
+    ],
+    "backends": [
+      "esp_nn",
+      "mu_scalar",
+      "mu_fixed",
+      "rust"
+    ],
+    "samples": 4,
+    "rounds": 5,
+    "expected_checks": 752,
+    "expected_runs": 160,
+    "tensor_ram_bytes": 112144
+  },
+  "error": "Timed out waiting for V5_RUN",
+  "finished": {
+    "utc": "2026-10-19T17:54:05.257360+00:00",
+    "monotonic_ns": 37684513527558
+  },
+  "hashes": {
+    "raw": "ef44f41e0b4ee6fc5a676c23ad50bf40c8ae792b6d131b138782e6aa5a163fd5",
+    "events": "24c7617eb21fb214098624bb5b0018a2fb665550a414a1682a768c79ef00c667",
+    "plan": "5dbadb3988809dcdafa7a90d9ac04dcc710999cb55b18152d0b28037fb8790b8"
+  }
+}

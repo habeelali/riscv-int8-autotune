@@ -1,0 +1,82 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.04s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.04s
+     Running unittests src/main.rs (target/debug/deps/autotuner-8d70864c53783adf)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/kernel_core-6d6e9fb9453fbf62)
+
+running 2 tests
+test tests::rounding_and_saturation ... ok
+test tests::offset_padding_and_clamp ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/kernel_generator-5261409eac01c1f3)
+
+running 3 tests
+test quant_tests::nonnegative_contract_matches_general_rounding ... ok
+test flash::tests::shares_only_identical_generated_code_and_preserves_entry_points ... ok
+test tests::validates_and_generates_different_schedules ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/reference-4dbfe4117c6f210a)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/debug/deps/reference-85f6f1e134399162)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests kernel_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests kernel_generator
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests reference
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+test_rejects_single_instruction_ram_stack_or_correctness_regressions (test_flash.FlashConstraints.test_rejects_single_instruction_ram_stack_or_correctness_regressions) ... ok
+test_smaller_identical_performance_is_eligible (test_flash.FlashConstraints.test_smaller_identical_performance_is_eligible) ... ok
+test_alignment_tails_and_guards (test_memory.MemoryTests.test_alignment_tails_and_guards) ... ok
+test_all_operators_are_present_and_geometry_is_exact (test_model.ModelTests.test_all_operators_are_present_and_geometry_is_exact) ... ok
+test_only_invalid_bias_axis_metadata_changes (test_model.ModelTests.test_only_invalid_bias_axis_metadata_changes) ... ok
+test_reference_includes_held_out_inputs_and_intermediate_oracles (test_model.ModelTests.test_reference_includes_held_out_inputs_and_intermediate_oracles) ... ok
+test_fixture_is_deterministic_and_not_all_saturated (test_reference.ReferenceTests.test_fixture_is_deterministic_and_not_all_saturated) ... ok
+test_quantization_against_upstream_c_and_rust (test_reference.ReferenceTests.test_quantization_against_upstream_c_and_rust) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.330s
+
+OK
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/autotuner tune-flash`
+dedup-O3 48138 text bytes; 32571202.75 instructions; ELIGIBLE
+dedup-Os 48562 text bytes; 33790207.5 instructions; REJECTED: whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+dedup-Oz 55924 text bytes; 48864238.5 instructions; REJECTED: no read-only image reduction, whole-model instructions: person, stack: person
+outline-O3 57554 text bytes; 35097499.75 instructions; REJECTED: whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+outline-Os 63084 text bytes; 36052750.5 instructions; REJECTED: no read-only image reduction, whole-model instructions: person, whole-model instructions: no_person
+outline-Oz 73352 text bytes; 56766182.5 instructions; REJECTED: text_bytes, static_ram_bytes, no read-only image reduction
+dedup-outline-O3 44114 text bytes; 35097499.75 instructions; REJECTED: whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+dedup-outline-Os 44116 text bytes; 36052750.5 instructions; REJECTED: whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+dedup-outline-Oz 50734 text bytes; 57718931.5 instructions; REJECTED: whole-model instructions: person, stack: person, whole-model instructions: no_person
+Selected dedup-O3 with zero measured regressions
+Deployment flash: 302830 -> 286534 bytes; instructions: 32578621 -> 32578621
+Code 24.6% smaller; model image 5.4% smaller; every measured instruction count unchanged.

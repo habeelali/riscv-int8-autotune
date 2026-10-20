@@ -1,0 +1,8 @@
+mean_instructions_raw,text_bytes,rodata_bytes,static_ram_bytes,correct,name,explicit_tile_scratch_bytes
+54045386.75,28706,554092,112160,True,muriscv-fixed-asm,
+45374096.5,41530,554168,112160,True,generated-0,2304
+45159787.0,41832,555744,112160,True,tile8_b2p4,4608
+44996311.0,38054,555744,112160,True,tile16_b2p4,9216
+45049836.0,38498,555748,112160,True,tile16_b2p4_sram,9216
+45115604.25,38226,555600,112160,True,tile16_b4p2,9216
+45685772.75,38220,555748,112160,True,tile16_b2p4_block_sram,10368

@@ -1,0 +1,7 @@
+test_fixture_is_deterministic_and_not_all_saturated (test_reference.ReferenceTests.test_fixture_is_deterministic_and_not_all_saturated) ... ok
+test_quantization_against_upstream_c_and_rust (test_reference.ReferenceTests.test_quantization_against_upstream_c_and_rust) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.739s
+
+OK

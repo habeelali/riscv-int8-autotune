@@ -1,0 +1,19 @@
+{
+  "revision": 5,
+  "person_model_sha256": "808cfdfc0cf3a6fa6f6fa26bfa379ea97c16d5db7334637766e39c3408502e9d",
+  "resnet_model_sha256": "3c002613d1b2475eb51dd78dfb85a546c8ae658dee71cf6ade43b022fe205415",
+  "resnet_selection": "tile16_b2p4",
+  "sources": {
+    "hardware/esp32c3-v5/prepare.py": "1a78b64e2edf8dc7551fed25f8fc2863444e6aa3f1e17a1e90da2c2fd7d68cf6",
+    "hardware/esp32c3-v5/runtime.c": "6cd4d255e5a1cce45b4339926a067f3faf4920edde6af37ebd35541226306fab",
+    "scripts/resnet_model.py": "dabfd3deeb063d7cceb4dfcae7deba1e817e50585c96b3d84bccbe619198f18e",
+    "results/model/cifar10-resnet/tile16_b2p4/manifest.json": "8a54446a79c12bce87ce121e27dd8ee0e85d71a89f85c5cf5a92e3acf0abace9",
+    "results/algorithm/variants/hardware-cache-b2-p4/kernels.rs": "24e2dce783f7aaa95def7498e4849957b3fe4ec4ecd62f5e85e4db5cde987b32",
+    "results/algorithm/variants/hardware-cache-b2-p4/constants.h": "57553e39042a07232fc24b23725d78f7d17889512ac483fb2beab8b28bdf2ef9",
+    "results/model/cifar10-resnet/tile16_b2p4/source.rs": "1e61c83ab116b08715a9a79172616db9ab9ccc75b5edefb3624651b06ef4f63c",
+    "results/model/cifar10-resnet/tile16_b2p4/parameters.h": "44f7c651fa96a6bff8c33cbbd057edd5baca7ccd3ceffeb63cc7b5f5bc881a2c",
+    "results/model/cifar10-resnet/vectors.h": "bee5964fbb717d4f3618a5343eed82f1f23dad8830960823bd418c8c236d6e17",
+    "results/model/person-detection/vectors.h": "6c2455c86b043c2606bc9a57a7d67c66081d6d6535a141e792b8da0fbda1a00e"
+  },
+  "build_id": "cdd27710ec8a49a9"
+}

@@ -1,0 +1,10 @@
+/workspace/riscv-int8-autotune/results/model/cifar10-resnet/c/model.elf  :
+section               size         addr
+.text                20716   2147483648
+.rodata             553960   2147504364
+.bss                112160   2148058336
+.stack               65536   2148170496
+.riscv.attributes       56            0
+Total               752428
+
+

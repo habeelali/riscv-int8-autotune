@@ -1,0 +1,2 @@
+{"type":"send","utc":"2026-10-19T11:01:59.219910+00:00","monotonic_ns":78644450781300,"command":"HELLO cfdb8b0e71a2d6d54a919e7fde76a2cc"}
+{"type":"line","utc":"2026-10-19T11:01:59.271178+00:00","monotonic_ns":78644502076300,"text":"V3_ERROR {\"protocol\":\"session_token_or_state\"}"}

@@ -1,0 +1,8 @@
+V2 RESET / CAPTURE TIMELINE
+===========================
+Initial v2 flash was written at offset 0x0 and ended with esptool hard reset.
+Boot 1: capture.py default reset; connected on COM6; complete HW_CAPTURE through HW_DONE.
+Boot 2 attempt: capture.py default reset printed “Reset requested” but received no serial bytes. The empty raw log and capture console transcript are retained. The capture was interrupted to recover COM6; esptool chip_id then successfully connected and hard-reset the board. A no-reset capture started immediately afterward.
+Boot 2 retry: --no-reset capture following the esptool hard reset; complete HW_CAPTURE through HW_DONE.
+Boot 3: esptool chip_id connected and hard-reset the board; --no-reset capture followed immediately; complete HW_CAPTURE through HW_DONE.
+All three successful device captures have distinct boot_counter and nonce values. Capture UUIDs, timestamps, byte counts, SHA-256 hashes, and device result are in their .capture.json sidecars.

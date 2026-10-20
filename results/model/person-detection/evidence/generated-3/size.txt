@@ -1,0 +1,32 @@
+/workspace/riscv-int8-autotune/results/model/person-detection/build/dc922599d99170acc0f1ded39e6b5e2dd67202ace925f956e4c54ecd036d5ae2/model.elf  :
+section                     size         addr
+.text                      54222   2147483648
+.rodata                  1207948   2147537872
+.srodata.expected_3_30         2   2148745820
+.srodata.expected_3_29         2   2148745824
+.srodata.expected_3_28         2   2148745828
+.srodata.expected_2_30         2   2148745832
+.srodata.expected_2_29         2   2148745836
+.srodata.expected_2_28         2   2148745840
+.srodata.expected_1_30         2   2148745844
+.srodata.expected_1_29         2   2148745848
+.srodata.expected_1_28         2   2148745852
+.srodata.expected_0_30         2   2148745856
+.srodata.expected_0_29         2   2148745860
+.srodata.expected_0_28         2   2148745864
+.srodata.shift_28              8   2148745868
+.srodata.mult_28               8   2148745876
+.srodata.bias_28               8   2148745884
+.data                        496   2148745892
+.bss                      112156   2148746388
+.stack                     65536   2148858544
+.riscv.attributes             56            0
+.debug_abbrev                780            0
+.debug_info               132301            0
+.debug_aranges              4328            0
+.debug_ranges              44640            0
+.debug_str                240950            0
+.debug_line               153023            0
+Total                    2016484
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="864pt" viewBox="0 0 864 864" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-19T18:35:27.015594</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 864 
+L 864 864 
+L 864 0 
+L 0 0 
+z
+" style="fill: #101c31"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #39e3b6" x="64.8" y="64.8" transform="rotate(-0 64.8 64.8)">RISC-V  /  RUST  /  EMBEDDED ML</text>
+  </g>
+  <g id="text_2">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f1f5fb" x="64.8" y="825.12" transform="rotate(-0 64.8 825.12)">riscv-int8-autotune</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 39px; font-family: 'DejaVu Sans'; fill: #f1f5fb" transform="translate(64.8 134.805141)">Speed means little</text>
+   <text style="font-weight: 700; font-size: 39px; font-family: 'DejaVu Sans'; fill: #f1f5fb" transform="translate(64.8 181.44)">without correct outputs.</text>
+  </g>
+  <g id="text_4">
+   <text style="font-weight: 700; font-size: 54px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #39e3b6" x="64.8" y="380.16" transform="rotate(-0 64.8 380.16)">2,256</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a4b3c9" x="64.8" y="419.04" transform="rotate(-0 64.8 419.04)">intermediate tensor checks</text>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 54px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #39e3b6" x="64.8" y="544.32" transform="rotate(-0 64.8 544.32)">480</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a4b3c9" x="64.8" y="583.2" transform="rotate(-0 64.8 583.2)">timed whole-model inferences</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 54px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #39e3b6" x="64.8" y="708.48" transform="rotate(-0 64.8 708.48)">0</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a4b3c9" x="64.8" y="747.36" transform="rotate(-0 64.8 747.36)">mismatches in three completed sessions</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #a4b3c9" x="777.6" y="825.12" transform="rotate(-0 777.6 825.12)">03 / 04</text>
+  </g>
+ </g>
+</svg>

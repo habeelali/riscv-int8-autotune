@@ -1,0 +1,21 @@
+name: Reproduce RV32IMC evaluation
+on: [workflow_dispatch]
+jobs:
+  qemu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - run: docker build -t riscv-int8-autotune .
+      - run: |
+          mkdir -p ci-results
+          docker run --name int8-evaluation riscv-int8-autotune
+          docker cp int8-evaluation:/project/results ci-results/results
+          docker cp int8-evaluation:/project/docs ci-results/docs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: measured-rv32imc-evaluation
+          path: ci-results

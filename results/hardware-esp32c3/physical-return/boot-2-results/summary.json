@@ -1,0 +1,12 @@
+{
+  "complete": false,
+  "correct": false,
+  "start": [],
+  "end": [],
+  "layer_records": 0,
+  "run_records": 0,
+  "parse_errors": [],
+  "statistics": [],
+  "ratios": [],
+  "measurement": "Raw board cycle counter with RTOS interrupts; emulator logs are functional tests only"
+}

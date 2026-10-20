@@ -1,0 +1,21 @@
+{
+  "host_capture_uuid": "c8c6179b-df37-4509-afcb-13f0ec01ba53",
+  "started_utc": "2026-10-19T08:57:55.516983+00:00",
+  "port": "COM6",
+  "no_reset": false,
+  "timeout_seconds": 1200,
+  "completed": true,
+  "device_result": {
+    "build_id": "6b800894f7429a74",
+    "correct": true,
+    "mismatches_total": 0,
+    "layer_records": 1116,
+    "run_records": 252,
+    "free_heap": 207412,
+    "minimum_free_heap": 198364,
+    "worker_min_free_stack_bytes": 11020
+  },
+  "log_bytes": 172695,
+  "log_sha256": "7dbaf49f1664c5db086cae7a7546c12b0206d6c0fe49bd3cfe411153988cb944",
+  "finished_utc": "2026-10-19T09:01:57.305664+00:00"
+}

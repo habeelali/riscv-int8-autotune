@@ -1,0 +1,92 @@
+[
+  {
+    "file": "binutils-riscv64-unknown-elf_2.44-3+7+b1_amd64.deb",
+    "package_metadata": "Package: binutils-riscv64-unknown-elf\nVersion: 2.44-3+7+b1",
+    "sha256": "5e2d6b9fd803b475be267917ce543e79d3894026132aba91488736e6b17144a3"
+  },
+  {
+    "file": "gcc-riscv64-unknown-elf_14.2.0+19_amd64.deb",
+    "package_metadata": "Package: gcc-riscv64-unknown-elf\nVersion: 14.2.0+19",
+    "sha256": "c5637d336d9bb18dcba60c6cdee40a61a55eb45f7a5637bce00ecdc47b8295dc"
+  },
+  {
+    "file": "libaio1t64_0.3.113-8+b1_amd64.deb",
+    "package_metadata": "Package: libaio1t64\nVersion: 0.3.113-8+b1",
+    "sha256": "490c8a2d116001a5f3b0a6d7a7aabf6a7b629366590dc5c3f75b078e931dd129"
+  },
+  {
+    "file": "libcapstone5_5.0.7-1~deb13u1_amd64.deb",
+    "package_metadata": "Package: libcapstone5\nVersion: 5.0.7-1~deb13u1",
+    "sha256": "775187a7be26bb0b076d1979a02163b943dbc13eb4adb0efc503223a03c75422"
+  },
+  {
+    "file": "libdaxctl1_81-1_amd64.deb",
+    "package_metadata": "Package: libdaxctl1\nVersion: 81-1",
+    "sha256": "6296eb5c976743ba0defb7a061ef081238ca072cf569c6bb96fd3f9095c58a30"
+  },
+  {
+    "file": "libfdt1_1.7.2-2+b1_amd64.deb",
+    "package_metadata": "Package: libfdt1\nVersion: 1.7.2-2+b1",
+    "sha256": "8e37034d7864807ae2063efcc82fc79aad59069546212e6e0908ed67f9f7e107"
+  },
+  {
+    "file": "libgio-2.0-dev_2.84.4-3~deb13u5_amd64.deb",
+    "package_metadata": "Package: libgio-2.0-dev\nVersion: 2.84.4-3~deb13u5",
+    "sha256": "a9bbd748ddd40a08b336e8d6b1755e698957ac640d081ddc4c330b716c6b89c3"
+  },
+  {
+    "file": "libglib2.0-dev-bin_2.84.4-3~deb13u5_amd64.deb",
+    "package_metadata": "Package: libglib2.0-dev-bin\nVersion: 2.84.4-3~deb13u5",
+    "sha256": "d35ef75a4b04ea10081d484e025b0a4fecd0232ffc0e76403bcd249b3b47e643"
+  },
+  {
+    "file": "libglib2.0-dev_2.84.4-3~deb13u5_amd64.deb",
+    "package_metadata": "Package: libglib2.0-dev\nVersion: 2.84.4-3~deb13u5",
+    "sha256": "ad98b1a769da55a8007ea9953306b0deb6092205d4fac8d915e2bd83d4ecc8a5"
+  },
+  {
+    "file": "libndctl6_81-1_amd64.deb",
+    "package_metadata": "Package: libndctl6\nVersion: 81-1",
+    "sha256": "fe60a05d42e61cb9f49a90b872aa5ca569363b13459ee0d405243c37a7de7c93"
+  },
+  {
+    "file": "libpmem1_1.13.1-1.1+b1_amd64.deb",
+    "package_metadata": "Package: libpmem1\nVersion: 1.13.1-1.1+b1",
+    "sha256": "7d972d6958e915ce602e4b90debc6b4b91a01dfea1fe003d0b013756e7d9d863"
+  },
+  {
+    "file": "libslirp0_4.8.0-1+deb13u1_amd64.deb",
+    "package_metadata": "Package: libslirp0\nVersion: 4.8.0-1+deb13u1",
+    "sha256": "6125698173f8be0d0de01ff897a0df3c5e50fb09f70238b26dd6574aaa0934e1"
+  },
+  {
+    "file": "liburing2_2.9-1_amd64.deb",
+    "package_metadata": "Package: liburing2\nVersion: 2.9-1",
+    "sha256": "4b589c00c7a51172aace2cb2fb3d3ff32daf86c644023126dcfcaa840cc941ea"
+  },
+  {
+    "file": "libvdeplug2t64_4.0.1-5.1+b1_amd64.deb",
+    "package_metadata": "Package: libvdeplug2t64\nVersion: 4.0.1-5.1+b1",
+    "sha256": "01291e2c8e28e91eac6b59c983a3a44e29ad0ddb8622699fbb84cbd5f26334a4"
+  },
+  {
+    "file": "qemu-system-common_1%3a10.0.13+ds-0+deb13u1_amd64.deb",
+    "package_metadata": "Package: qemu-system-common\nVersion: 1:10.0.13+ds-0+deb13u1",
+    "sha256": "3a99dc23c42c66bb7e96dc1f2ba12b1797d154a472fbdb1cfcd822d9fb69e85b"
+  },
+  {
+    "file": "qemu-system-data_1%3a10.0.13+ds-0+deb13u1_all.deb",
+    "package_metadata": "Package: qemu-system-data\nVersion: 1:10.0.13+ds-0+deb13u1",
+    "sha256": "a0e03c526cc09d4c2ab20aa19a8c12e916cdc49a170acb16a6563c28f70eafd3"
+  },
+  {
+    "file": "qemu-system-misc_1%3a10.0.13+ds-0+deb13u1_amd64.deb",
+    "package_metadata": "Package: qemu-system-misc\nVersion: 1:10.0.13+ds-0+deb13u1",
+    "sha256": "90fb5b804219f1716b94266a805efcfff41d090d640fd5d8ac0d64480cb67a21"
+  },
+  {
+    "file": "qemu-system-riscv_1%3a10.0.13+ds-0+deb13u1_amd64.deb",
+    "package_metadata": "Package: qemu-system-riscv\nVersion: 1:10.0.13+ds-0+deb13u1",
+    "sha256": "80effad6aa07c09a7532e1b731c04ec9a32c545c2b9597320ec16ae59d2f34a2"
+  }
+]

@@ -1,0 +1,2 @@
+Capture 96ba7ca8e1e3476d9c64f435966f6f17 challenge aa77d9ba8ae601921814b35866225203
+Capture failed; keep all files: Timed out waiting for V4_PROFILE

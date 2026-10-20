@@ -1,0 +1,56 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target/debug/autotuner benchmark-competitors`
+muriscv 0 mismatches
+muriscv-portable 0 mismatches
+muriscv-asm 104 mismatches
+muriscv-portable-asm 104 mismatches
+muriscv-fixed-asm 0 mismatches
+muriscv-portable-fixed-asm 0 mismatches
+muriscv conv3x3 4875226
+muriscv conv_small 32582
+muriscv depthwise 1985696
+muriscv depthwise_small 12172
+muriscv fc_small 2625
+muriscv fully_connected 140648
+muriscv pointwise 1381594
+muriscv pointwise_small 26795
+muriscv-portable conv3x3 6582708
+muriscv-portable conv_small 33927
+muriscv-portable depthwise 1940678
+muriscv-portable depthwise_small 19587
+muriscv-portable fc_small 2625
+muriscv-portable fully_connected 140648
+muriscv-portable pointwise 1381594
+muriscv-portable pointwise_small 26913
+muriscv-asm conv3x3 REJECTED Numerical mismatch: 4; evidence: /workspace/riscv-int8-autotune/results/build/0c4e9a80ded97468769dc5474b1b3262ed9c679fd4784abca48aa2547946ed2b/result.json
+muriscv-asm conv_small 31313
+muriscv-asm depthwise REJECTED Numerical mismatch: 53; evidence: /workspace/riscv-int8-autotune/results/build/0eafbdb882f920ece4b71092c47faf4051d8985f7cfd23162fd011de8290488a/result.json
+muriscv-asm depthwise_small 10968
+muriscv-asm fc_small 2505
+muriscv-asm fully_connected 139532
+muriscv-asm pointwise REJECTED Numerical mismatch: 12; evidence: /workspace/riscv-int8-autotune/results/build/be170a8306321f649aea4d15974a57d83612d9ba006b4907efcfd07d5a580881/result.json
+muriscv-asm pointwise_small REJECTED Numerical mismatch: 5; evidence: /workspace/riscv-int8-autotune/results/build/7db729414622ba1bda431a33c597c30e7fc6ef8e179c651293b77bc3ac709cda/result.json
+muriscv-portable-asm conv3x3 REJECTED Numerical mismatch: 4; evidence: /workspace/riscv-int8-autotune/results/build/7080978dab9099ed5cc6dfa843109c0c08aa808806984440d89133ba5ea0857f/result.json
+muriscv-portable-asm conv_small 33462
+muriscv-portable-asm depthwise REJECTED Numerical mismatch: 53; evidence: /workspace/riscv-int8-autotune/results/build/4bfeb20386065a811d17ec1399702dd03de33761f88f6c2ccb8f36fd97a2d1be/result.json
+muriscv-portable-asm depthwise_small 19355
+muriscv-portable-asm fc_small 2505
+muriscv-portable-asm fully_connected 139532
+muriscv-portable-asm pointwise REJECTED Numerical mismatch: 12; evidence: /workspace/riscv-int8-autotune/results/build/9231e87979dfee745f4729f847c788270ff88e7a8e02b43f3562ed69f3149c2f/result.json
+muriscv-portable-asm pointwise_small REJECTED Numerical mismatch: 5; evidence: /workspace/riscv-int8-autotune/results/build/93743acd6c29a96d65c6ceb331303a045e1b088198667c5332d0df93ff704d62/result.json
+muriscv-fixed-asm conv3x3 4811060
+muriscv-fixed-asm conv_small 31584
+muriscv-fixed-asm depthwise 1843989
+muriscv-fixed-asm depthwise_small 11185
+muriscv-fixed-asm fc_small 2531
+muriscv-fixed-asm fully_connected 139788
+muriscv-fixed-asm pointwise 1375451
+muriscv-fixed-asm pointwise_small 24389
+muriscv-portable-fixed-asm conv3x3 6572340
+muriscv-portable-fixed-asm conv_small 33742
+muriscv-portable-fixed-asm depthwise 1947614
+muriscv-portable-fixed-asm depthwise_small 19565
+muriscv-portable-fixed-asm fc_small 2531
+muriscv-portable-fixed-asm fully_connected 139788
+muriscv-portable-fixed-asm pointwise 1375451
+muriscv-portable-fixed-asm pointwise_small 26331

@@ -1,0 +1,49 @@
+{
+  "captures": [
+    {
+      "log": "boot-1",
+      "capture_uuid": "c8c6179b-df37-4509-afcb-13f0ec01ba53",
+      "boot_counter": 1070239405,
+      "nonce_hi": 808553296,
+      "nonce_lo": 3259513599,
+      "log_bytes": 172695,
+      "log_sha256": "7dbaf49f1664c5db086cae7a7546c12b0206d6c0fe49bd3cfe411153988cb944",
+      "complete": true,
+      "correct": true,
+      "layers": 1116,
+      "runs": 252,
+      "mismatches_total": 0
+    },
+    {
+      "log": "boot-2-retry",
+      "capture_uuid": "6a7800e5-a9c8-434a-8db2-f446b8c6a0ee",
+      "boot_counter": 1070239406,
+      "nonce_hi": 2104637736,
+      "nonce_lo": 2563362644,
+      "log_bytes": 172696,
+      "log_sha256": "c7e8242e917c636d773c36f657c675673e9b91700003060688210cfe70481b04",
+      "complete": true,
+      "correct": true,
+      "layers": 1116,
+      "runs": 252,
+      "mismatches_total": 0
+    },
+    {
+      "log": "boot-3",
+      "capture_uuid": "620c2295-c7f8-4837-b24c-fb0acf89e9a5",
+      "boot_counter": 1070239407,
+      "nonce_hi": 3470041264,
+      "nonce_lo": 3030346941,
+      "log_bytes": 172696,
+      "log_sha256": "e5305ccc6f44f639c206761baaebaf8edcac2852ea399489c8eafa48de3a2491",
+      "complete": true,
+      "correct": true,
+      "layers": 1116,
+      "runs": 252,
+      "mismatches_total": 0
+    }
+  ],
+  "unique_device_identities": 3,
+  "unique_log_hashes": 3,
+  "error_watchdog_matches": []
+}

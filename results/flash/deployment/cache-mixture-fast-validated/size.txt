@@ -1,0 +1,16 @@
+/workspace/riscv-int8-autotune/results/flash/deployment/cache-mixture-fast-validated/model.elf  :
+section                size         addr
+.text                 40114   2147483648
+.rodata              242336   2147523764
+.bss                 121360   2147766112
+.stack                65536   2147887472
+.riscv.attributes        56            0
+.debug_abbrev           780            0
+.debug_info          132301            0
+.debug_aranges         4328            0
+.debug_ranges         44640            0
+.debug_str           240950            0
+.debug_line          153023            0
+Total               1045424
+
+

@@ -1,0 +1,53 @@
+{
+  "format_check": true,
+  "clippy_warnings_denied": true,
+  "rust_tests_passed": 7,
+  "python_tests_passed": 9,
+  "tool_end_to_end": {
+    "passed": true,
+    "workloads": [
+      {
+        "operator": "conv",
+        "candidates": 4,
+        "extra_export_fixtures": 2,
+        "passed": true
+      },
+      {
+        "operator": "pointwise",
+        "candidates": 4,
+        "extra_export_fixtures": 2,
+        "passed": true
+      },
+      {
+        "operator": "depthwise",
+        "candidates": 4,
+        "extra_export_fixtures": 2,
+        "passed": true
+      },
+      {
+        "operator": "fc",
+        "candidates": 4,
+        "extra_export_fixtures": 2,
+        "passed": true
+      }
+    ],
+    "resource_rejection": true,
+    "invalid_shape_rejection": true,
+    "overwrite_protection": true,
+    "resume_identity_check": true,
+    "unrelated_working_directory": true,
+    "historical_results_unchanged": true,
+    "scope": "New CLI builds run real C/Rust RV32IMC programs in QEMU; eight additional host export fixtures compare against independent Python integer outputs. No hardware timing inferred."
+  },
+  "physical_v5_audit": {
+    "valid": 3,
+    "failed": 0,
+    "tensor_checks": 2256,
+    "timed_runs": 480
+  },
+  "audit_negative_controls": 4,
+  "cli_install_tested": true,
+  "docker_build_tested": false,
+  "physical_v5_firmware_changed": false,
+  "esp32c3_qemu_stalls_resolved": false
+}

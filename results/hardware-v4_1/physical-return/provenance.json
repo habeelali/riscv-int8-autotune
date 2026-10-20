@@ -1,0 +1,38 @@
+{
+  "revision": "4.1",
+  "person_model_sha256": "808cfdfc0cf3a6fa6f6fa26bfa379ea97c16d5db7334637766e39c3408502e9d",
+  "resnet_model_sha256": "3c002613d1b2475eb51dd78dfb85a546c8ae658dee71cf6ade43b022fe205415",
+  "resnet_selection": "generated-0",
+  "candidates": [
+    "tile8_b2p4",
+    "tile16_b2p4",
+    "tile16_b2p4_block_sram",
+    "tile16_b4p2"
+  ],
+  "sources": {
+    "hardware/esp32c3-v4_1/prepare.py": "579a6c64148a6794e7cf07a9d25073b3347b2471863eb09534e7b6bd5af9b878",
+    "hardware/esp32c3-v4_1/runtime.c": "7cfffeca76c5b0e4ce77b66e2409650d07dcf1227b6aaeb0b09237878c04d866",
+    "hardware/esp32c3-v4_1/selection.py": "478fd32698e6322fb9cd84838fb0a4ac71f65f394335e7491bfa10ea897d90ca",
+    "scripts/resnet_model.py": "dabfd3deeb063d7cceb4dfcae7deba1e817e50585c96b3d84bccbe619198f18e",
+    "crates/kernel-generator/src/tiled.rs": "9e5d04275e4eb6705b183b5e6ca34bd009d272796c7ed25085c1c1729277dbbd",
+    "results/algorithm/variants/hardware-cache-b2-p4/kernels.rs": "24e2dce783f7aaa95def7498e4849957b3fe4ec4ecd62f5e85e4db5cde987b32",
+    "results/algorithm/variants/hardware-cache-b2-p4/constants.h": "57553e39042a07232fc24b23725d78f7d17889512ac483fb2beab8b28bdf2ef9",
+    "results/model/cifar10-resnet/generated-0/source.rs": "dc8a0bb1d073171336be44e614379a6137b84dcb2246f32cb14d9b4c2a88439b",
+    "results/model/cifar10-resnet/generated-0/parameters.h": "c610ace6e5d039c47f5bbc96eb4c60f0caaa3781c74543ed3146843a923d9e59",
+    "results/model/cifar10-resnet/tile8_b2p4/source.rs": "8193b8868047a228033277ff7a2d50cdf03ad6fcb27a4ac4e0307ec459271371",
+    "results/model/cifar10-resnet/tile8_b2p4/parameters.h": "44f7c651fa96a6bff8c33cbbd057edd5baca7ccd3ceffeb63cc7b5f5bc881a2c",
+    "results/model/cifar10-resnet/tile8_b2p4/manifest.json": "0952268d4a3da9100e536c91409113f5159223ace0dd191f2a227acd01838a6d",
+    "results/model/cifar10-resnet/tile16_b2p4/source.rs": "1e61c83ab116b08715a9a79172616db9ab9ccc75b5edefb3624651b06ef4f63c",
+    "results/model/cifar10-resnet/tile16_b2p4/parameters.h": "44f7c651fa96a6bff8c33cbbd057edd5baca7ccd3ceffeb63cc7b5f5bc881a2c",
+    "results/model/cifar10-resnet/tile16_b2p4/manifest.json": "8a54446a79c12bce87ce121e27dd8ee0e85d71a89f85c5cf5a92e3acf0abace9",
+    "results/model/cifar10-resnet/tile16_b2p4_block_sram/source.rs": "7828a2443f57ff15b2e7274d2788f74ecc41e60bc645da7a57448d117dcc6bc7",
+    "results/model/cifar10-resnet/tile16_b2p4_block_sram/parameters.h": "44f7c651fa96a6bff8c33cbbd057edd5baca7ccd3ceffeb63cc7b5f5bc881a2c",
+    "results/model/cifar10-resnet/tile16_b2p4_block_sram/manifest.json": "3467fad424b1554aa129806c9ec45f17bac9553139126900a4757b4183461d6e",
+    "results/model/cifar10-resnet/tile16_b4p2/source.rs": "bab714a798f346abee30b7acf97cbf80a825cbeb809426095facdd755dd8865c",
+    "results/model/cifar10-resnet/tile16_b4p2/parameters.h": "4cd95cd4b21f70c7f62f51303fe9fa501cf7f427ef33f354c2c476670870ae74",
+    "results/model/cifar10-resnet/tile16_b4p2/manifest.json": "8a691163aeb8202b2d73d41c492170e05e81bf07060175b154c59924a52b15e2",
+    "results/model/cifar10-resnet/vectors.h": "bee5964fbb717d4f3618a5343eed82f1f23dad8830960823bd418c8c236d6e17",
+    "results/model/person-detection/vectors.h": "6c2455c86b043c2606bc9a57a7d67c66081d6d6535a141e792b8da0fbda1a00e"
+  },
+  "build_id": "03508540d7e1eee1"
+}

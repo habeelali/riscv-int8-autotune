@@ -1,0 +1,12 @@
+Capture e1ad8e71d0e0413db2868aeca6065d6f challenge 6f6bcae4bab9fd35f1d98f49a2cbd0c8
+16/160 runs captured
+32/160 runs captured
+48/160 runs captured
+64/160 runs captured
+80/160 runs captured
+96/160 runs captured
+112/160 runs captured
+128/160 runs captured
+144/160 runs captured
+160/160 runs captured
+Complete: diagnostic_bundle_v3\results\captures\boot-3.raw.log

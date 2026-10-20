@@ -1,0 +1,7 @@
+Board model: ESP32-C3 SuperMini (as identified by the user).
+Chip: ESP32-C3 QFN32 revision 0.4; MAC 94:a9:90:96:72:d4.
+Physical flash: XMC 4 MB (manufacturer 0x20, device 0x4016), confirmed by esptool.
+USB: Native ESP32-C3 USB-Serial/JTAG on COM6 (VID 303A PID 1001), not an external UART bridge.
+Power: USB bus power from host PC through the connected cable; no external supply or other wiring reported/observed.
+Host OS: Windows NT 10.0.26100.0.
+Tools: Python 3.14.7; esptool 4.12.0; pyserial 3.5.

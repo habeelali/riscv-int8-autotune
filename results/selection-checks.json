@@ -1,0 +1,34 @@
+[
+  {
+    "objective": "min-flash",
+    "selected": "b1_u1_s0",
+    "instructions": 269416,
+    "flash_bytes": 40390,
+    "pareto_members": 11,
+    "passed": true
+  },
+  {
+    "objective": "budget",
+    "selected": "b8_u1_s0_qpos",
+    "instructions": 124485,
+    "flash_bytes": 41484,
+    "pareto_members": 11,
+    "passed": true
+  },
+  {
+    "objective": "pareto",
+    "selected": "b8_u1_s0_qpos",
+    "instructions": 124485,
+    "flash_bytes": 41484,
+    "pareto_members": 11,
+    "passed": true
+  },
+  {
+    "objective": "min-instructions",
+    "selected": "b8_u1_s0_qpos",
+    "instructions": 124485,
+    "flash_bytes": 41484,
+    "pareto_members": 11,
+    "passed": true
+  }
+]

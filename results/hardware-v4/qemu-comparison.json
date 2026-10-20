@@ -1,0 +1,65 @@
+[
+  {
+    "mean_instructions_raw": 54045386.75,
+    "text_bytes": 28706,
+    "rodata_bytes": 554092,
+    "static_ram_bytes": 112160,
+    "correct": true,
+    "name": "muriscv-fixed-asm",
+    "explicit_tile_scratch_bytes": null
+  },
+  {
+    "mean_instructions_raw": 45374096.5,
+    "text_bytes": 41530,
+    "rodata_bytes": 554168,
+    "static_ram_bytes": 112160,
+    "correct": true,
+    "name": "generated-0",
+    "explicit_tile_scratch_bytes": 2304
+  },
+  {
+    "mean_instructions_raw": 45159787.0,
+    "text_bytes": 41832,
+    "rodata_bytes": 555744,
+    "static_ram_bytes": 112160,
+    "correct": true,
+    "name": "tile8_b2p4",
+    "explicit_tile_scratch_bytes": 4608
+  },
+  {
+    "mean_instructions_raw": 44996311.0,
+    "text_bytes": 38054,
+    "rodata_bytes": 555744,
+    "static_ram_bytes": 112160,
+    "correct": true,
+    "name": "tile16_b2p4",
+    "explicit_tile_scratch_bytes": 9216
+  },
+  {
+    "mean_instructions_raw": 45049836.0,
+    "text_bytes": 38498,
+    "rodata_bytes": 555748,
+    "static_ram_bytes": 112160,
+    "correct": true,
+    "name": "tile16_b2p4_sram",
+    "explicit_tile_scratch_bytes": 9216
+  },
+  {
+    "mean_instructions_raw": 45115604.25,
+    "text_bytes": 38226,
+    "rodata_bytes": 555600,
+    "static_ram_bytes": 112160,
+    "correct": true,
+    "name": "tile16_b4p2",
+    "explicit_tile_scratch_bytes": 9216
+  },
+  {
+    "mean_instructions_raw": 45685772.75,
+    "text_bytes": 38220,
+    "rodata_bytes": 555748,
+    "static_ram_bytes": 112160,
+    "correct": true,
+    "name": "tile16_b2p4_block_sram",
+    "explicit_tile_scratch_bytes": 10368
+  }
+]

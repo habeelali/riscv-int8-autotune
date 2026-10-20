@@ -1,0 +1,1 @@
+.\diagnostic_bundle\.venv\Scripts\python.exe .\diagnostic_bundle_v4\audit.py .\diagnostic_bundle_v4\results\captures\boot-1-v4 .\diagnostic_bundle_v4\results\captures\boot-1-v4-retry .\diagnostic_bundle_v4\results\captures\boot-1-v4-retry2 --oracle .\diagnostic_bundle_v4\oracle.json --output .\diagnostic_bundle_v4\results\audit-results

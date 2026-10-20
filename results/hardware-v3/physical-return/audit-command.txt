@@ -1,0 +1,3 @@
+python -m audit.py diagnostic_bundle_v3/results/captures/boot-1 diagnostic_bundle_v3/results/captures/boot-2 diagnostic_bundle_v3/results/captures/boot-3 --output diagnostic_bundle_v3/results/audit-results
+
+Run in physical hardware mode; --emulator was not used.

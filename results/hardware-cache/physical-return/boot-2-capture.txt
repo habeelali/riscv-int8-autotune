@@ -1,0 +1,2 @@
+Host capture UUID: 08e7434c-1035-490a-af4c-c51a3dfe567b
+Reset requested; listening on COM6

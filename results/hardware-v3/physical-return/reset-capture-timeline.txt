@@ -1,0 +1,10 @@
+V3 RESET AND CAPTURE TIMELINE
+=============================
+1. Verified the supplied v3 image SHA-256, confirmed ESP32-C3 / 4 MB XMC flash on COM6, then flashed the unchanged 4 MB image at offset 0x0. esptool reported “Hash of data verified” and hard-reset the board.
+2. Boot 1: started collect.py directly after the flash reset. The collector opened the native USB-Serial/JTAG port, sent a unique HELLO challenge, then drove the CHECK, CAL and randomized RUN exchange through V3_DONE.
+3. Boot 2: ran esptool chip_id with --after hard_reset before starting collect.py with a new prefix. The capture completed through V3_DONE.
+4. Boot 3: ran esptool chip_id with --after hard_reset before starting collect.py with a new prefix. The capture completed through V3_DONE.
+5. The USB cable and power arrangement remained unchanged. No physical USB power-cycle was performed; the three independent sessions were initiated by the flash hard reset and two esptool RTS hard resets.
+6. Ran audit.py on all three capture prefixes in physical mode, without --emulator. Audit result: 3 valid captures, 0 failed captures, three distinct device identities and timing-sequence hashes, independent_repeatability_evidence=true.
+
+Each collector prefix has the original .raw.log, .events.jsonl, .metadata.json and .plan.json files. The metadata records exact host timestamps, UUID, challenge and SHA-256 hashes. No capture attempt failed.

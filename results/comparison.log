@@ -1,0 +1,12 @@
+| Workload | ESP-NN C | Generic Rust | Tuned Rust | C / tuned | Selected |
+|---|---:|---:|---:|---:|---|
+| conv3x3 | 8,546,046 | 38,396,168 | 4,712,318 | 1.814× | `b8_u1_s0_im2col` |
+| pointwise | 2,129,234 | 9,594,346 | 1,373,728 | 1.550× | `b8_u1_s0` |
+| depthwise | 1,955,993 | 6,841,273 | 1,670,374 | 1.171× | `b4_u1_s1` |
+| fully_connected | 302,154 | 1,067,547 | 125,457 | 2.408× | `b8_u1_s0` |
+| conv_small | 41,891 | 144,555 | 21,511 | 1.947× | `b4_u16_s0_im2col` |
+| depthwise_small | 13,480 | 36,411 | 9,343 | 1.443× | `b4_u1_s1` |
+| fc_small | 4,426 | 15,013 | 2,382 | 1.858× | `b1_u1_s0` |
+| pointwise_small | 36,524 | 117,697 | 20,000 | 1.826× | `b8_u8_s0` |
+
+Primary geometric mean: 1.677973x; all workloads: 1.717128x; candidates: 200

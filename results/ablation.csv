@@ -1,0 +1,33 @@
+workload,transformation,instructions,relative_to_c,text_bytes,scratch_bytes,variant
+conv3x3,constant dimensions,7608494,1.1232243857982933,7840,0,b1_u1_s0
+conv3x3,blocking only,7272673,1.1750900941098272,8470,0,b4_u1_s0
+conv3x3,reduction unroll only,7608494,1.1232243857982933,7840,0,b1_u4_s0
+conv3x3,spatial unroll only,8062166,1.0600186103833635,11596,0,b1_u1_s1
+conv3x3,interior split only,9388814,0.9102370118313133,17952,0,b1_u1_s1_interior
+conv3x3,partial im2col only,8855545,0.9650502594701964,7962,288,b1_u1_s0_im2col
+pointwise,constant dimensions,1489271,1.4297156125379464,6412,0,b1_u1_s0
+pointwise,blocking only,1524735,1.3964616802264,6570,0,b4_u1_s0
+pointwise,reduction unroll only,1489271,1.4297156125379464,6412,0,b1_u4_s0
+depthwise,constant dimensions,3725740,0.5249944977373623,7650,0,b1_u1_s0
+depthwise,blocking only,2147592,0.910784264422665,8452,0,b4_u1_s0
+depthwise,spatial unroll only,1983970,0.9858984762874439,7700,0,b1_u1_s1
+depthwise,interior split only,2211188,0.8845891891598543,8282,0,b1_u1_s1_interior
+fully_connected,constant dimensions,269416,1.1215146836119607,5694,0,b1_u1_s0
+fully_connected,blocking only,145682,2.0740654301835506,6476,0,b4_u1_s0
+fully_connected,reduction unroll only,211569,1.428158189526821,5762,0,b1_u4_s0
+conv_small,constant dimensions,48761,0.8591087139312156,7626,0,b1_u1_s0
+conv_small,blocking only,36851,1.1367669805432687,8976,0,b4_u1_s0
+conv_small,reduction unroll only,48481,0.8640704605928096,7684,0,b1_u4_s0
+conv_small,spatial unroll only,25779,1.625004848908026,8146,0,b1_u1_s1
+conv_small,interior split only,31089,1.3474540834378719,9608,0,b1_u1_s1_interior
+conv_small,partial im2col only,24764,1.6916087869487966,6546,54,b1_u1_s0_im2col
+depthwise_small,constant dimensions,23065,0.5844352915673098,7518,0,b1_u1_s0
+depthwise_small,blocking only,16006,0.8421841809321504,8846,0,b4_u1_s0
+depthwise_small,spatial unroll only,10318,1.30645473929056,7646,0,b1_u1_s1
+depthwise_small,interior split only,12232,1.1020274689339438,8266,0,b1_u1_s1_interior
+fc_small,constant dimensions,2382,1.8581024349286315,5960,0,b1_u1_s0
+fc_small,blocking only,2476,1.7875605815831987,6992,0,b4_u1_s0
+fc_small,reduction unroll only,2394,1.8487886382623224,5958,0,b1_u4_s0
+pointwise_small,constant dimensions,24489,1.4914451386336722,5934,0,b1_u1_s0
+pointwise_small,blocking only,30437,1.1999868581003383,7534,0,b4_u1_s0
+pointwise_small,reduction unroll only,24057,1.518227542918901,5884,0,b1_u4_s0

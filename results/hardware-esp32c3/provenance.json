@@ -1,0 +1,14 @@
+{
+  "idf": "v5.4.2",
+  "model_sha256": "808cfdfc0cf3a6fa6f6fa26bfa379ea97c16d5db7334637766e39c3408502e9d",
+  "algorithm": "mixture-fast-validated",
+  "qemu_before_instructions": 32571202.75,
+  "qemu_candidate_instructions": 29599020.75,
+  "sources": {
+    "compact.rs": "3f14698490c471571fa9963c179517bf91bbb0736af863e936f9bf27e00bc116",
+    "algorithm.rs": "0e217f6130a41c1bf9161a2fb2847c222a687f04e43a31d1985899d6821fee4f",
+    "original-parameters": "63977c7ee432c06de58fa007b60dff1264f2d5ba18efaab647b083be3dced257",
+    "algorithm-parameters": "e61473b1d3a24f8a11fa7c453876e67f8a9f3db57ebe5043720bc8b84010fa05"
+  },
+  "build_id": "4f8d4bb97f51a2c0"
+}

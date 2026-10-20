@@ -1,0 +1,33 @@
+I (549) esp_image: segment 1: paddr=002186c4 vaddr=3fc8c800 size=0140ch (  5132) load
+I (551) esp_image: segment 2: paddr=00219ad8 vaddr=40380000 size=06540h ( 25920) load
+I (559) esp_image: segment 3: paddr=00220020 vaddr=42000020 size=41b5ch (269148) map
+I (619) esp_image: segment 4: paddr=00261b84 vaddr=40386540 size=06228h ( 25128) load
+I (626) esp_image: segment 5: paddr=00267db4 vaddr=50000000 size=0001ch (    28) load
+I (630) boot: Loaded app from partition at offset 0x10000
+I (630) boot: Disabling RNG early entropy source...
+I (645) cpu_start: Unicore app
+I (654) cpu_start: Pro cpu start user code
+I (654) cpu_start: cpu freq: 160000000 Hz
+I (654) app_init: Application information:
+I (654) app_init: Project name:     riscv_int8_repeatability
+I (659) app_init: App version:      0.3.0
+I (663) app_init: Compile time:     Oct 19 2026 09:59:05
+I (668) app_init: ELF file SHA256:  5e19f02c6...
+I (672) app_init: ESP-IDF:          v5.4.2
+I (676) efuse_init: Min chip rev:     v0.0
+I (680) efuse_init: Max chip rev:     v1.99 
+I (684) efuse_init: Chip rev:         v0.4
+I (688) heap_init: Initializing. RAM available for dynamic allocation:
+I (694) heap_init: At 3FCAA190 len 00015E70 (87 KiB): RAM
+I (699) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM
+I (705) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM
+I (711) heap_init: At 50000020 len 00001FC8 (7 KiB): RTCRAM
+I (718) spi_flash: detected chip: generic
+I (720) spi_flash: flash io: dio
+I (723) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (729) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (736) main_task: Started on CPU0
+I (736) main_task: Calling app_main()
+V3_READY {"schema":3,"build_id":"1833fe83590e5171","boot_counter":1070239411,"nonce_hi":2452073179,"nonce_lo":3289156289,"cpu_hz":160000000,"tick_hz":100,"reset_reason":11}
+V3_READY {"schema":3,"build_id":"1833fe83590e5171","boot_counter":1070239411,"nonce_hi":2452073179,"nonce_lo":3289156289,"cpu_hz":160000000,"tick_hz":100,"reset_reason":11}
+I (766) main_task: Returned from app_main()

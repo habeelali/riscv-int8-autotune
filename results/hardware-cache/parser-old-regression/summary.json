@@ -1,0 +1,343 @@
+{
+  "complete": true,
+  "correct": true,
+  "start": [
+    {
+      "type": "HW_BEGIN",
+      "schema": 1,
+      "build_id": "4f8d4bb97f51a2c0",
+      "idf": "v5.4.2",
+      "chip_model": 5,
+      "revision": 4,
+      "cpu_hz": 160000000,
+      "flash_bytes": 2097152,
+      "reset_reason": 11,
+      "free_heap": 207416,
+      "worker_stack_bytes": 16384,
+      "interrupts_enabled": true,
+      "model_sha256": "808cfdfc0cf3a6fa6f6fa26bfa379ea97c16d5db7334637766e39c3408502e9d"
+    }
+  ],
+  "end": [
+    {
+      "type": "HW_DONE",
+      "build_id": "4f8d4bb97f51a2c0",
+      "correct": true,
+      "mismatches_total": 0,
+      "layer_records": 868,
+      "run_records": 196,
+      "free_heap": 207416,
+      "minimum_free_heap": 198368,
+      "worker_min_free_stack_bytes": 11020
+    }
+  ],
+  "layer_records": 868,
+  "run_records": 196,
+  "parse_errors": [],
+  "statistics": [
+    {
+      "backend": "esp_nn_native",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 122524025,
+      "median_cycles": 122524025,
+      "max_cycles": 122524025,
+      "median_wall_us": 765778,
+      "mismatches": 0
+    },
+    {
+      "backend": "esp_nn_native",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 122517067,
+      "median_cycles": 122517067,
+      "max_cycles": 122517067,
+      "median_wall_us": 765735,
+      "mismatches": 0
+    },
+    {
+      "backend": "esp_nn_native",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 122519627,
+      "median_cycles": 122519627,
+      "max_cycles": 122519627,
+      "median_wall_us": 765751,
+      "mismatches": 0
+    },
+    {
+      "backend": "esp_nn_native",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 122523613,
+      "median_cycles": 122523613,
+      "max_cycles": 122523613,
+      "median_wall_us": 765776,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_fixed",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 58621497,
+      "median_cycles": 58621497,
+      "max_cycles": 58621497,
+      "median_wall_us": 366387,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_fixed",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 58620557,
+      "median_cycles": 58620557,
+      "max_cycles": 58620557,
+      "median_wall_us": 366382,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_fixed",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 58622861,
+      "median_cycles": 58622861,
+      "max_cycles": 58622861,
+      "median_wall_us": 366396,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_fixed",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 58621307,
+      "median_cycles": 58621307,
+      "max_cycles": 58621307,
+      "median_wall_us": 366386,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 59141195,
+      "median_cycles": 59141195,
+      "max_cycles": 59141195,
+      "median_wall_us": 369636,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 59139403,
+      "median_cycles": 59139403,
+      "max_cycles": 59139403,
+      "median_wall_us": 369624,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 59142377,
+      "median_cycles": 59142377,
+      "max_cycles": 59142377,
+      "median_wall_us": 369643,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 59141481,
+      "median_cycles": 59141481,
+      "max_cycles": 59141481,
+      "median_wall_us": 369637,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable_fixed",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 59488037,
+      "median_cycles": 59488037,
+      "max_cycles": 59488037,
+      "median_wall_us": 371803,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable_fixed",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 59485145,
+      "median_cycles": 59485145,
+      "max_cycles": 59485145,
+      "median_wall_us": 371785,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable_fixed",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 59487135,
+      "median_cycles": 59487135,
+      "max_cycles": 59487135,
+      "median_wall_us": 371798,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_portable_fixed",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 59488017,
+      "median_cycles": 59488017,
+      "max_cycles": 59488017,
+      "median_wall_us": 371803,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_scalar",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 58514111,
+      "median_cycles": 58514111,
+      "max_cycles": 58514111,
+      "median_wall_us": 365716,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_scalar",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 58507797,
+      "median_cycles": 58507797,
+      "max_cycles": 58507797,
+      "median_wall_us": 365677,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_scalar",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 58512197,
+      "median_cycles": 58512197,
+      "max_cycles": 58512197,
+      "median_wall_us": 365704,
+      "mismatches": 0
+    },
+    {
+      "backend": "mu_scalar",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 58513231,
+      "median_cycles": 58513231,
+      "max_cycles": 58513231,
+      "median_wall_us": 365711,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_candidate",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 73096245,
+      "median_cycles": 73096245,
+      "max_cycles": 73096245,
+      "median_wall_us": 456855,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_candidate",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 73112807,
+      "median_cycles": 73112807,
+      "max_cycles": 73112807,
+      "median_wall_us": 456958,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_candidate",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 73103365,
+      "median_cycles": 73103365,
+      "max_cycles": 73103365,
+      "median_wall_us": 456899,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_candidate",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 73123301,
+      "median_cycles": 73123301,
+      "max_cycles": 73123301,
+      "median_wall_us": 457024,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_compact",
+      "sample": 0,
+      "n": 7,
+      "min_cycles": 84340641,
+      "median_cycles": 84340641,
+      "max_cycles": 84340641,
+      "median_wall_us": 527132,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_compact",
+      "sample": 1,
+      "n": 7,
+      "min_cycles": 84341709,
+      "median_cycles": 84341709,
+      "max_cycles": 84341709,
+      "median_wall_us": 527139,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_compact",
+      "sample": 2,
+      "n": 7,
+      "min_cycles": 84341075,
+      "median_cycles": 84341075,
+      "max_cycles": 84341075,
+      "median_wall_us": 527135,
+      "mismatches": 0
+    },
+    {
+      "backend": "rust_compact",
+      "sample": 3,
+      "n": 7,
+      "min_cycles": 84340973,
+      "median_cycles": 84340973,
+      "max_cycles": 84340973,
+      "median_wall_us": 527134,
+      "mismatches": 0
+    }
+  ],
+  "ratios": [
+    {
+      "sample": 0,
+      "compact_over_candidate": 1.1538300086413467,
+      "best_c_over_candidate": 0.8005077552205315
+    },
+    {
+      "sample": 1,
+      "compact_over_candidate": 1.153583242946752,
+      "best_c_over_candidate": 0.800240059173217
+    },
+    {
+      "sample": 2,
+      "compact_over_candidate": 1.15372356662378,
+      "best_c_over_candidate": 0.8004036065918443
+    },
+    {
+      "sample": 3,
+      "compact_over_candidate": 1.1534076258400863,
+      "best_c_over_candidate": 0.8001995287384523
+    }
+  ],
+  "capture_identities": [],
+  "measurement": "Raw board cycle counter with RTOS interrupts; emulator logs are functional tests only"
+}

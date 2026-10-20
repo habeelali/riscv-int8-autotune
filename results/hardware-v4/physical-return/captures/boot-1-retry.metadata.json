@@ -1,0 +1,22 @@
+{
+  "schema": 4,
+  "host_capture_uuid": "b88f696639814b79926069192b844ef5",
+  "challenge": "dbed319f11647d6542a529f72832796f",
+  "port": "COM6",
+  "started": {
+    "utc": "2026-10-19T11:04:51.443592+00:00",
+    "monotonic_ns": 78816674467200
+  },
+  "completed": false,
+  "reset_requested": false,
+  "error": "Timed out waiting for V4_READY",
+  "finished": {
+    "utc": "2026-10-19T11:06:21.490528+00:00",
+    "monotonic_ns": 78906721457700
+  },
+  "hashes": {
+    "raw": "7f9e411e81645ed8cc625ad4e80fb1f45a2fcd5d5f1cf6b6d3f1c66a605c3ca7",
+    "events": "fe419e3da46f12a4a9644865e4c6cab1b286528a548b5d801f1130f62fba4090",
+    "plan": "8e45525424f433eac475b55439b03bf9314aae18be8fdabc9e7e469ba805b03e"
+  }
+}

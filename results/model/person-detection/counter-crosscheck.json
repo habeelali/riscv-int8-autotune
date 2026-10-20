@@ -1,0 +1,78 @@
+[
+  {
+    "kind": "c-native",
+    "plugin_counts": [
+      58206512,
+      58206911,
+      58206266,
+      58206817
+    ],
+    "csr_counts": [
+      58206512,
+      58206911,
+      58206266,
+      58206817
+    ],
+    "match": true,
+    "command": [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-plugin",
+      "/workspace/riscv-int8-autotune/qemu/count-plugin.so,0x80000b30,0x80000b3c",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/31b092e217cb7a7221a7f49b539f74e6a7cecea3f9beb59f5fe9f6bd47f47ccb/model.elf"
+    ]
+  },
+  {
+    "kind": "generated-selected",
+    "plugin_counts": [
+      32571435,
+      32571187,
+      32571208,
+      32570997
+    ],
+    "csr_counts": [
+      32571435,
+      32571187,
+      32571208,
+      32570997
+    ],
+    "match": true,
+    "command": [
+      "qemu-system-riscv32",
+      "-M",
+      "virt",
+      "-cpu",
+      "lowrisc-ibex",
+      "-smp",
+      "1",
+      "-m",
+      "4M",
+      "-nographic",
+      "-monitor",
+      "none",
+      "-bios",
+      "none",
+      "-icount",
+      "shift=0,align=off,sleep=off",
+      "-plugin",
+      "/workspace/riscv-int8-autotune/qemu/count-plugin.so,0x80000b30,0x80000b3c",
+      "-kernel",
+      "/workspace/riscv-int8-autotune/results/model/person-detection/build/4e51b4c8cd47281f9078c42ae2e9cef3514b0d7f7a7b74c31785ac0add2b6c55/model.elf"
+    ]
+  }
+]

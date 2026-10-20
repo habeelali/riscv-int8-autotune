@@ -1,0 +1,33 @@
+fold 48674 text bytes; 31025595.75 instructions; REJECTED text_bytes, no read-only image reduction
+packed 47870 text bytes; 32617682.75 instructions; REJECTED whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+fold-packed 48566 text bytes; 31087131.75 instructions; REJECTED text_bytes, no read-only image reduction
+chunks 49456 text bytes; 31429535.5 instructions; REJECTED text_bytes, no read-only image reduction, layer instructions: 0/2
+explicit-fold 49934 text bytes; 31439327.0 instructions; REJECTED text_bytes, no read-only image reduction, stack: person
+explicit-chunks 50716 text bytes; 31843266.75 instructions; REJECTED text_bytes, no read-only image reduction, stack: person
+bounded 46456 text bytes; 31909756.75 instructions; ELIGIBLE
+bounded-fold 46924 text bytes; 30352436.75 instructions; ELIGIBLE
+bounded-packed-fold 46692 text bytes; 30384284.75 instructions; ELIGIBLE
+bounded-chunks 47666 text bytes; 30751963.5 instructions; REJECTED no read-only image reduction
+bounded-explicit 48912 text bytes; 30792785.25 instructions; REJECTED text_bytes, no read-only image reduction, stack: person
+bounded-fold-u2-all 47288 text bytes; 31327034.75 instructions; REJECTED layer instructions: 0/24, layer instructions: 0/26, layer instructions: 1/24
+bounded-fold-u2-shared 46970 text bytes; 30745816.75 instructions; ELIGIBLE
+bounded-fold-u4-all 49030 text bytes; 36000882.75 instructions; REJECTED text_bytes, no read-only image reduction, whole-model instructions: person
+bounded-fold-u4-shared 47166 text bytes; 32868466.75 instructions; REJECTED whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+bounded-fold-u8-all 54754 text bytes; 42724400.75 instructions; REJECTED text_bytes, no read-only image reduction, whole-model instructions: person
+bounded-fold-u8-shared 47834 text bytes; 36235276.75 instructions; REJECTED whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+chunks-b2-p4 47354 text bytes; 30265684.5 instructions; ELIGIBLE
+chunks-b2-p2 45130 text bytes; 34397774.0 instructions; REJECTED whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+chunks-b4-p2 48676 text bytes; 30612894.0 instructions; REJECTED text_bytes, no read-only image reduction, layer instructions: 0/2
+chunks-b4-p4 55106 text bytes; 37473747.5 instructions; REJECTED text_bytes, no read-only image reduction, whole-model instructions: person
+chunks-b8-p1 48350 text bytes; 33404289.0 instructions; REJECTED text_bytes, no read-only image reduction, whole-model instructions: person
+dw-tile-b1-p2 42226 text bytes; 33164624.75 instructions; REJECTED whole-model instructions: person, whole-model instructions: no_person, whole-model instructions: person_mirrored
+dw-tile-b2-p2 46596 text bytes; 32412952.5 instructions; REJECTED layer instructions: 0/1, layer instructions: 0/3, layer instructions: 0/5
+dw-tile-b4-p2 47666 text bytes; 31822105.0 instructions; REJECTED layer instructions: 0/3, layer instructions: 0/5, layer instructions: 0/7
+dw-tile-b2-p4 45272 text bytes; 31865825.25 instructions; REJECTED layer instructions: 0/3, layer instructions: 0/5, layer instructions: 0/7
+dw-tile-b4-p1 48184 text bytes; 32407921.5 instructions; REJECTED text_bytes, layer instructions: 0/1, layer instructions: 0/3
+dw-tile-b8-p1 48596 text bytes; 32408726.0 instructions; REJECTED text_bytes, layer instructions: 0/3, layer instructions: 0/5
+dw-tile-b4-p2-unrolled 55906 text bytes; 31606777.0 instructions; REJECTED text_bytes, no read-only image reduction, layer instructions: 0/3
+mixture-fast 47978 text bytes; 29611200.75 instructions; REJECTED no read-only image reduction
+mixture-fast-validated 44790 text bytes; 29599020.75 instructions; ELIGIBLE
+mixture-no-explicit 45040 text bytes; 30010726.5 instructions; ELIGIBLE
+mixture-no-explicit-validated 44736 text bytes; 30014462.5 instructions; ELIGIBLE

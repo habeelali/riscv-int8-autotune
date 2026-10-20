@@ -1,0 +1,4 @@
+Python 3.14.7
+Host OS: Microsoft Windows NT 10.0.26100.0
+Port: COM6 (native USB-Serial/JTAG; VID_303A PID_1001)
+esptool 4.12.0; pyserial 3.5

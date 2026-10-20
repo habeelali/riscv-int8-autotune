@@ -1,0 +1,6 @@
+# Optional full-model import and independent inference oracle.
+numpy==2.3.5
+tflite==2.18.0
+ai-edge-litert==2.1.0
+flatbuffers==25.12.19
+Pillow==12.3.0

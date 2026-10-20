@@ -1,0 +1,22 @@
+{
+  "schema": 5,
+  "host_capture_uuid": "8c4572f4963e471cb687f66084e434f1",
+  "challenge": "edd633efa3c729badd0201290846ea07",
+  "port": "socket://127.0.0.1:35361",
+  "started": {
+    "utc": "2026-10-19T17:55:58.843383+00:00",
+    "monotonic_ns": 37798099541592
+  },
+  "completed": false,
+  "reset_requested": false,
+  "error": "read failed: socket disconnected",
+  "finished": {
+    "utc": "2026-10-19T17:57:13.669025+00:00",
+    "monotonic_ns": 37872925191460
+  },
+  "hashes": {
+    "raw": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "events": "2398995af015e222d3b47233e9e1fb84951dfbe0fc717c32f33069079110cba1",
+    "plan": "4dc0942bc6703632f5f98f9da6326530a9ba3ce6a5b83ad04880801a61a69c5d"
+  }
+}

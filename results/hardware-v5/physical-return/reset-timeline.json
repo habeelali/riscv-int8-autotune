@@ -1,0 +1,34 @@
+[
+  {
+    "session": null,
+    "method": "esptool flash_id --after hard_reset (identification)",
+    "requested_utc": "2026-10-19T18:06:50.730784+00:00",
+    "completed_utc": "2026-10-19T18:06:51.681711+00:00",
+    "exit_code": 0,
+    "physical_power_cycle": false
+  },
+  {
+    "session": 1,
+    "method": "esptool write_flash --after hard_reset",
+    "requested_utc": "2026-10-19T18:06:51.732377+00:00",
+    "completed_utc": "2026-10-19T18:07:23.880472+00:00",
+    "exit_code": 0,
+    "physical_power_cycle": false
+  },
+  {
+    "session": 2,
+    "method": "esptool chip_id --after hard_reset",
+    "requested_utc": "2026-10-19T18:10:59.943643+00:00",
+    "completed_utc": "2026-10-19T18:11:01.180026+00:00",
+    "exit_code": 0,
+    "physical_power_cycle": false
+  },
+  {
+    "session": 3,
+    "method": "esptool chip_id --after hard_reset",
+    "requested_utc": "2026-10-19T18:14:37.196880+00:00",
+    "completed_utc": "2026-10-19T18:14:38.393372+00:00",
+    "exit_code": 0,
+    "physical_power_cycle": false
+  }
+]
